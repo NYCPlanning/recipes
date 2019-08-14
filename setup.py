@@ -12,7 +12,7 @@ setup(
             'click',
             'psycopg2-binary',
             'sqlalchemy',
-            'cook @ git+https://github.com/NYCPlanning/cook.git@master#egg=cook-0.1'],
+            'cook @ git+https://github.com/NYCPlanning/cook.git@master#egg=cook'],
         entry_points='''
         [console_scripts]
         cook=recipes.cli:cli

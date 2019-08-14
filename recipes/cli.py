@@ -32,7 +32,8 @@ def load_recipe_json(recipe):
 def run_recipes(recipe):
     recipe_config = load_recipe_json(recipe)
     try:
-        archiver = Archiver(engine=os.environ['RECIPE_ENGINE'])
+        archiver = Archiver(engine=os.environ['RECIPE_ENGINE'], 
+                            ftp_prefix=os.environ['FTP_PREFIX'])
         archiver.archive_table(recipe_config)
     except KeyError: 
         click.secho('\n Please set yout RECIPE_ENGINE \n', fg='red')

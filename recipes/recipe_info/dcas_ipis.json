@@ -20,6 +20,5 @@
                     "URBANRENEWALSITE", "Agency", "Owned_Leased", "PrimaryUse", 
                     "FinalCommitment", "Agreement_Lease_Out", "Postcode", 
                     "Latitude", "Longitude", "CensusTract", "BIN", "NTA"],
-    "SQLStatement": "SELECT * FROM dcas_ipis LIMIT 5", 
     "metaInfo" : "dcas_ipis is very out of date on the opendata website"
 }

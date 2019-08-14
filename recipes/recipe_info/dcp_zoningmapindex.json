@@ -1,0 +1,9 @@
+{
+    "schema_name": "dcp_zoningmapindex",
+    "path": "FTP_PREFIX/agencySourceData/dcp/DCP_Quartersection_Index.zip/DCP_Quartersection_Index.shp", 
+    "geometryType":"MULTIPOLYGON",
+    "srcSRS":"EPSG:2263",
+    "dstSRS":"EPSG:4326",
+    "layerCreationOptions":["OVERWRITE=YES", "PRECISION=NO"],
+    "metaInfo" : "dcp_zoningmapindex is coming from ftp"
+}

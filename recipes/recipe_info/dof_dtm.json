@@ -1,0 +1,9 @@
+{
+    "schema_name": "dof_dtm",
+    "path": "FTP_PREFIX/agencySourceData/dof/Tax_Lot_Polygon.zip/Tax_Lot_Polygon.shp", 
+    "geometryType":"MULTIPOLYGON",
+    "srcSRS":"EPSG:2263",
+    "dstSRS":"EPSG:4326",
+    "layerCreationOptions":["OVERWRITE=YES", "PRECISION=NO"],
+    "metaInfo" : "dof_dtm is coming from ftp"
+}

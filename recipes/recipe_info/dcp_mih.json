@@ -1,0 +1,9 @@
+{
+    "schema_name": "dcp_mih",
+    "path": "FTP_PREFIX/agencySourceData/dcp/MIH.zip/nycmih_20190630.shp", 
+    "geometryType":"MULTIPOLYGON",
+    "srcSRS":"EPSG:2263",
+    "dstSRS":"EPSG:4326",
+    "layerCreationOptions":["OVERWRITE=YES", "PRECISION=NO"],
+    "metaInfo" : "dcp_mih is coming from ftp"
+}

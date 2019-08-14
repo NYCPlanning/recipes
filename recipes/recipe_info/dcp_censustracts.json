@@ -1,0 +1,9 @@
+{
+    "schema_name": "dcp_censustracts",
+    "path": "https://www1.nyc.gov/assets/planning/download/zip/data-maps/open-data/nyct2010wi_19b.zip/nyct2010wi_19b/nyct2010wi.shp", 
+    "geometryType":"MULTIPOLYGON",
+    "srcSRS":"EPSG:2263",
+    "dstSRS":"EPSG:4326",
+    "layerCreationOptions":["OVERWRITE=YES", "PRECISION=NO"],
+    "metaInfo" : "dcp_censustracts is coming from bytes of big apple"
+}

@@ -1,0 +1,9 @@
+{
+    "schema_name": "dcp_boroboundaries_wi",
+    "path": "https://www1.nyc.gov/assets/planning/download/zip/data-maps/open-data/nybbwi_19b.zip/nybbwi_19b/nybbwi.shp", 
+    "geometryType":"MULTIPOLYGON",
+    "srcSRS":"EPSG:2263",
+    "dstSRS":"EPSG:4326",
+    "layerCreationOptions":["OVERWRITE=YES", "PRECISION=NO"],
+    "metaInfo" : "dcp_boroboundaries_wi is coming from bytes of big apple"
+}

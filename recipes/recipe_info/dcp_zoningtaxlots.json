@@ -1,6 +1,6 @@
 {
     "schema_name": "dcp_zoningtaxlots",
-    "path": "https://data.cityofnewyork.us/api/views/fdkv-4t4z/rows.csv", 
+    "path": "https://www1.nyc.gov/assets/planning/download/zip/data-maps/open-data/nyczoningtaxlotdb_20190731.zip/NY_ZoningTaxLotDB_20190731.csv", 
     "geometryType":"POINT",
     "srcSRS":"EPSG:4326",
     "dstSRS":"EPSG:4326",

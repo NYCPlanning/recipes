@@ -11,8 +11,7 @@ setup(
         install_requires=[
             'click',
             'psycopg2-binary',
-            'sqlalchemy',
-            'cook @ git+https://github.com/NYCPlanning/cook.git@master#egg=cook'],
+            'sqlalchemy'],
         entry_points='''
         [console_scripts]
         cook=recipes.cli:cli

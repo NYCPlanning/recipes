@@ -36,4 +36,4 @@ def run_recipes(recipe):
                             ftp_prefix=os.environ['FTP_PREFIX'])
         archiver.archive_table(recipe_config)
     except KeyError: 
-        click.secho('\n Please set yout RECIPE_ENGINE \n', fg='red')
+        click.secho('\n Did you set your RECIPE_ENGINE and FTP_PREFIX? \n', fg='red')

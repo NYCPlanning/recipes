@@ -1,0 +1,9 @@
+{
+    "schema_name": "dcp_zoningdistricts",
+    "path": "FTP_PREFIX/agencySourceData/dcp/nycgiszoningfeatures_shp.zip/nyzd.shp", 
+    "geometryType":"MULTIPOLYGON",
+    "srcSRS":"EPSG:2263",
+    "dstSRS":"EPSG:4326",
+    "layerCreationOptions":["OVERWRITE=YES", "PRECISION=NO"],
+    "metaInfo" : "dcp_zoningdistricts is coming from ftp"
+}

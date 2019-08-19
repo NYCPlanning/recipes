@@ -1,10 +1,20 @@
 {
     "dstSRS": "EPSG:4326",
+    "srcSRS": "EPSG:4326",
+    "schema_name": "dcas_ipis",
     "geometryType": "POINT",
     "layerCreationOptions": [
         "OVERWRITE=YES"
     ],
     "metaInfo": "dcas_ipis is very out of date on the opendata website",
+    "path": "https://data.cityofnewyork.us/api/views/n5mv-nfpy/rows.csv",
+    "srcOpenOptions": [
+        "AUTODETECT_TYPE=NO",
+        "EMPTY_STRING_AS_NULL=YES",
+        "GEOM_POSSIBLE_NAMES=*geom*",
+        "X_POSSIBLE_NAMES=longitude,x",
+        "Y_POSSIBLE_NAMES=latitude,y"
+    ],
     "newFieldNames": [
         "BOROUGH",
         "BLOCK",
@@ -44,15 +54,5 @@
         "CensusTract",
         "BIN",
         "NTA"
-    ],
-    "path": "https://data.cityofnewyork.us/api/views/n5mv-nfpy/rows.csv",
-    "schema_name": "dcas_ipis",
-    "srcOpenOptions": [
-        "AUTODETECT_TYPE=NO",
-        "EMPTY_STRING_AS_NULL=YES",
-        "GEOM_POSSIBLE_NAMES=*geom*",
-        "X_POSSIBLE_NAMES=longitude,x",
-        "Y_POSSIBLE_NAMES=latitude,y"
-    ],
-    "srcSRS": "EPSG:4326"
+    ]
 }

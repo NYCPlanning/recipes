@@ -1,14 +1,14 @@
 {
     "dstSRS": "EPSG:4326",
+    "srcSRS": "EPSG:2263",
+    "schema_name": "dcp_limitedheight",
     "geometryType": "MULTIPOLYGON",
     "layerCreationOptions": [
         "OVERWRITE=YES",
         "PRECISION=NO"
     ],
     "metaInfo": "dcp_limitedheight is coming from ftp",
-    "newFieldNames": NaN,
     "path": "FTP_PREFIX/agencySourceData/dcp/nycgiszoningfeatures_shp.zip/nylh.shp",
-    "schema_name": "dcp_limitedheight",
-    "srcOpenOptions": NaN,
-    "srcSRS": "EPSG:2263"
+    "srcOpenOptions": [],
+    "newFieldNames": []
 }

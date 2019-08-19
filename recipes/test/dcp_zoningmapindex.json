@@ -1,14 +1,14 @@
 {
     "dstSRS": "EPSG:4326",
+    "srcSRS": "EPSG:2263",
+    "schema_name": "dcp_zoningmapindex",
     "geometryType": "MULTIPOLYGON",
     "layerCreationOptions": [
         "OVERWRITE=YES",
         "PRECISION=NO"
     ],
     "metaInfo": "dcp_zoningmapindex is coming from ftp",
-    "newFieldNames": NaN,
     "path": "FTP_PREFIX/agencySourceData/dcp/DCP_Quartersection_Index.zip/DCP_Quartersection_Index.shp",
-    "schema_name": "dcp_zoningmapindex",
-    "srcOpenOptions": NaN,
-    "srcSRS": "EPSG:2263"
+    "srcOpenOptions": [],
+    "newFieldNames": []
 }

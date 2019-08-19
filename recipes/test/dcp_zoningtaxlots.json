@@ -1,11 +1,15 @@
 {
     "dstSRS": "EPSG:4326",
+    "srcSRS": "EPSG:4326",
+    "schema_name": "dcp_zoningtaxlots",
     "geometryType": "POINT",
     "layerCreationOptions": [
         "OVERWRITE=YES",
         "PRECISION=NO"
     ],
     "metaInfo": "dcp_zoningtaxlots is coming from bytes",
+    "path": "https://www1.nyc.gov/assets/planning/download/zip/data-maps/open-data/nyczoningtaxlotdb_20190731.zip/NY_ZoningTaxLotDB_20190731.csv",
+    "srcOpenOptions": [],
     "newFieldNames": [
         "BoroughCode",
         "TaxBlock",
@@ -22,9 +26,5 @@
         "LimitedHeightDistrict",
         "ZoningMapNumber",
         "ZoningMapCode"
-    ],
-    "path": "https://www1.nyc.gov/assets/planning/download/zip/data-maps/open-data/nyczoningtaxlotdb_20190731.zip/NY_ZoningTaxLotDB_20190731.csv",
-    "schema_name": "dcp_zoningtaxlots",
-    "srcOpenOptions": NaN,
-    "srcSRS": "EPSG:4326"
+    ]
 }

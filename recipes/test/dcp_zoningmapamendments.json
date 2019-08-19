@@ -1,14 +1,14 @@
 {
     "dstSRS": "EPSG:4326",
+    "srcSRS": "EPSG:2263",
+    "schema_name": "dcp_zoningmapamendments",
     "geometryType": "MULTIPOLYGON",
     "layerCreationOptions": [
         "OVERWRITE=YES",
         "PRECISION=NO"
     ],
     "metaInfo": "dcp_zoningmapamendments is coming from ftp",
-    "newFieldNames": NaN,
     "path": "FTP_PREFIX/agencySourceData/dcp/nycgiszoningfeatures_shp.zip/nyzma.shp",
-    "schema_name": "dcp_zoningmapamendments",
-    "srcOpenOptions": NaN,
-    "srcSRS": "EPSG:2263"
+    "srcOpenOptions": [],
+    "newFieldNames": []
 }

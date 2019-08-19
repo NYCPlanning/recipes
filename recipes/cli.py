@@ -10,7 +10,7 @@ from ast import literal_eval
 
 CONFIG_PATH = os.path.join(
     os.path.abspath(os.path.dirname(__file__)),
-    'recipe_info'
+    'test'
 )
 
 @click.group()
@@ -52,7 +52,6 @@ def convert_recipes():
     df.loc[:,'newFieldNames'] = df.loc[:,'newFieldNames'].apply(lambda x: x if pd.isna(x) else literal_eval(x))
     for row in df.iterrows():
         recipe = dict(row[1])
-        recipe.pop('Unnamed: 0')
         print(f"converting {recipe['schema_name']} ...")
         with open(f"{Path(__file__).parent/'test'/recipe['schema_name']}.json", 'w') as recipe_json:
             json.dump(recipe, recipe_json, indent=4, ensure_ascii=False)

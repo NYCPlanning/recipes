@@ -1,0 +1,14 @@
+{
+    "dstSRS": "EPSG:4326",
+    "srcSRS": "EPSG:2263",
+    "schema_name": "dcp_edesignation",
+    "geometryType": "POINT",
+    "layerCreationOptions": [
+        "OVERWRITE=YES",
+        "PRECISION=NO"
+    ],
+    "metaInfo": "coming from bytes of big apple",
+    "path": "https://www1.nyc.gov/assets/planning/download/zip/data-maps/open-data/nyedes_20190531shp.zip/nyedes_20190531.shp",
+    "srcOpenOptions": [],
+    "newFieldNames": []
+}

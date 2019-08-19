@@ -1,0 +1,14 @@
+{
+    "dstSRS": "EPSG:4326",
+    "geometryType": "MULTIPOLYGON",
+    "layerCreationOptions": [
+        "OVERWRITE=YES",
+        "PRECISION=NO"
+    ],
+    "metaInfo": "dcp_mih is coming from ftp",
+    "newFieldNames": NaN,
+    "path": "FTP_PREFIX/agencySourceData/dcp/MIH.zip/nycmih_20190630.shp",
+    "schema_name": "dcp_mih",
+    "srcOpenOptions": NaN,
+    "srcSRS": "EPSG:2263"
+}

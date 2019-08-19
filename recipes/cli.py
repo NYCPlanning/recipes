@@ -4,6 +4,9 @@ from pathlib import Path
 import click
 import json
 from cook import Archiver
+import pandas as pd
+import numpy as np
+from ast import literal_eval
 
 CONFIG_PATH = os.path.join(
     os.path.abspath(os.path.dirname(__file__)),
@@ -37,3 +40,19 @@ def run_recipes(recipe):
         archiver.archive_table(recipe_config)
     except KeyError: 
         click.secho('\n Did you set your RECIPE_ENGINE and FTP_PREFIX? \n', fg='red')
+
+@cli.command('convert')
+def convert_recipes():
+    CONFIG_PATH = os.path.join(
+    os.path.abspath(os.path.dirname(__file__)),
+    'test')
+    df=pd.read_csv(Path(__file__).parent/'recipes.csv')
+    df.loc[:,'layerCreationOptions'] = df.loc[:,'layerCreationOptions'].apply(lambda x: x if pd.isna(x) else literal_eval(x))
+    df.loc[:,'srcOpenOptions'] = df.loc[:,'srcOpenOptions'].apply(lambda x: x if pd.isna(x) else literal_eval(x))
+    df.loc[:,'newFieldNames'] = df.loc[:,'newFieldNames'].apply(lambda x: x if pd.isna(x) else literal_eval(x))
+    for row in df.iterrows():
+        recipe = dict(row[1])
+        recipe.pop('Unnamed: 0')
+        print(f"converting {recipe['schema_name']} ...")
+        with open(f"{Path(__file__).parent/'test'/recipe['schema_name']}.json", 'w') as recipe_json:
+            json.dump(recipe, recipe_json, indent=4, ensure_ascii=False)

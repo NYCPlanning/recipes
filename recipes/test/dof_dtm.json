@@ -1,0 +1,14 @@
+{
+    "dstSRS": "EPSG:4326",
+    "geometryType": "MULTIPOLYGON",
+    "layerCreationOptions": [
+        "OVERWRITE=YES",
+        "PRECISION=NO"
+    ],
+    "metaInfo": "dof_dtm is coming from ftp",
+    "newFieldNames": NaN,
+    "path": "FTP_PREFIX/agencySourceData/dof/Tax_Lot_Polygon.zip/Tax_Lot_Polygon.shp",
+    "schema_name": "dof_dtm",
+    "srcOpenOptions": NaN,
+    "srcSRS": "EPSG:2263"
+}

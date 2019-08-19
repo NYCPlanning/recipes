@@ -1,0 +1,14 @@
+{
+    "dstSRS": "EPSG:4326",
+    "geometryType": "MULTIPOLYGON",
+    "layerCreationOptions": [
+        "OVERWRITE=YES",
+        "PRECISION=NO"
+    ],
+    "metaInfo": "doitt_buildingfootprints is coming from NYC opendata",
+    "newFieldNames": NaN,
+    "path": "https://data.cityofnewyork.us/api/geospatial/nqwf-w8eh?method=export&format=GeoJSON",
+    "schema_name": "doitt_buildingfootprints",
+    "srcOpenOptions": NaN,
+    "srcSRS": "EPSG:2263"
+}

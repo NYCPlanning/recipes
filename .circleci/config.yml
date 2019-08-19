@@ -1,0 +1,14 @@
+version: 2
+jobs:
+ build:
+   machine: true
+   steps:
+    - checkout
+
+    - run:
+        name: Build and push Docker image
+        command: |
+          TAG="${CIRCLE_SHA1}"
+          docker build -t sptkl/recipes:$TAG .
+          docker login -u $DOCKER_LOGIN -p $DOCKER_PASSWORD
+          docker push circleci/cci-demo-docker:$TAG

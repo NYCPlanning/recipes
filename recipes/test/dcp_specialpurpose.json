@@ -1,0 +1,14 @@
+{
+    "dstSRS": "EPSG:4326",
+    "geometryType": "MULTIPOLYGON",
+    "layerCreationOptions": [
+        "OVERWRITE=YES",
+        "PRECISION=NO"
+    ],
+    "metaInfo": "dcp_specialpurpose is coming from ftp",
+    "newFieldNames": NaN,
+    "path": "FTP_PREFIX/agencySourceData/dcp/nycgiszoningfeatures_shp.zip/nysp.shp",
+    "schema_name": "dcp_specialpurpose",
+    "srcOpenOptions": NaN,
+    "srcSRS": "EPSG:2263"
+}

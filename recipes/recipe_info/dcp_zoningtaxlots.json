@@ -5,7 +5,7 @@
     "srcSRS":"EPSG:4326",
     "dstSRS":"EPSG:4326",
     "layerCreationOptions":["OVERWRITE=YES", "PRECISION=NO"],
-    "newFieldNames": ["BoroughCode", "TaxBlock","TaxLot", "ZoningDistrict1", 
+    "newFieldNames": ["BoroughCode", "TaxBlock","TaxLot", "BBL", "ZoningDistrict1", 
             "ZoningDistrict2", "ZoningDistrict3", "ZoningDistrict4", 
             "CommercialOverlay1", "CommercialOverlay2", "SpecialDistrict1", 
             "SpecialDistrict2", "SpecialDistrict3", "LimitedHeightDistrict", 

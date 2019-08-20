@@ -1,0 +1,14 @@
+{
+    "dstSRS": "EPSG:4326",
+    "srcSRS": "EPSG:4326",
+    "schema_name": "dsny_frequencies",
+    "geometryType": "MULTIPOLYGON",
+    "layerCreationOptions": [
+        "OVERWRITE=YES",
+        "PRECISION=NO"
+    ],
+    "metaInfo": "Opendata, need further review, this dataset has two layers",
+    "path": "https://data.cityofnewyork.us/api/geospatial/gyhq-r8du?method=export&format=GeoJSON",
+    "srcOpenOptions": [],
+    "newFieldNames": []
+}

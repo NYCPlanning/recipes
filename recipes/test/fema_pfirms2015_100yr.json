@@ -1,0 +1,14 @@
+{
+    "dstSRS": "EPSG:4326",
+    "srcSRS": "EPSG:2263",
+    "schema_name": "fema_pfirms2015_100yr",
+    "geometryType": "MULTIPOLYGON",
+    "layerCreationOptions": [
+        "OVERWRITE=YES",
+        "PRECISION=NO"
+    ],
+    "metaInfo": "FTP",
+    "path": "FTP_PREFIX/agencySourceData/fema/PFIRM2015.zip/PFIRM_s_fld_haz_ar.shp",
+    "srcOpenOptions": [],
+    "newFieldNames": []
+}

@@ -1,0 +1,21 @@
+{
+    "dstSRS": "EPSG:4326",
+    "srcSRS": "EPSG:2263",
+    "schema_name": "pluto_input_landuse_bldgclass",
+    "geometryType": "POINT",
+    "layerCreationOptions": [
+        "OVERWRITE=YES",
+        "PRECISION=NO"
+    ],
+    "metaInfo": "github",
+    "path": "https://raw.githubusercontent.com/NYCPlanning/db-pluto/master/pluto_build/data/pluto_input_landuse_bldgclass.csv",
+    "srcOpenOptions": [
+        "AUTODETECT_TYPE=NO",
+        "EMPTY_STRING_AS_NULL=YES"
+    ],
+    "newFieldNames": [
+        "bldgclass",
+        "landuse",
+        "landusevalue"
+    ]
+}

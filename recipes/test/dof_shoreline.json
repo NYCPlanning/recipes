@@ -1,0 +1,14 @@
+{
+    "dstSRS": "EPSG:4326",
+    "srcSRS": "EPSG:2263",
+    "schema_name": "dof_shoreline",
+    "geometryType": "MULTIPOLYGON",
+    "layerCreationOptions": [
+        "OVERWRITE=YES",
+        "PRECISION=NO"
+    ],
+    "metaInfo": "FTP",
+    "path": "FTP_PREFIX/agencySourceData/dof/Shoreline_Polygon.zip/Shoreline_Polygon.shp",
+    "srcOpenOptions": [],
+    "newFieldNames": []
+}

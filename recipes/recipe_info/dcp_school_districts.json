@@ -1,9 +1,14 @@
 {
+    "dstSRS": "EPSG:4326",
+    "srcSRS": "EPSG:2263",
     "schema_name": "dcp_school_districts",
-    "path": "https://www1.nyc.gov/assets/planning/download/zip/data-maps/open-data/nysd_19b.zip/nysd_19b/nysd.shp", 
-    "geometryType":"MULTIPOLYGON",
-    "srcSRS":"EPSG:2263",
-    "dstSRS":"EPSG:4326",
-    "layerCreationOptions":["OVERWRITE=YES", "PRECISION=NO"],
-    "metaInfo" : "dcp_school_districts is coming from bytes of big apple"
+    "geometryType": "MULTIPOLYGON",
+    "layerCreationOptions": [
+        "OVERWRITE=YES",
+        "PRECISION=NO"
+    ],
+    "metaInfo": "dcp_school_districts is coming from bytes of big apple",
+    "path": "https://www1.nyc.gov/assets/planning/download/zip/data-maps/open-data/nysd_19b.zip/nysd_19b/nysd.shp",
+    "srcOpenOptions": [],
+    "newFieldNames": []
 }

@@ -10,8 +10,10 @@ from ast import literal_eval
 
 CONFIG_PATH = os.path.join(
     os.path.abspath(os.path.dirname(__file__)),
-    'test'
+    'recipe_info'
 )
+
+special_recipes = ['pluto_input_cama_dof', 'pluto_pts']
 
 @click.group()
 def cli():
@@ -33,25 +35,28 @@ def load_recipe_json(recipe):
 @cli.command('run')
 @click.argument('recipe', type=click.STRING, autocompletion=get_recipes)
 def run_recipes(recipe):
-    recipe_config = load_recipe_json(recipe)
     try:
-        archiver = Archiver(engine=os.environ['RECIPE_ENGINE'], 
-                            ftp_prefix=os.environ['FTP_PREFIX'])
-        archiver.archive_table(recipe_config)
+        if recipe in special_recipes:
+            os.system(f'bash {recipe}.sh')
+        else:
+            recipe_config = load_recipe_json(recipe)
+            archiver = Archiver(engine=os.environ['RECIPE_ENGINE'], 
+                                ftp_prefix=os.environ['FTP_PREFIX'])
+            archiver.archive_table(recipe_config)
     except KeyError: 
         click.secho('\n Did you set your RECIPE_ENGINE and FTP_PREFIX? \n', fg='red')
 
 @cli.command('convert')
 def convert_recipes():
-    CONFIG_PATH = os.path.join(
-    os.path.abspath(os.path.dirname(__file__)),
-    'test')
     df=pd.read_csv(Path(__file__).parent/'recipes.csv')
     df.loc[:,'layerCreationOptions'] = df.loc[:,'layerCreationOptions'].apply(lambda x: x if pd.isna(x) else literal_eval(x))
     df.loc[:,'srcOpenOptions'] = df.loc[:,'srcOpenOptions'].apply(lambda x: x if pd.isna(x) else literal_eval(x))
     df.loc[:,'newFieldNames'] = df.loc[:,'newFieldNames'].apply(lambda x: x if pd.isna(x) else literal_eval(x))
     for row in df.iterrows():
         recipe = dict(row[1])
-        print(f"converting {recipe['schema_name']} ...")
-        with open(f"{Path(__file__).parent/'test'/recipe['schema_name']}.json", 'w') as recipe_json:
-            json.dump(recipe, recipe_json, indent=4, ensure_ascii=False)
+        if recipe in special_recipes:
+            pass
+        else:
+            print(f"converting {recipe['schema_name']} ...")
+            with open(f"{Path(__file__).parent/'recipe_info'/recipe['schema_name']}.json", 'w') as recipe_json:
+                json.dump(recipe, recipe_json, indent=4, ensure_ascii=False)

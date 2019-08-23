@@ -1,9 +1,14 @@
 {
+    "dstSRS": "EPSG:4326",
+    "srcSRS": "EPSG:2263",
     "schema_name": "dcp_ntaboundaries",
-    "path": "https://www1.nyc.gov/assets/planning/download/zip/data-maps/open-data/nynta_19b.zip/nynta_19b/nynta.shp", 
-    "geometryType":"MULTIPOLYGON",
-    "srcSRS":"EPSG:2263",
-    "dstSRS":"EPSG:4326",
-    "layerCreationOptions":["OVERWRITE=YES", "PRECISION=NO"],
-    "metaInfo" : "dcp_ntaboundaries is coming from bytes of big apple"
+    "geometryType": "MULTIPOLYGON",
+    "layerCreationOptions": [
+        "OVERWRITE=YES",
+        "PRECISION=NO"
+    ],
+    "metaInfo": "dcp_ntaboundaries is coming from bytes of big apple",
+    "path": "https://www1.nyc.gov/assets/planning/download/zip/data-maps/open-data/nynta_19b.zip/nynta_19b/nynta.shp",
+    "srcOpenOptions": [],
+    "newFieldNames": []
 }

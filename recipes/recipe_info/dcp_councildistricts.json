@@ -1,9 +1,14 @@
 {
+    "dstSRS": "EPSG:4326",
+    "srcSRS": "EPSG:2263",
     "schema_name": "dcp_councildistricts",
-    "path": "https://www1.nyc.gov/assets/planning/download/zip/data-maps/open-data/nyccwi_19b.zip/nyccwi_19b/nyccwi.shp", 
-    "geometryType":"MULTIPOLYGON",
-    "srcSRS":"EPSG:2263",
-    "dstSRS":"EPSG:4326",
-    "layerCreationOptions":["OVERWRITE=YES", "PRECISION=NO"],
-    "metaInfo" : "dcp_councildistricts is coming from bytes of big apple"
+    "geometryType": "MULTIPOLYGON",
+    "layerCreationOptions": [
+        "OVERWRITE=YES",
+        "PRECISION=NO"
+    ],
+    "metaInfo": "dcp_councildistricts is coming from bytes of big apple",
+    "path": "https://www1.nyc.gov/assets/planning/download/zip/data-maps/open-data/nyccwi_19b.zip/nyccwi_19b/nyccwi.shp",
+    "srcOpenOptions": [],
+    "newFieldNames": []
 }

@@ -13,12 +13,11 @@ CONFIG_PATH = os.path.join(
     'recipe_info'
 )
 
-special_recipes = ['pluto_input_cama_dof', 'pluto_pts']
+special_recipes = ['pluto_input_cama_dof', 'pluto_pts', 'pluto_input_geocodes']
 
 @click.group()
 def cli():
     pass
-
 
 def get_recipes(ctx, args, incomplete):
         return [k for k in os.listdir(CONFIG_PATH) if incomplete in k]
@@ -37,7 +36,7 @@ def load_recipe_json(recipe):
 def run_recipes(recipe):
     try:
         if recipe in special_recipes:
-            os.system(f'bash {recipe}.sh')
+            os.system(f'bash {Path(__file__).parent}/recipe_info/{recipe}.sh')
         else:
             recipe_config = load_recipe_json(recipe)
             archiver = Archiver(engine=os.environ['RECIPE_ENGINE'], 

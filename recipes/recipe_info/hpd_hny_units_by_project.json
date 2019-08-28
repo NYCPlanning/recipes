@@ -1,0 +1,18 @@
+{
+    "dstSRS": "EPSG:4326",
+    "srcSRS": "EPSG:2263",
+    "schema_name": "hpd_hny_units_by_project",
+    "geometryType": "POINT",
+    "layerCreationOptions": [
+        "OVERWRITE=YES",
+        "PRECISION=NO"
+    ],
+    "metaInfo": "Open data ",
+    "path": "https://data.cityofnewyork.us/api/views/hq68-rnsi/rows.csv",
+    "srcOpenOptions": [
+        "AUTODETECT_TYPE=NO",
+        "EMPTY_STRING_AS_NULL=YES",
+        "GEOM_POSSIBLE_NAMES=the_geom"
+    ],
+    "newFieldNames": []
+}

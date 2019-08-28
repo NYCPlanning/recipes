@@ -1,0 +1,18 @@
+{
+    "dstSRS": "EPSG:4326",
+    "srcSRS": "EPSG:2263",
+    "schema_name": "hpd_hny_units_by_building",
+    "geometryType": "POINT",
+    "layerCreationOptions": [
+        "OVERWRITE=YES",
+        "PRECISION=NO"
+    ],
+    "metaInfo": "opendata",
+    "path": "https://data.cityofnewyork.us/api/views/hg8x-zxpr/rows.csv",
+    "srcOpenOptions": [
+        "AUTODETECT_TYPE=NO",
+        "EMPTY_STRING_AS_NULL=YES",
+        "GEOM_POSSIBLE_NAMES=the_geom"
+    ],
+    "newFieldNames": []
+}

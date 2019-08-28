@@ -1,0 +1,32 @@
+{
+    "dstSRS": "EPSG:4326",
+    "srcSRS": "EPSG:2263",
+    "schema_name": "dob_cofos",
+    "geometryType": "POINT",
+    "layerCreationOptions": [
+        "OVERWRITE=YES",
+        "PRECISION=NO"
+    ],
+    "metaInfo": "github",
+    "path": "https://raw.githubusercontent.com/NYCPlanning/db-developments/master/developments_build/data/dob_cofos.csv",
+    "srcOpenOptions": [
+        "AUTODETECT_TYPE=NO",
+        "EMPTY_STRING_AS_NULL=YES",
+        "GEOM_POSSIBLE_NAMES=the_geom"
+    ],
+    "newFieldNames": [
+        "Jobnum",
+        "EffectiveDate",
+        "BIN",
+        "BoroName",
+        "HouseNumber",
+        "StreetName",
+        "Block",
+        "Lot",
+        "numofDwellingUnits",
+        "OccupancyClass",
+        "CertificateType",
+        "BuildingTypeDesc",
+        "DocStatus"
+    ]
+}

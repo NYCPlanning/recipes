@@ -1,0 +1,14 @@
+{
+    "dstSRS": "EPSG:4326",
+    "srcSRS": "EPSG:2263",
+    "schema_name": "appendixj_designated_mdistricts",
+    "geometryType": "MULTIPOLYGON",
+    "layerCreationOptions": [
+        "OVERWRITE=YES",
+        "PRECISION=NO"
+    ],
+    "metaInfo": "s3",
+    "path": "https://edm-storage.nyc3.digitaloceanspaces.com/APPENDIXJ_DESIGNATED_MDISTRICTS/20171201/appendixj_designated_mdistricts.zip",
+    "srcOpenOptions": [],
+    "newFieldNames": []
+}

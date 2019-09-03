@@ -1,0 +1,14 @@
+{
+    "dstSRS": "EPSG:4326",
+    "srcSRS": "EPSG:2263",
+    "schema_name": "fresh_zones",
+    "geometryType": "MULTIPOLYGON",
+    "layerCreationOptions": [
+        "OVERWRITE=YES",
+        "PRECISION=NO"
+    ],
+    "metaInfo": "s3",
+    "path": "https://edm-storage.nyc3.digitaloceanspaces.com/FRESH_ZONES/20190701/fresh_zones.zip",
+    "srcOpenOptions": [],
+    "newFieldNames": []
+}

@@ -38,6 +38,7 @@ def run_recipes(recipe):
         if recipe in special_recipes:
             os.system(f'bash {Path(__file__).parent}/recipe_info/{recipe}.sh')
         else:
+            os.system('cook convert')
             recipe_config = load_recipe_json(recipe)
             archiver = Archiver(engine=os.environ['RECIPE_ENGINE'], 
                                 ftp_prefix=os.environ['FTP_PREFIX'])

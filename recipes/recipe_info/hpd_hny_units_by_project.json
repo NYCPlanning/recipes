@@ -7,7 +7,7 @@
         "OVERWRITE=YES",
         "PRECISION=NO"
     ],
-    "metaInfo": "Open data ",
+    "metaInfo": "s3",
     "path": "https://sfo2.digitaloceanspaces.com/db-data-recipes/recipes/hpd_hny_units_by_project/2019-08-15/hpd_hny_units_by_project.csv",
     "srcOpenOptions": [
         "AUTODETECT_TYPE=NO",

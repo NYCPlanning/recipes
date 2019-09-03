@@ -1,0 +1,14 @@
+{
+    "dstSRS": "EPSG:4326",
+    "srcSRS": "EPSG:2263",
+    "schema_name": "transitzones",
+    "geometryType": "MULTIPOLYGON",
+    "layerCreationOptions": [
+        "OVERWRITE=YES",
+        "PRECISION=NO"
+    ],
+    "metaInfo": "s3",
+    "path": "https://edm-storage.nyc3.digitaloceanspaces.com/TRANSITZONES/20190201/transitzones.zip",
+    "srcOpenOptions": [],
+    "newFieldNames": []
+}

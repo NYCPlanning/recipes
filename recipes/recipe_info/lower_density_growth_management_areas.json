@@ -1,6 +1,6 @@
 {
     "dstSRS": "EPSG:4326",
-    "srcSRS": "EPSG:2263",
+    "srcSRS": "EPSG:4326",
     "schema_name": "lower_density_growth_management_areas",
     "geometryType": "MULTIPOLYGON",
     "layerCreationOptions": [

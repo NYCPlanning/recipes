@@ -1,6 +1,6 @@
 {
     "dstSRS": "EPSG:4326",
-    "srcSRS": "EPSG:2263",
+    "srcSRS": "EPSG:4326",
     "schema_name": "coastal_zone_boundary",
     "geometryType": "MULTIPOLYGON",
     "layerCreationOptions": [

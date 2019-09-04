@@ -1,14 +1,14 @@
 {
     "dstSRS": "EPSG:4326",
-    "srcSRS": "EPSG:2263",
+    "srcSRS": "EPSG:4326",
     "schema_name": "transitzones",
     "geometryType": "MULTIPOLYGON",
     "layerCreationOptions": [
         "OVERWRITE=YES",
-        "PRECISION=NO"
+        "PRECISION=YES"
     ],
     "metaInfo": "s3",
-    "path": "https://edm-storage.nyc3.digitaloceanspaces.com/TRANSITZONES/20190201/transitzones.zip",
+    "path": "https://raw.githubusercontent.com/NYCPlanning/ceqr-traffic-zones/master/unfilled_simplified_ceqr_traffic_zones.geojson",
     "srcOpenOptions": [],
     "newFieldNames": []
 }

@@ -14,6 +14,7 @@
         "BoroughCode",
         "TaxBlock",
         "TaxLot",
+        "bbl",
         "ZoningDistrict1",
         "ZoningDistrict2",
         "ZoningDistrict3",

@@ -8,7 +8,7 @@
         "PRECISION=YES"
     ],
     "metaInfo": "s3",
-    "path": "https://raw.githubusercontent.com/NYCPlanning/ceqr-traffic-zones/master/unfilled_simplified_ceqr_traffic_zones.geojson",
+    "path": "https://edm-storage.nyc3.digitaloceanspaces.com/TRANSITZONES/20190201/transitzones.zip",
     "srcOpenOptions": [],
     "newFieldNames": []
 }

@@ -8,8 +8,12 @@
         "PRECISION=NO"
     ],
     "metaInfo": "dcp_zoningtaxlots is coming from bytes",
-    "path": "https://www1.nyc.gov/assets/planning/download/zip/data-maps/open-data/nyczoningtaxlotdb_20190731.zip/NY_ZoningTaxLotDB_20190731.csv",
-    "srcOpenOptions": [],
+    "path": "https://www1.nyc.gov/assets/planning/download/zip/data-maps/open-data/nyczoningtaxlotdb_20190831.zip/NY_ZoningTaxLotDB20190831.csv",
+    "srcOpenOptions": [
+        "AUTODETECT_TYPE=NO",
+        "EMPTY_STRING_AS_NULL=YES",
+        "GEOM_POSSIBLE_NAMES=the_geom"
+    ],
     "newFieldNames": [
         "BoroughCode",
         "TaxBlock",

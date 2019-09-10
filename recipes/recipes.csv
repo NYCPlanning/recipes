@@ -58,3 +58,4 @@
 "EPSG:4326","EPSG:4326","upland_waterfront_areas","MULTIPOLYGON","['OVERWRITE=YES', 'PRECISION=NO']","s3","https://edm-storage.nyc3.digitaloceanspaces.com/UPLAND_WATERFRONT_AREAS/20091201/upland_waterfront_areas.zip","[]","[]"
 "EPSG:4326","EPSG:4326","appendixj_designated_mdistricts","MULTIPOLYGON","['OVERWRITE=YES', 'PRECISION=NO']","s3","https://edm-storage.nyc3.digitaloceanspaces.com/APPENDIXJ_DESIGNATED_MDISTRICTS/20171201/appendixj_designated_mdistricts.zip","[]","[]"
 "EPSG:4326","EPSG:2263","doe_all_proposals","NONE","['OVERWRITE=YES', 'PRECISION=NO']","local","recipes/data/All_Proposals_Database_07.16.19.csv","['AUTODETECT_TYPE=NO', 'EMPTY_STRING_AS_NULL=YES', 'GEOM_POSSIBLE_NAMES=the_geom']","[]"
+"EPSG:4326","EPSG:2263","sca_capital_projects","POINT","['OVERWRITE=YES', 'PRECISION=NO']","local","recipes/data/sca_capital_projects.csv","['AUTODETECT_TYPE=NO', 'EMPTY_STRING_AS_NULL=YES', 'GEOM_POSSIBLE_NAMES=geometry']","[]"

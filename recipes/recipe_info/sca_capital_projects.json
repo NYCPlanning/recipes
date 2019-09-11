@@ -7,8 +7,8 @@
         "OVERWRITE=YES",
         "PRECISION=NO"
     ],
-    "metaInfo": "local",
-    "path": "recipes/data/sca_capital_projects.csv",
+    "metaInfo": "github",
+    "path": "https://raw.githubusercontent.com/NYCPlanning/db-scacapitalprojects/master/scacapitalprojects_build/output/sca_output_carto.csv",
     "srcOpenOptions": [
         "AUTODETECT_TYPE=NO",
         "EMPTY_STRING_AS_NULL=YES",

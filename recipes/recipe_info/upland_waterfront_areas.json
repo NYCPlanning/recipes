@@ -1,6 +1,6 @@
 {
     "dstSRS": "EPSG:4326",
-    "srcSRS": "EPSG:4326",
+    "srcSRS": "EPSG:2263",
     "schema_name": "upland_waterfront_areas",
     "geometryType": "MULTIPOLYGON",
     "layerCreationOptions": [
@@ -8,7 +8,7 @@
         "PRECISION=NO"
     ],
     "metaInfo": "s3",
-    "path": "https://edm-storage.nyc3.digitaloceanspaces.com/UPLAND_WATERFRONT_AREAS/20091201/upland_waterfront_areas.zip",
+    "path": "https://edm-storage.nyc3.digitaloceanspaces.com/UPLAND_WATERFRONT_AREA/20091201/upland_waterfront_area.zip",
     "srcOpenOptions": [],
     "newFieldNames": []
 }

@@ -1,7 +1,7 @@
 {
     "dstSRS": "EPSG:4326",
     "srcSRS": "EPSG:4269",
-    "schema_name": "uscensus_jn_shp",
+    "schema_name": "uscensus_nj_shp",
     "geometryType": "MULTIPOLYGON",
     "layerCreationOptions": [
         "OVERWRITE=YES",

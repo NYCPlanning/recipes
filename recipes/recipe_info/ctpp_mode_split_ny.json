@@ -1,7 +1,7 @@
 {
     "dstSRS": "EPSG:4326",
     "srcSRS": "EPSG:2263",
-    "schema_name": "ctpp_mode_splits",
+    "schema_name": "ctpp_mode_split_ny",
     "geometryType": "NONE",
     "layerCreationOptions": [
         "OVERWRITE=YES",

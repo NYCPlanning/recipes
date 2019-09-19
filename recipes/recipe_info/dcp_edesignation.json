@@ -2,6 +2,7 @@
     "dstSRS": "EPSG:4326",
     "srcSRS": "EPSG:2263",
     "schema_name": "dcp_edesignation",
+    "version_name": "",
     "geometryType": "POINT",
     "layerCreationOptions": [
         "OVERWRITE=YES",

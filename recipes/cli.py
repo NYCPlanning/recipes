@@ -52,6 +52,7 @@ def convert_recipes():
     df.loc[:,'layerCreationOptions'] = df.loc[:,'layerCreationOptions'].apply(lambda x: x if pd.isna(x) else literal_eval(x))
     df.loc[:,'srcOpenOptions'] = df.loc[:,'srcOpenOptions'].apply(lambda x: x if pd.isna(x) else literal_eval(x))
     df.loc[:,'newFieldNames'] = df.loc[:,'newFieldNames'].apply(lambda x: x if pd.isna(x) else literal_eval(x))
+    df = df.replace(np.nan, '', regex=True)
     for row in df.iterrows():
         recipe = dict(row[1])
         if recipe in special_recipes:

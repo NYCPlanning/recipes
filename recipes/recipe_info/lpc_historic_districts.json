@@ -2,6 +2,7 @@
     "dstSRS": "EPSG:4326",
     "srcSRS": "EPSG:4326",
     "schema_name": "lpc_historic_districts",
+    "version_name": "",
     "geometryType": "MULTIPOLYGON",
     "layerCreationOptions": [
         "OVERWRITE=YES",

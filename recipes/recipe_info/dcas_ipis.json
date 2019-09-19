@@ -2,6 +2,7 @@
     "dstSRS": "EPSG:4326",
     "srcSRS": "EPSG:4326",
     "schema_name": "dcas_ipis",
+    "version_name": "",
     "geometryType": "POINT",
     "layerCreationOptions": [
         "OVERWRITE=YES"

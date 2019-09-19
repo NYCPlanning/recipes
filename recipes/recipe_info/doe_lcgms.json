@@ -1,0 +1,34 @@
+{
+    "dstSRS": "EPSG:4326",
+    "srcSRS": "EPSG:2263",
+    "schema_name": "doe_lcgms",
+    "geometryType": "POINT",
+    "layerCreationOptions": [
+        "OVERWRITE=YES",
+        "PRECISION=NO"
+    ],
+    "metaInfo": "local",
+    "path": "recipes/data/doe_lcgms/doe_lcgms_2018.csv",
+    "srcOpenOptions": [
+        "AUTODETECT_TYPE=NO",
+        "EMPTY_STRING_AS_NULL=YES",
+        "GEOM_POSSIBLE_NAMES=the_geom"
+    ],
+    "newFieldNames": [
+        "ogc_fid",
+        "cartodb_id",
+        "org_id",
+        "bldg_id",
+        "org_level",
+        "name",
+        "address",
+        "bbl",
+        "lat",
+        "lng",
+        "pe",
+        "ie",
+        "he",
+        "grades",
+        "geom"
+    ]
+}

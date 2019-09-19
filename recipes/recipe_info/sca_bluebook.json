@@ -1,0 +1,40 @@
+{
+    "dstSRS": "EPSG:4326",
+    "srcSRS": "EPSG:2263",
+    "schema_name": "sca_bluebook",
+    "geometryType": "POINT",
+    "layerCreationOptions": [
+        "OVERWRITE=YES",
+        "PRECISION=NO"
+    ],
+    "metaInfo": "local",
+    "path": "recipes/data/sca_bluebook/sca_bluebook_2018.csv",
+    "srcOpenOptions": [
+        "AUTODETECT_TYPE=NO",
+        "EMPTY_STRING_AS_NULL=YES",
+        "GEOM_POSSIBLE_NAMES=the_geom"
+    ],
+    "newFieldNames": [
+        "ogc_fid",
+        "cartodb_id",
+        "district",
+        "subdistrict",
+        "borocode",
+        "bldg_name",
+        "excluded",
+        "bldg_id",
+        "org_id",
+        "org_level",
+        "name",
+        "address",
+        "pc",
+        "pe",
+        "ic",
+        "ie",
+        "hc",
+        "he",
+        "x",
+        "y",
+        "geom"
+    ]
+}

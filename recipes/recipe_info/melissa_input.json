@@ -1,0 +1,18 @@
+{
+    "dstSRS": "EPSG:4326",
+    "srcSRS": "EPSG:2263",
+    "schema_name": "melissa_input",
+    "geometryType": "NONE",
+    "layerCreationOptions": [
+        "OVERWRITE=YES",
+        "PRECISION=NO"
+    ],
+    "metaInfo": "local",
+    "path": "recipes/data/4561440.csv",
+    "srcOpenOptions": [
+        "AUTODETECT_TYPE=NO",
+        "EMPTY_STRING_AS_NULL=YES",
+        "GEOM_POSSIBLE_NAMES=the_geom"
+    ],
+    "newFieldNames": []
+}

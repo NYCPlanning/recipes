@@ -3,11 +3,8 @@
     "srcSRS": "EPSG:4326",
     "schema_name": "dcp_zoningtaxlots",
     "version_name": "",
-    "geometryType": "POINT",
-    "layerCreationOptions": [
-        "OVERWRITE=YES",
-        "PRECISION=NO"
-    ],
+    "geometryType": "NONE",
+    "layerCreationOptions": [],
     "metaInfo": "dcp_zoningtaxlots is coming from bytes",
     "path": "https://www1.nyc.gov/assets/planning/download/zip/data-maps/open-data/nyczoningtaxlotdb_20190831.zip/NY_ZoningTaxLotDB20190831.csv",
     "srcOpenOptions": [

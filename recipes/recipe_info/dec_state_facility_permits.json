@@ -3,7 +3,7 @@
     "srcSRS": "EPSG:2263",
     "schema_name": "dec_state_facility_permits",
     "version_name": "",
-    "geometryType": "POINT",
+    "geometryType": "NONE",
     "layerCreationOptions": [
         "OVERWRITE=YES",
         "PRECISION=NO"

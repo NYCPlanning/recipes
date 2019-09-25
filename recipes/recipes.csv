@@ -78,4 +78,4 @@
 "EPSG:4326","EPSG:4326","doitt_elevation_points","2018/09/12","POINT","['OVERWRITE=YES', 'PRECISION=NO']","Open data","https://data.cityofnewyork.us/api/geospatial/szwg-xci6?method=export&format=GeoJSON","[]","[]"
 "EPSG:4326","EPSG:4326","doitt_transportation_structures","2018/09/10","MULTIPOLYGON","['OVERWRITE=YES', 'PRECISION=NO']","Open data","https://data.cityofnewyork.us/api/geospatial/h9sf-7bej?method=export&format=GeoJSON","[]","[]"
 "EPSG:4326","EPSG:4326","doitt_railroad_structures","2018/09/10","MULTIPOLYGON","['OVERWRITE=YES', 'PRECISION=NO']","Open data","https://data.cityofnewyork.us/api/geospatial/5dic-xnxs?method=export&format=GeoJSON","[]","[]"
-"EPSG:4326","EPSG:4326","dot_functional_class",,"LINESTRING","['OVERWRITE=YES', 'PRECISION=NO']","Dot arcgis server ","https://gis3.dot.ny.gov/arcgis/rest/services/FC/MapServer/1/query?where=OBJECTID%3E0&f=geojson","[]","[]"
+"EPSG:4326","EPSG:4326","dot_functional_class",,"MULTILINESTRING","['OVERWRITE=YES', 'PRECISION=NO']","Dot arcgis server ","https://gis3.dot.ny.gov/arcgis/rest/services/FC/MapServer/1/query?where=OBJECTID%3E0&f=geojson","[]","[]"

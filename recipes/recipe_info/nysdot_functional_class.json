@@ -9,7 +9,7 @@
         "PRECISION=NO"
     ],
     "metaInfo": "Dot arcgis server ",
-    "path": "https://gis3.dot.ny.gov/arcgis/rest/services/FC/MapServer/1/query?where=MUNICIPALITY_DESC%3D%27Brooklyn%27+or+MUNICIPALITY_DESC%3D%27Bronx%27+or+MUNICIPALITY_DESC%3D%27Staten+Island%27+or+MUNICIPALITY_DESC%3D%27Manhattan%27+or+MUNICIPALITY_DESC%3D%27Queens%27&f=json",
+    "path": "https://gis3.dot.ny.gov/arcgis/rest/services/FC/MapServer/1/query?where=MUNICIPALITY_DESC%3D%27Brooklyn%27+or+MUNICIPALITY_DESC%3D%27Bronx%27+or+MUNICIPALITY_DESC%3D%27Staten+Island%27+or+MUNICIPALITY_DESC%3D%27Manhattan%27+or+MUNICIPALITY_DESC%3D%27Queens%27&outFields=*&f=json",
     "srcOpenOptions": [],
     "newFieldNames": []
 }

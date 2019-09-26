@@ -1,0 +1,15 @@
+{
+    "dstSRS": "EPSG:4326",
+    "srcSRS": "EPSG:4326",
+    "schema_name": "dot_functional_class",
+    "version_name": "",
+    "geometryType": "MULTILINESTRING",
+    "layerCreationOptions": [
+        "OVERWRITE=YES",
+        "PRECISION=NO"
+    ],
+    "metaInfo": "Dot arcgis server ",
+    "path": "https://gis3.dot.ny.gov/arcgis/rest/services/FC/MapServer/1/query?where=URBAN_AREA_CODE%3D63217&f=geojson",
+    "srcOpenOptions": [],
+    "newFieldNames": []
+}

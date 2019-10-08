@@ -8,8 +8,8 @@
         "OVERWRITE=YES",
         "PRECISION=NO"
     ],
-    "metaInfo": "dcp_commercialoverlay is coming from ftp",
-    "path": "FTP_PREFIX/agencySourceData/dcp/nycgiszoningfeatures_shp.zip/nyco.shp",
+    "metaInfo": "s3",
+    "path": "https://edm-storage.nyc3.digitaloceanspaces.com/ZONING_FEATURES/commercial_overlays/20190930/commercial_overlays.zip",
     "srcOpenOptions": [],
     "newFieldNames": []
 }

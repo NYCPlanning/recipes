@@ -2,7 +2,7 @@
     "dstSRS": "EPSG:4326",
     "srcSRS": "EPSG:4326",
     "schema_name": "doitt_railroad_structures",
-    "version_name": "2018/09/10",
+    "version_name": "9/10/2018",
     "geometryType": "MULTIPOLYGON",
     "layerCreationOptions": [
         "OVERWRITE=YES",

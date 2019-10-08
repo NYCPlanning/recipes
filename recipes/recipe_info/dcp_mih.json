@@ -8,8 +8,8 @@
         "OVERWRITE=YES",
         "PRECISION=NO"
     ],
-    "metaInfo": "dcp_mih is coming from ftp",
-    "path": "FTP_PREFIX/agencySourceData/dcp/MIH.zip/nycmih_20190630.shp",
+    "metaInfo": "s3",
+    "path": "https://edm-storage.nyc3.digitaloceanspaces.com/MANDATORY_INCLUSIONARY_HOUSING/20190930/mandatory_inclusionary_housing.zip",
     "srcOpenOptions": [],
     "newFieldNames": []
 }

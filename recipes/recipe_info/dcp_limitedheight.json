@@ -8,8 +8,8 @@
         "OVERWRITE=YES",
         "PRECISION=NO"
     ],
-    "metaInfo": "dcp_limitedheight is coming from ftp",
-    "path": "FTP_PREFIX/agencySourceData/dcp/nycgiszoningfeatures_shp.zip/nylh.shp",
+    "metaInfo": "s3",
+    "path": "https://edm-storage.nyc3.digitaloceanspaces.com/ZONING_FEATURES/limited_height_districts/20190930/limited_height_districts.zip",
     "srcOpenOptions": [],
     "newFieldNames": []
 }

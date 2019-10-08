@@ -8,8 +8,8 @@
         "OVERWRITE=YES",
         "PRECISION=NO"
     ],
-    "metaInfo": "dof_dtm is coming from ftp",
-    "path": "FTP_PREFIX/agencySourceData/dof/Tax_Lot_Polygon.zip/Tax_Lot_Polygon.shp",
+    "metaInfo": "s3",
+    "path": "https://edm-storage.nyc3.digitaloceanspaces.com/DTM/tax_lot_polygon/20190927/tax_lot_polygon.zip",
     "srcOpenOptions": [],
     "newFieldNames": []
 }

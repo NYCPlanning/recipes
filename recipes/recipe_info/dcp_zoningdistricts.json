@@ -8,8 +8,8 @@
         "OVERWRITE=YES",
         "PRECISION=NO"
     ],
-    "metaInfo": "dcp_zoningdistricts is coming from ftp",
-    "path": "FTP_PREFIX/agencySourceData/dcp/nycgiszoningfeatures_shp.zip/nyzd.shp",
+    "metaInfo": "s3",
+    "path": "https://edm-storage.nyc3.digitaloceanspaces.com/ZONING_FEATURES/zoning_districts/20190930/zoning_districts.zip",
     "srcOpenOptions": [],
     "newFieldNames": []
 }

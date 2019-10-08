@@ -2,7 +2,7 @@
     "dstSRS": "EPSG:4326",
     "srcSRS": "EPSG:4326",
     "schema_name": "doitt_elevation_points",
-    "version_name": "2018/09/12",
+    "version_name": "9/12/2018",
     "geometryType": "POINT",
     "layerCreationOptions": [
         "OVERWRITE=YES",

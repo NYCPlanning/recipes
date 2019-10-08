@@ -8,8 +8,8 @@
         "OVERWRITE=YES",
         "PRECISION=NO"
     ],
-    "metaInfo": "FTP",
-    "path": "FTP_PREFIX/agencySourceData/dof/Shoreline_Polygon.zip/Shoreline_Polygon.shp",
+    "metaInfo": "s3",
+    "path": "https://edm-storage.nyc3.digitaloceanspaces.com/DTM/shoreline_polygon/20190927/shoreline_polygon.zip",
     "srcOpenOptions": [],
     "newFieldNames": []
 }

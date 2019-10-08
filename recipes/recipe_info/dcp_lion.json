@@ -1,6 +1,6 @@
 {
     "dstSRS": "EPSG:4326",
-    "srcSRS": "EPSG:2263",
+    "srcSRS": "EPSG:4326",
     "schema_name": "dcp_lion",
     "version_name": "19c",
     "geometryType": "LINESTRING",
@@ -10,6 +10,8 @@
     ],
     "metaInfo": "Bytes",
     "path": "http://services5.arcgis.com/GfwWNkhOj9bNBqoJ/arcgis/rest/services/LION/FeatureServer/0/query?where=1=1&outFields=*&outSR=4326&f=geojson",
-    "srcOpenOptions": [],
+    "srcOpenOptions": [
+        "EMPTY_STRING_AS_NULL=YES"
+    ],
     "newFieldNames": []
 }

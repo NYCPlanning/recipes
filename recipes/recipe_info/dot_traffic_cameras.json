@@ -8,7 +8,7 @@
         "OVERWRITE=YES",
         "PRECISION=NO"
     ],
-    "metaInfo": "511 website",
+    "metaInfo": "From website https://webcams.nyctmc.org/new-data.php?query=",
     "path": "recipes/data/dot_traffic_cameras.csv",
     "srcOpenOptions": [
         "AUTODETECT_TYPE=NO",

@@ -1,0 +1,25 @@
+{
+    "dstSRS": "EPSG:4326",
+    "srcSRS": "EPSG:2263",
+    "schema_name": "sca_e_pct",
+    "version_name": "2018",
+    "geometryType": "NONE",
+    "layerCreationOptions": [
+        "OVERWRITE=YES",
+        "PRECISION=NO"
+    ],
+    "metaInfo": "local",
+    "path": "recipes/data/sca/2018/pct.csv",
+    "srcOpenOptions": [
+        "AUTODETECT_TYPE=NO",
+        "EMPTY_STRING_AS_NULL=YES",
+        "GEOM_POSSIBLE_NAMES=the_geom"
+    ],
+    "newFieldNames": [
+        "id",
+        "district",
+        "subdistrict",
+        "level",
+        "multiplier"
+    ]
+}

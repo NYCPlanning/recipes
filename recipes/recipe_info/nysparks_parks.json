@@ -1,0 +1,21 @@
+{
+    "dstSRS": "EPSG:4326",
+    "srcSRS": "EPSG:4326",
+    "schema_name": "nysparks_parks",
+    "version_name": "",
+    "geometryType": "POINT",
+    "layerCreationOptions": [
+        "OVERWRITE=YES",
+        "PRECISION=NO"
+    ],
+    "metaInfo": "NYS open data ",
+    "path": "https://data.ny.gov/api/views/9uuk-x7vh/rows.csv",
+    "srcOpenOptions": [
+        "AUTODETECT_TYPE=NO",
+        "EMPTY_STRING_AS_NULL=YES",
+        "GEOM_POSSIBLE_NAMES=the_geom",
+        "X_POSSIBLE_NAMES=longitude,x",
+        "Y_POSSIBLE_NAMES=latitude,y"
+    ],
+    "newFieldNames": []
+}

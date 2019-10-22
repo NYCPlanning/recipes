@@ -1,0 +1,15 @@
+{
+    "dstSRS": "EPSG:4326",
+    "srcSRS": "EPSG:2263",
+    "schema_name": "dcp_facilities",
+    "version_name": "2019/01/01",
+    "geometryType": "POINT",
+    "layerCreationOptions": [
+        "OVERWRITE=YES",
+        "PRECISION=NO"
+    ],
+    "metaInfo": "DCP Open Data",
+    "path": "https://www1.nyc.gov/assets/planning/download/zip/data-maps/open-data/facilities_shp_201901.zip",
+    "srcOpenOptions": [],
+    "newFieldNames": []
+}

@@ -1,7 +1,7 @@
 {
     "dstSRS": "EPSG:4326",
     "srcSRS": "EPSG:4326",
-    "schema_name": "tunnel_ventilation_tower",
+    "schema_name": "tunnel_ventilation_towers",
     "version_name": "",
     "geometryType": "POINT",
     "layerCreationOptions": [

@@ -2,14 +2,14 @@
     "dstSRS": "EPSG:4326",
     "srcSRS": "EPSG:2263",
     "schema_name": "dcp_censusblocks",
-    "version_name": "",
+    "version_name": "19c",
     "geometryType": "MULTIPOLYGON",
     "layerCreationOptions": [
         "OVERWRITE=YES",
         "PRECISION=NO"
     ],
     "metaInfo": "dcp_censusblocks is coming from bytes of big apple",
-    "path": "https://www1.nyc.gov/assets/planning/download/zip/data-maps/open-data/nycb2010wi_19b.zip/nycb2010wi_19b/nycb2010wi.shp",
+    "path": "https://www1.nyc.gov/assets/planning/download/zip/data-maps/open-data/nycb2010wi_19c.zip/nycb2010wi_19c/nycb2010wi.shp",
     "srcOpenOptions": [],
     "newFieldNames": []
 }

@@ -2,14 +2,14 @@
     "dstSRS": "EPSG:4326",
     "srcSRS": "EPSG:2263",
     "schema_name": "dcp_cdboundaries",
-    "version_name": "",
+    "version_name": "19c",
     "geometryType": "MULTIPOLYGON",
     "layerCreationOptions": [
         "OVERWRITE=YES",
         "PRECISION=NO"
     ],
     "metaInfo": "dcp_cdboundaries is coming from bytes of big apple",
-    "path": "https://www1.nyc.gov/assets/planning/download/zip/data-maps/open-data/nycdwi_19b.zip/nycdwi_19b/nycdwi.shp",
+    "path": "https://www1.nyc.gov/assets/planning/download/zip/data-maps/open-data/nycdwi_19c.zip/nycdwi_19c/nycdwi.shp",
     "srcOpenOptions": [],
     "newFieldNames": []
 }

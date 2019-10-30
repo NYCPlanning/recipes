@@ -1,10 +1,12 @@
 from multiprocessing import Pool, cpu_count
 from geosupport import Geosupport, GeosupportError
+from sqlalchemy import create_engine
 import pandas as pd
 import json
 import os 
 
 g = Geosupport()
+engine = create_engine(os.getenv('RECIPE_ENGINE'))
 
 def get_address(bbl):
     try:
@@ -26,11 +28,11 @@ def get_sname(b5sc):
     except: 
         return ''
 
-def geocode(input):
-    boro = input.pop('BORO')
-    block = input.pop('BLOCK')
-    lot = input.pop('LOT') 
-    ease = input.pop('EASE')
+def geocode(inputs):
+    boro = inputs.pop('boro')
+    block = inputs.pop('block')
+    lot = inputs.pop('lot') 
+    ease = ''
 
     bbl = boro+block+lot
     address = get_address(bbl)
@@ -42,12 +44,18 @@ def geocode(input):
     try: 
         geo = g['1B'](street_name=sname, house_number=hnum, borough=borough, mode='regular')
         geo = parse_output(geo)
-        geo.update(borough = borough, block = block, lot = lot, ease = ease, input_hnum=hnum, input_sname=sname)
+        geo.update(borough = borough, block = block, lot = lot, easement = ease, input_hnum=hnum, input_sname=sname)
         return geo
-    except GeosupportError as e:
-        geo = parse_output(e.result)
-        geo.update(borough = borough, block = block, lot = lot, ease = ease, input_hnum=hnum, input_sname=sname)
-        return geo
+    except GeosupportError as e1:
+        try:
+            geo = g['BL'](bbl=bbl)
+            geo = parse_output(geo)
+            geo.update(borough = borough, block = block, lot = lot, easement = ease, input_hnum=hnum, input_sname=sname)
+            return geo
+        except GeosupportError as e2:
+            geo = parse_output(e1.result)
+            geo.update(borough = borough, block = block, lot = lot, easement = ease, input_hnum=hnum, input_sname=sname)
+            return geo
 
 def parse_output(geo):
     return dict(
@@ -84,18 +92,10 @@ def parse_output(geo):
     )
 
 if __name__ == '__main__':
-    import sys
-    input_file =  sys.argv[1]
-    output_file = sys.argv[2]
-
-    df = pd.read_csv(input_file,
-                    sep='\t', 
-                    dtype=str,
-                    index_col=False, 
-                    keep_default_na=False,
-                    usecols=['BORO', 'BLOCK',
-                            'LOT', 'EASE'])
-    #get the row number
+    df = pd.read_sql('''SELECT DISTINCT ON (boro, block, lot) boro, block, lot 
+                        from pluto_pts.latest''',
+                    con=engine)
+    # get the row number
     records = df.to_dict('records')
     
     print('geocoding begins here ...')
@@ -107,13 +107,13 @@ if __name__ == '__main__':
     result = pd.DataFrame(it)
     print(result.head())
 
-    result.to_csv(output_file, 
+    result.to_csv('geo_result.csv', 
                 columns=['borough', 'block', 'lot', 'input_hnum', 'input_sname', 'easement', 
                 'billingbbl', 'bbl', 'communityDistrict', 'censusTract2010', 'censusBlock2010', 
                 'communitySchoolDistrict', 'cityCouncilDistrict', 'zipCode', 
                 'fireCompanyNumber', 'policePrecinct', 'healthCenterDistrict', 
                 'healthArea', 'sanitationDistrict', 'sanitationCollectionScheduling', 
                 'boePreferredStreetName', 'numberOfExistingStructures', 
-                'taxMapNumberSectionAndVolume', 'sanbornMapIdentifier',
+                'taxMapNumberSectionAndVolume', 'sanbornMapIdentifier', 
                 'XCoord', 'YCoord', 'longitude', 'latitude', 'grc', 'grc2', 'msg', 'msg2'],
                 index=False)

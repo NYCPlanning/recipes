@@ -3,12 +3,12 @@ DATE=$(date "+%Y/%m/%d")
 TABLE_NAME="pluto_pts"
 
 # create temporary location
-mkdir -p tmp && cd tmp && { 
+cd recipes/data && { 
     # curl to directory
-    curl -O $FTP_PREFIX/agencySourceData/dof/PTS_Propmast.txt;
+    # curl -O $FTP_PREFIX/agencySourceData/dof/PTS_Propmast.txt;
 
-    remove last column of pts --> empty column
-    cut -d$'\t' -f1-139 PTS_Propmast.txt > pluto_pts.txt
+    # remove last column of pts --> empty column
+    cut -d$'\t' -f1-139 PTS_Propmast > pluto_pts.txt
 
     # remove spaces between delimiters
     sed -i 's/ *\t/\t/g' pluto_pts.txt
@@ -33,4 +33,4 @@ mkdir -p tmp && cd tmp && {
     cd -; }
 
 # Remove files
-rm -r tmp
+# rm -r tmp

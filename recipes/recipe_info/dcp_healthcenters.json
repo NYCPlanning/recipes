@@ -2,14 +2,14 @@
     "dstSRS": "EPSG:4326",
     "srcSRS": "EPSG:2263",
     "schema_name": "dcp_healthcenters",
-    "version_name": "",
+    "version_name": "19c",
     "geometryType": "MULTIPOLYGON",
     "layerCreationOptions": [
         "OVERWRITE=YES",
         "PRECISION=NO"
     ],
     "metaInfo": "Bytes",
-    "path": "https://www1.nyc.gov/assets/planning/download/zip/data-maps/open-data/nyhc_19b.zip/nyhc_19b/nyhc.shp",
+    "path": "https://www1.nyc.gov/assets/planning/download/zip/data-maps/open-data/nyhc_19c.zip/nyhc_19c/nyhc.shp",
     "srcOpenOptions": [],
     "newFieldNames": []
 }

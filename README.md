@@ -12,7 +12,7 @@ eg. `dcp_mappluto`
 1. Intialize a docker container
 ```
 docker run -itd\
-    --name=recipes\
+    --name=recipes-$USER\
     -v `pwd`:/home/recipes\
     -w /home/recipes\
     --env-file .env\

@@ -1,14 +1,10 @@
-# # docker run --rm\
-# #             -v `pwd`:/home/pts\
-# #             -w /home/pts\
-# #             sptkl/docker-geosupport:19b bash -c "pip install pandas; python3 geocode.py"
-
 docker run --rm\
             -v `pwd`:/home/pts\
             -w /home/pts\
-            sptkl/docker-geosupport:19b2 bash -c "pip install pandas; python3 pluto_geocode.py"
+            -e RECIPE_ENGINE=$RECIPE_ENGINE\
+            sptkl/docker-geosupport:19c bash -c "pip install pandas sqlalchemy psycopg2-binary; python3 pluto_geocode.py"
 
-psql $CAPDB -c "
+psql $RECIPE_ENGINE -c "
 DROP TABLE IF EXISTS pluto_input_geocodes;
 CREATE TABLE pluto_input_geocodes (
     borough text,
@@ -45,9 +41,9 @@ CREATE TABLE pluto_input_geocodes (
     msg2 text
 );
 "
-psql $CAPDB -c "COPY pluto_input_geocodes FROM '`pwd`/geo_result.csv' WITH NULL AS '' DELIMITER ',' CSV HEADER;"
+psql $RECIPE_ENGINE -c "\COPY pluto_input_geocodes FROM '`pwd`/geo_result.csv' WITH NULL AS '' DELIMITER ',' CSV HEADER;"
 
-psql $CAPDB -c "
+psql $RECIPE_ENGINE -c "
 ALTER TABLE pluto_input_geocodes
     ADD wkb_geometry geometry(Geometry,4326);
 
@@ -58,4 +54,7 @@ SET wkb_geometry = ST_SetSRID(ST_Point(longitude::DOUBLE PRECISION,
     ycoord = ST_Y(ST_TRANSFORM(wkb_geometry, 2263))
 ;"
 
-
+DATE=$(date "+%Y/%m/%d"); 
+psql $RECIPE_ENGINE -c "ALTER TABLE pluto_input_geocodes SET SCHEMA pluto_input_geocodes;";
+psql $RECIPE_ENGINE -c "DROP TABLE IF EXISTS pluto_input_geocodes.\"$DATE\";";
+psql $RECIPE_ENGINE -c "ALTER TABLE pluto_input_geocodes.pluto_input_geocodes RENAME TO \"$DATE\";";

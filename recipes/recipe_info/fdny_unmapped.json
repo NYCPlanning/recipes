@@ -1,0 +1,33 @@
+{
+    "dstSRS": "EPSG:4341",
+    "srcSRS": "EPSG:4341",
+    "schema_name": "fdny_unmapped",
+    "version_name": "",
+    "geometryType": "NONE",
+    "layerCreationOptions": [
+        "OVERWRITE=YES",
+        "PRECISION=NO"
+    ],
+    "metaInfo": "FTP",
+    "path": "FTP_PREFIX/agencySourceData/cpdb/agencyinputtables/agency_validated.zip/FDNY_unmapped.csv",
+    "srcOpenOptions": [
+        "AUTODETECT_TYPE=NO",
+        "EMPTY_STRING_AS_NULL=YES",
+        "GEOM_POSSIBLE_NAMES=the_geom",
+        "X_POSSIBLE_NAMES=longitude,Longitude,Lon,lon,x",
+        "Y_POSSIBLE_NAMES=latitude,Latitude,Lat,lat,y"
+    ],
+    "newFieldNames": [
+        "maprojid",
+        "description",
+        "category",
+        "mappable",
+        "address",
+        "borough",
+        "zipcode",
+        "bbl",
+        "bin",
+        "agency",
+        "origin"
+    ]
+}

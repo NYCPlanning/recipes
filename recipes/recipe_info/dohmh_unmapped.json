@@ -1,6 +1,6 @@
 {
-    "dstSRS": "EPSG:4336",
-    "srcSRS": "EPSG:4336",
+    "dstSRS": "EPSG:4326",
+    "srcSRS": "EPSG:2263",
     "schema_name": "dohmh_unmapped",
     "version_name": "",
     "geometryType": "NONE",

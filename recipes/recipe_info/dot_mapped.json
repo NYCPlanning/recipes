@@ -1,6 +1,6 @@
 {
-    "dstSRS": "EPSG:4337",
-    "srcSRS": "EPSG:4337",
+    "dstSRS": "EPSG:4326",
+    "srcSRS": "EPSG:2263",
     "schema_name": "dot_mapped",
     "version_name": "",
     "geometryType": "NONE",

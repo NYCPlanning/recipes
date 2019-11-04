@@ -1,6 +1,6 @@
 {
-    "dstSRS": "EPSG:4341",
-    "srcSRS": "EPSG:4341",
+    "dstSRS": "EPSG:4326",
+    "srcSRS": "EPSG:2263",
     "schema_name": "fdny_unmapped",
     "version_name": "",
     "geometryType": "NONE",

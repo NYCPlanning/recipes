@@ -1,6 +1,6 @@
 {
-    "dstSRS": "EPSG:4333",
-    "srcSRS": "EPSG:4333",
+    "dstSRS": "EPSG:4326",
+    "srcSRS": "EPSG:2263",
     "schema_name": "doc_mapped",
     "version_name": "",
     "geometryType": "NONE",

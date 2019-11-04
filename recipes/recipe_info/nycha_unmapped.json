@@ -1,6 +1,6 @@
 {
-    "dstSRS": "EPSG:4347",
-    "srcSRS": "EPSG:4347",
+    "dstSRS": "EPSG:4326",
+    "srcSRS": "EPSG:2263",
     "schema_name": "nycha_unmapped",
     "version_name": "",
     "geometryType": "NONE",

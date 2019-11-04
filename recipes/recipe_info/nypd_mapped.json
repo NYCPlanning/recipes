@@ -1,6 +1,6 @@
 {
-    "dstSRS": "EPSG:4348",
-    "srcSRS": "EPSG:4348",
+    "dstSRS": "EPSG:4326",
+    "srcSRS": "EPSG:2263",
     "schema_name": "nypd_mapped",
     "version_name": "",
     "geometryType": "NONE",

@@ -1,6 +1,6 @@
 {
-    "dstSRS": "EPSG:4339",
-    "srcSRS": "EPSG:4339",
+    "dstSRS": "EPSG:4326",
+    "srcSRS": "EPSG:2263",
     "schema_name": "dpr_mapped",
     "version_name": "",
     "geometryType": "NONE",

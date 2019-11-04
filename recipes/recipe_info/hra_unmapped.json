@@ -1,6 +1,6 @@
 {
-    "dstSRS": "EPSG:4345",
-    "srcSRS": "EPSG:4345",
+    "dstSRS": "EPSG:4326",
+    "srcSRS": "EPSG:2263",
     "schema_name": "hra_unmapped",
     "version_name": "",
     "geometryType": "NONE",

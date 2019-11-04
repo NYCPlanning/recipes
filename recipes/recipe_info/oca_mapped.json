@@ -1,6 +1,6 @@
 {
-    "dstSRS": "EPSG:4352",
-    "srcSRS": "EPSG:4352",
+    "dstSRS": "EPSG:4326",
+    "srcSRS": "EPSG:2263",
     "schema_name": "oca_mapped",
     "version_name": "",
     "geometryType": "NONE",

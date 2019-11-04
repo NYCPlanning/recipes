@@ -1,6 +1,6 @@
 {
-    "dstSRS": "EPSG:4330",
-    "srcSRS": "EPSG:4330",
+    "dstSRS": "EPSG:4326",
+    "srcSRS": "EPSG:2263",
     "schema_name": "bpl_unmapped",
     "version_name": "",
     "geometryType": "NONE",

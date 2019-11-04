@@ -9,7 +9,7 @@
         "PRECISION=NO"
     ],
     "metaInfo": "s3",
-    "path": "https://edm-storage.nyc3.digitaloceanspaces.com/ZONING_FEATURES/commercial_overlays/20190930/commercial_overlays.zip",
+    "path": "https://edm-storage.nyc3.digitaloceanspaces.com/ZONING_FEATURES/commercial_overlays/20191031/commercial_overlays.zip",
     "srcOpenOptions": [],
     "newFieldNames": []
 }

@@ -9,7 +9,7 @@
         "PRECISION=NO"
     ],
     "metaInfo": "s3",
-    "path": "https://edm-storage.nyc3.digitaloceanspaces.com/DTM/shoreline_polygon/20190927/shoreline_polygon.zip",
+    "path": "https://edm-storage.nyc3.digitaloceanspaces.com/DTM/shoreline_polygon/20191101/shoreline_polygon.zip",
     "srcOpenOptions": [],
     "newFieldNames": []
 }

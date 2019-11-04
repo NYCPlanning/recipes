@@ -9,7 +9,7 @@
         "PRECISION=NO"
     ],
     "metaInfo": "s3",
-    "path": "https://edm-storage.nyc3.digitaloceanspaces.com/DTM/tax_lot_polygon/20190927/tax_lot_polygon.zip",
+    "path": "https://edm-storage.nyc3.digitaloceanspaces.com/DTM/tax_lot_polygon/20191101/tax_lot_polygon.zip",
     "srcOpenOptions": [],
     "newFieldNames": []
 }

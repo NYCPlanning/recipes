@@ -9,7 +9,7 @@
         "PRECISION=NO"
     ],
     "metaInfo": "s3",
-    "path": "https://edm-storage.nyc3.digitaloceanspaces.com/DTM/condo/20190927/condo.zip/condo.csv",
+    "path": "https://edm-storage.nyc3.digitaloceanspaces.com/DTM/condo/20191101/condo.zip/condo.csv",
     "srcOpenOptions": [
         "AUTODETECT_TYPE=NO",
         "EMPTY_STRING_AS_NULL=YES"

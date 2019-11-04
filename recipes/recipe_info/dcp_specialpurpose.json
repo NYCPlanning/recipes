@@ -9,7 +9,7 @@
         "PRECISION=NO"
     ],
     "metaInfo": "s3",
-    "path": "https://edm-storage.nyc3.digitaloceanspaces.com/ZONING_FEATURES/special_purpose_districts/20190930/special_purpose_districts.zip",
+    "path": "https://edm-storage.nyc3.digitaloceanspaces.com/ZONING_FEATURES/special_purpose_districts/20191031/special_purpose_districts.zip",
     "srcOpenOptions": [],
     "newFieldNames": []
 }

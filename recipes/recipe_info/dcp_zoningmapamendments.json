@@ -9,7 +9,7 @@
         "PRECISION=NO"
     ],
     "metaInfo": "s3",
-    "path": "https://edm-storage.nyc3.digitaloceanspaces.com/ZONING_FEATURES/zoning_map_amendments/20190930/zoning_map_amendments.zip",
+    "path": "https://edm-storage.nyc3.digitaloceanspaces.com/ZONING_FEATURES/zoning_map_amendments/20191031/zoning_map_amendments.zip",
     "srcOpenOptions": [],
     "newFieldNames": []
 }

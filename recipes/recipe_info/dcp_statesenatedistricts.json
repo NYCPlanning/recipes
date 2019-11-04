@@ -1,0 +1,15 @@
+{
+    "dstSRS": "EPSG:4326",
+    "srcSRS": "EPSG:4326",
+    "schema_name": "dcp_statesenatedistricts",
+    "version_name": "",
+    "geometryType": "MULTIPOLYGON",
+    "layerCreationOptions": [
+        "OVERWRITE=YES",
+        "PRECISION=NO"
+    ],
+    "metaInfo": "nyc opendata ",
+    "path": "https://data.cityofnewyork.us/api/geospatial/h4i2-acfi?method=export&format=GeoJSON",
+    "srcOpenOptions": [],
+    "newFieldNames": []
+}

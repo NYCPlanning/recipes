@@ -1,0 +1,15 @@
+{
+    "dstSRS": "EPSG:4326",
+    "srcSRS": "EPSG:2263",
+    "schema_name": "ddc_capitalprojects_infrastructure",
+    "version_name": "",
+    "geometryType": "MULTILINESTRING",
+    "layerCreationOptions": [
+        "OVERWRITE=YES",
+        "PRECISION=NO"
+    ],
+    "metaInfo": "FTP",
+    "path": "FTP_PREFIX/agencysourcedata/ddc/ddc_CapitalProjects_InfrastructureProjects.zip",
+    "srcOpenOptions": [],
+    "newFieldNames": []
+}

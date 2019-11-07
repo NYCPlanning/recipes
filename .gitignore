@@ -6,3 +6,4 @@
 .env
 **/data/
 *.DS_Store
+recipes/.~lock.recipes.csv#

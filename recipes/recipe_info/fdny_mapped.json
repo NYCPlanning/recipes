@@ -9,7 +9,7 @@
         "PRECISION=NO"
     ],
     "metaInfo": "FTP",
-    "path": "FTP_PREFIX/agencySourceData/cpdb/agencyinputtables/agency_validated.zip/FDNY_mapped.csv",
+    "path": "FTP_PREFIX/agencySourceData/cpdb/agencyinputtables/FDNY_mapped.csv",
     "srcOpenOptions": [
         "AUTODETECT_TYPE=NO",
         "EMPTY_STRING_AS_NULL=YES",

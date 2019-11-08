@@ -1,0 +1,15 @@
+{
+    "dstSRS": "EPSG:4326",
+    "srcSRS": "EPSG:4326",
+    "schema_name": "fdny_firecompanies",
+    "version_name": "",
+    "geometryType": "MULTIPOLYGON",
+    "layerCreationOptions": [
+        "OVERWRITE=YES",
+        "PRECISION=NO"
+    ],
+    "metaInfo": "NYC Open Data",
+    "path": "https://data.cityofnewyork.us/api/geospatial/iiv7-jaj9?method=export&format=GeoJSON",
+    "srcOpenOptions": [],
+    "newFieldNames": []
+}

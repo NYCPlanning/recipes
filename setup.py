@@ -11,7 +11,8 @@ setup(
         install_requires=[
             'click',
             'psycopg2-binary',
-            'sqlalchemy'],
+            'sqlalchemy',
+            'xlrd'],
         entry_points='''
         [console_scripts]
         cook=recipes.cli:cli

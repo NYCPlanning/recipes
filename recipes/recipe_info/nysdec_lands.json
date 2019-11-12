@@ -1,6 +1,6 @@
 {
     "dstSRS": "EPSG:4326",
-    "srcSRS": "EPSG:4326",
+    "srcSRS": "EPSG:26918",
     "schema_name": "nysdec_lands",
     "version_name": "",
     "geometryType": "MULTIPOLYGON",

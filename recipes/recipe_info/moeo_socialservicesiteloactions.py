@@ -9,12 +9,7 @@ ftp_prefix = os.environ.get('FTP_PREFIX')
 
 if __name__ == "__main__":
     url = ftp_prefix + '/agencysourcedata/moeo/Social_Service_Site_Location_DCP_052319.xlsx'
-    classification_url = 'https://raw.githubusercontent.com/NYCPlanning/db-facilities-tmp/dev/referencetables/moeo_socialservicesiteloactions_classification.csv'
-    data = pd.read_excel(url)
-    classification = pd.read_csv(classification_url)
-
-    df = pd.merge(data, classification, how = 'left', on = 'PROGRAM_NAME')
-    df.fillna('',inplace=True)
+    df = pd.read_excel(url)
     temp_file = tempfile.NamedTemporaryFile(mode="w+", suffix='.csv', delete=True, newline='')
     df.to_csv(temp_file, index=False)
 

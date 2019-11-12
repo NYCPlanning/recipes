@@ -21,5 +21,5 @@ docker run -itd\
 
 2. Load a dataset into recipe postgres database
 ```
-docker exec recipes cook run <schema_name>
+docker exec recipes-$USER cook run <schema_name>
 ```

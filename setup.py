@@ -12,7 +12,8 @@ setup(
             'click',
             'psycopg2-binary',
             'sqlalchemy',
-            'xlrd'],
+            'xlrd',
+            'requests'],
         entry_points='''
         [console_scripts]
         cook=recipes.cli:cli

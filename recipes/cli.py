@@ -15,7 +15,7 @@ CONFIG_PATH = os.path.join(
 
 sh_recipes = ['pluto_input_cama_dof', 'pluto_pts', 'pluto_input_geocodes']
 py_recipes = ['dpr_capitalprojects',
-'bpl_libraries','dcp_sfpsd','dep_wwtc','moeo_socialservicesiteloactions']
+'bpl_libraries','dcp_sfpsd','moeo_socialservicesiteloactions']
 
 @click.group()
 def cli():

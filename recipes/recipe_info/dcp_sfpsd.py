@@ -8,9 +8,12 @@ import os
 ftp_prefix = os.environ.get('FTP_PREFIX')
 
 if __name__ == "__main__":
-    table_name = 'dcp_pops'
-    url='recipes/data/dcp/POPS_Export_Public_Official_Records(2019-11-14_10.6).csv'
+    table_name = 'dcp_sfpsd'
+    url='https://www1.nyc.gov/assets/planning/download/zip/data-maps/open-data/facilities_csv_201901.zip'
     df = pd.read_csv(url)
+    df = df[df.pgtable.str.contains('amtrak_facilities_sfpsd|bbpc_facilities_sfpsd|hrpt_facilities_sfpsd|'\
+                                    'mta_facilities_sfpsd|nysdot_facilities_sfpsd|panynj_facilities_sfpsd|'\
+                                    'tgi_facilities_sfpsd|rioc_facilities_sfpsd')]
 
     temp_file = tempfile.NamedTemporaryFile(mode="w+", suffix='.csv', delete=True, newline='')
     df.to_csv(temp_file, index=False)
@@ -27,7 +30,7 @@ if __name__ == "__main__":
                             "OVERWRITE=YES",
                             "PRECISION=NO"
                         ],
-                        "metaInfo": "https://www.bklynlibrary.org",
+                        "metaInfo": "bytes",
                         "path": temp_file.name,
                         "srcOpenOptions": [
                             "AUTODETECT_TYPE=NO",

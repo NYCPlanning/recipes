@@ -2,14 +2,14 @@
     "dstSRS": "EPSG:4326",
     "srcSRS": "EPSG:2263",
     "schema_name": "dcp_pops",
-    "version_name": "2018/11/14",
+    "version_name": "2019/11/14",
     "geometryType": "NONE",
     "layerCreationOptions": [
         "OVERWRITE=YES",
         "PRECISION=NO"
     ],
-    "metaInfo": "local",
-    "path": "recipes/data/dcp/POPS_Export_Public_Official_Records(2019-11-14_10.6).csv",
+    "metaInfo": "github",
+    "path": "https://raw.githubusercontent.com/NYCPlanning/recipes/master/recipes/facdb/dcp_pops.csv",
     "srcOpenOptions": [
         "AUTODETECT_TYPE=NO",
         "EMPTY_STRING_AS_NULL=YES",

@@ -15,7 +15,7 @@ if __name__ == "__main__":
     temp_file = tempfile.NamedTemporaryFile(mode="w+", suffix='.csv', delete=True, newline='')
     df.to_csv(temp_file, index=False)
 
-    output_path = f'recipes/output/facdb/{table_name}.csv'
+    output_path = f'recipes/facdb/{table_name}.csv'
     df.to_csv(output_path)
 
     recipe_config = {"dstSRS": "EPSG:4326",

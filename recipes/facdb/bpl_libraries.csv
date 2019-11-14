@@ -2,7 +2,22 @@
 0,Annex,"1 John Street Brooklyn, NY 11201",347.889.0159,"40.704622800000, -73.987823800000",B25;B67,A;C;F,,2:00pm - 8:00pm,10:00am - 1:00pm,2:00pm - 8:00pm,10:00am - 1:00pm,,,Today's Hours: 2:00pm - 8:00pm,,Fully accessible,accessible;open now;open late;,https://www.bklynlibrary.org/locations/annex,88,1,1
 1,Arlington Library,"203 Arlington Ave. at Warwick St. Brooklyn, NY 11207",718.277.6105,"40.680663100000, -73.887342100000",Q24;Q56,J,10:00am - 6:00pm,10:00am - 6:00pm,1:00pm - 8:00pm,10:00am - 8:00pm,10:00am - 6:00pm,10:00am - 5:00pm,,Today's Hours: 10:00am - 8:00pm,,Fully accessible,accessible;open now;open late;passport office;,https://www.bklynlibrary.org/locations/arlington,21,1,1
 2,Bay Ridge Library,"7223 Ridge Blvd. at 73rd St. Brooklyn, NY 11209",718.748.5709,"40.633606800000, -74.029507300000",B4;B9;B64;B70,R,10:00am - 6:00pm,10:00am - 6:00pm,10:00am - 8:00pm,1:00pm - 8:00pm,10:00am - 6:00pm,10:00am - 5:00pm,,Today's Hours: 1:00pm - 8:00pm,,Fully accessible,accessible;open now;open late;,https://www.bklynlibrary.org/locations/bay-ridge,28,1,1
-3,Bedford Library,"496 Franklin Avenue Brooklyn, NY 11238",718.623.0012,"40.681832300000, -73.956238000000",B25;B26;B48;B49,C;S,10:00am - 6:00pm,10:00am - 6:00pm,1:00pm - 8:00pm,10:00am - 8:00pm,10:00am - 6:00pm,10:00am - 5:00pm,,Today's Hours: 10:00am - 8:00pm,,Fully accessible,accessible;open now;open late;learning center;,https://www.bklynlibrary.org/locations/bedford,22,1,1
+3,Bedford Library,"496 Franklin Avenue Brooklyn, NY 11238",718.623.0012,"40.681832300000, -73.956238000000",B25;B26;B48;B49,C;S,10:00am - 6:00pm,10:00am - 6:00pm,1:00pm - 8:00pm,10:00am - 8:00pm,10:00am - 6:00pm,10:00am - 5:00pm,,Temporary Closing,"Due to insufficient heat, the Bedford Library will be close to the public at 3:45pm, Thursday, November 14, 2019. We apologize for any inconvenience. 
+
+
+	
+	
+		
+		 
+		
+	
+	
+
+
+
+
+
+",Fully accessible,accessible;temporary closing;learning center;,https://www.bklynlibrary.org/locations/bedford,22,1,1
 4,Borough Park Library,"1265 43rd St. at 13th Ave. Brooklyn, NY 11219",718.437.4085,"40.638887900000, -73.989001100000",B11;B16;B35,D,10:00am - 6:00pm,10:00am - 8:00pm,10:00am - 6:00pm,10:00am - 8:00pm,10:00am - 6:00pm,,1:00pm - 5:00pm,Today's Hours: 10:00am - 8:00pm,,Fully accessible,accessible;open now;open late;book drop;open sundays,https://www.bklynlibrary.org/locations/borough-park,25,1,1
 5,Brighton Beach Library,"16 Brighton First Rd. at Brighton Beach Ave. Brooklyn, NY 11235",718.946.2917,"40.576178400000, -73.966799500000",B1;B68,B;Q,10:00am - 6:00pm,1:00pm - 8:00pm,10:00am - 8:00pm,10:00am - 6:00pm,10:00am - 6:00pm,10:00am - 5:00pm,,Today's Hours: 10:00am - 6:00pm,,Fully accessible,accessible;open now;,https://www.bklynlibrary.org/locations/brighton-beach,24,1,1
 6,Brooklyn Heights Library,"109 Remsen Street Brooklyn, NY 11201",718.623.7100,"40.694073700000, -73.994015000000",B25;B26;B38;B41;B52,2;3;4;5;A;C;F;R,10:00am - 6:00pm,10:00am - 8:00pm,10:00am - 8:00pm,10:00am - 8:00pm,10:00am - 6:00pm,10:00am - 5:00pm,,Today's Hours: 10:00am - 8:00pm,,Fully accessible,accessible;open now;open late;book drop;,https://www.bklynlibrary.org/locations/brooklyn-heights,50,1,1
@@ -126,7 +141,8 @@ Sundays 12pm-3pm with a Sunday Storytime at 12:30pm
 33,Kings Bay Library,"3650 Nostrand Ave. (near Ave. W) Brooklyn, NY 11229",718.368.1709,"40.594786700000, -73.941148500000",B36;B44,2;B;Q,10:00am - 6:00pm,10:00am - 8:00pm,10:00am - 6:00pm,1:00pm - 8:00pm,10:00am - 6:00pm,10:00am - 5:00pm,,Today's Hours: 1:00pm - 8:00pm,,Fully accessible,accessible;open now;open late;,https://www.bklynlibrary.org/locations/kings-bay,44,1,1
 34,Kings Highway Library,"2115 Ocean Ave. Brooklyn, NY 11229",718.375.3037,"40.610832795843, -73.952811955043",B2;B7;B31;B49;B82;B100,B;Q,10:00am - 6:00pm,10:00am - 8:00pm,10:00am - 8:00pm,10:00am - 8:00pm,10:00am - 6:00pm,10:00am - 5:00pm,1:00pm - 5:00pm,Today's Hours: 10:00am - 8:00pm,,Fully accessible,accessible;open now;open late;passport office;book drop;open sundays,https://www.bklynlibrary.org/locations/kings-highway,45,1,1
 35,Leonard Library,"81 Devoe St. at Leonard St. Brooklyn, NY 11211",718.486.6006,"40.713637000000, -73.947968000000",B24;B48;B62;Q59,G;L,10:00am - 6:00pm,1:00pm - 8:00pm,10:00am - 6:00pm,10:00am - 8:00pm,10:00am - 6:00pm,10:00am - 5:00pm,,Today's Hours: 10:00am - 8:00pm,,Not accessible,open now;open late;,https://www.bklynlibrary.org/locations/leonard,46,1,1
-36,Macon Library,"361 Lewis Ave. at Macon St. Brooklyn, NY 11233",718.573.5606,"40.683036900000, -73.934837600000",B15;B25;B26;B46,A;C,10:00am - 6:00pm,10:00am - 8:00pm,10:00am - 8:00pm,10:00am - 8:00pm,10:00am - 6:00pm,10:00am - 5:00pm,1:00pm - 5:00pm,Today's Hours: 10:00am - 8:00pm,,Fully accessible,accessible;open now;open late;open sundays,https://www.bklynlibrary.org/locations/macon,47,1,1
+36,Macon Library,"361 Lewis Ave. at Macon St. Brooklyn, NY 11233",718.573.5606,"40.683036900000, -73.934837600000",B15;B25;B26;B46,A;C,10:00am - 6:00pm,10:00am - 8:00pm,10:00am - 8:00pm,10:00am - 8:00pm,10:00am - 6:00pm,10:00am - 5:00pm,1:00pm - 5:00pm,Temporary Closing,"Due to lack of heat in the building the Macon Library is closed today, Wednesday, November 14 2019 at 4:30PM. We apologize for any inconvenience.
+",Fully accessible,accessible;temporary closing;open sundays,https://www.bklynlibrary.org/locations/macon,47,1,1
 37,Mapleton Library,"1702 60th Street Brooklyn, NY 11204",718.256.2117,"40.623159200000, -73.989456000000",B8;B9;B23,D;N,10:00am - 6:00pm,10:00am - 6:00pm,10:00am - 8:00pm,1:00pm - 8:00pm,10:00am - 6:00pm,10:00am - 5:00pm,1:00pm - 5:00pm,Today's Hours: 1:00pm - 8:00pm,,Fully accessible,accessible;open now;open late;open sundays,https://www.bklynlibrary.org/locations/mapleton,49,1,1
 38,Marcy Library,"617 DeKalb Ave. at Nostrand Ave. Brooklyn, NY 11216",718.935.0032,"40.691650800000, -73.951299200000",B38;B44;B48,G,10:00am - 6:00pm,1:00pm - 8:00pm,10:00am - 6:00pm,10:00am - 8:00pm,10:00am - 6:00pm,10:00am - 5:00pm,,Today's Hours: 10:00am - 8:00pm,,Fully accessible,accessible;open now;open late;,https://www.bklynlibrary.org/locations/marcy,59,1,1
 39,McKinley Park Library,"6802 Fort Hamilton Pkwy (at 68th St.) Brooklyn, NY 11219",718.748.8001,"40.629213000000, -74.011898900000",B16;B64;B70,N,10:00am - 6:00pm,10:00am - 6:00pm,1:00pm - 8:00pm,10:00am - 8:00pm,10:00am - 6:00pm,10:00am - 5:00pm,,Today's Hours: 10:00am - 8:00pm,,Fully accessible,accessible;open now;open late;,https://www.bklynlibrary.org/locations/mckinley-park,67,1,1

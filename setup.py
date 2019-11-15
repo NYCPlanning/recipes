@@ -13,7 +13,8 @@ setup(
             'psycopg2-binary',
             'sqlalchemy',
             'xlrd',
-            'requests'],
+            'requests',
+            'lxml'],
         entry_points='''
         [console_scripts]
         cook=recipes.cli:cli

@@ -1,15 +1,15 @@
 {
     "dstSRS": "EPSG:4326",
     "srcSRS": "EPSG:2263",
-    "schema_name": "acs_daycareheadstart",
+    "schema_name": "dot_publicparking",
     "version_name": "",
-    "geometryType": "NONE",
+    "geometryType": "POINT",
     "layerCreationOptions": [
         "OVERWRITE=YES",
         "PRECISION=NO"
     ],
     "metaInfo": "FTP",
-    "path": "FTP_PREFIX/agencysourcedata/acs/acs_facilities_daycareheadstart.csv",
+    "path": "FTP_PREFIX/agencysourcedata/dot/dot_municipalparking.zip",
     "srcOpenOptions": [
         "AUTODETECT_TYPE=NO",
         "EMPTY_STRING_AS_NULL=YES",

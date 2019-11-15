@@ -2,7 +2,7 @@
     "dstSRS": "EPSG:4326",
     "srcSRS": "EPSG:2263",
     "schema_name": "dca_operatingbusinesses",
-    "version_name": "2019/11/08",
+    "version_name": "",
     "geometryType": "NONE",
     "layerCreationOptions": [
         "OVERWRITE=YES",

@@ -2,7 +2,7 @@
     "dstSRS": "EPSG:4326",
     "srcSRS": "EPSG:2263",
     "schema_name": "dcp_pops",
-    "version_name": "2019/11/14",
+    "version_name": "",
     "geometryType": "NONE",
     "layerCreationOptions": [
         "OVERWRITE=YES",

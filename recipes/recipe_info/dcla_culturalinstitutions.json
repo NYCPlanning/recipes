@@ -2,7 +2,7 @@
     "dstSRS": "EPSG:4326",
     "srcSRS": "EPSG:2263",
     "schema_name": "dcla_culturalinstitutions",
-    "version_name": "2019/04/17",
+    "version_name": "",
     "geometryType": "NONE",
     "layerCreationOptions": [
         "OVERWRITE=YES",

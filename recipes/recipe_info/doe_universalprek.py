@@ -6,18 +6,12 @@ import tempfile
 import os
 
 if __name__ == "__main__":
-    table_name = 'dcp_sfpsd'
-    url='https://www1.nyc.gov/assets/planning/download/zip/data-maps/open-data/facilities_csv_201901.zip'
-    df = pd.read_csv(url)
-    df = df[df.pgtable.str.contains('amtrak_facilities_sfpsd|bbpc_facilities_sfpsd|hrpt_facilities_sfpsd|'\
-                                    'mta_facilities_sfpsd|nysdot_facilities_sfpsd|panynj_facilities_sfpsd|'\
-                                    'tgi_facilities_sfpsd|rioc_facilities_sfpsd')]
+    table_name = 'doe_universalprek'
+    url='https://maps.nyc.gov/prek/data/pka/pka.csv'
+    df = pd.read_csv(url, encoding = 'unicode_escape', dtype = 'str')
 
     temp_file = tempfile.NamedTemporaryFile(mode="w+", suffix='.csv', delete=True, newline='')
     df.to_csv(temp_file, index=False)
-
-    output_path = f'recipes/facdb/{table_name}.csv'
-    df.to_csv(output_path)
 
     recipe_config = {"dstSRS": "EPSG:4326",
                         "srcSRS": "EPSG:4326",
@@ -28,7 +22,7 @@ if __name__ == "__main__":
                             "OVERWRITE=YES",
                             "PRECISION=NO"
                         ],
-                        "metaInfo": "bytes",
+                        "metaInfo": "DOE prek map",
                         "path": temp_file.name,
                         "srcOpenOptions": [
                             "AUTODETECT_TYPE=NO",

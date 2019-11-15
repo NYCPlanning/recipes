@@ -1,15 +1,15 @@
 {
     "dstSRS": "EPSG:4326",
     "srcSRS": "EPSG:2263",
-    "schema_name": "acs_daycareheadstart",
+    "schema_name": "dohmh_daycare",
     "version_name": "",
     "geometryType": "NONE",
     "layerCreationOptions": [
         "OVERWRITE=YES",
         "PRECISION=NO"
     ],
-    "metaInfo": "FTP",
-    "path": "FTP_PREFIX/agencysourcedata/acs/acs_facilities_daycareheadstart.csv",
+    "metaInfo": "NYC Open Data",
+    "path": "https://data.cityofnewyork.us/api/views/dsg6-ifza/rows.csv",
     "srcOpenOptions": [
         "AUTODETECT_TYPE=NO",
         "EMPTY_STRING_AS_NULL=YES",

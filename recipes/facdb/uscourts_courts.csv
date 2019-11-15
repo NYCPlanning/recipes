@@ -1,0 +1,134 @@
+,Address,BuildingAddress,BuildingCity,BuildingName,BuildingState,BuildingZip,CourtType,LocationId,MainOffice,OfficeName,Phone,distance,order_expression
+0,"52 Duane Street
+New York, NY 10007-1226
+",52 Duane Street,New York,,NY,10007-1226,Federal Defenders,1775,1,"Federal Defenders of New York, Inc.",212-417-8700,0.1607651901280141,5
+1,"Thurgood Marshall United States Courthouse
+40 Centre Street
+New York, NY 10007-1501
+",40 Centre Street,New York,Thurgood Marshall United States Courthouse,NY,10007-1501,Appeals Court,22,1,Second Circuit Court of Appeals Clerk,212-857-8500,0.17575961465827467,1
+2,"Thurgood Marshall United States Courthouse
+40 Centre Street
+New York, NY 10007-1501
+",40 Centre Street,New York,Thurgood Marshall United States Courthouse,NY,10007-1501,Appeals Court,33,1,Second Circuit Librarian,212-857-8900,0.17575961465827467,1
+3,"Thurgood Marshall United States Courthouse
+40 Centre Street
+New York, NY 10007-1501
+",40 Centre Street,New York,Thurgood Marshall United States Courthouse,NY,10007-1501,District Court,1708,0,New York Southern District Court,212-805-0136,0.17575961465827467,2
+4,"Daniel Patrick Moynihan United States Courthouse
+500 Pearl Street
+New York, NY 10007-1312
+",500 Pearl Street,New York,Daniel Patrick Moynihan United States Courthouse,NY,10007-1312,District Court,555,1,New York Southern District Court,212-805-0136,0.23847481298909665,2
+5,"Daniel Patrick Moynihan United States Courthouse
+500 Pearl Street
+New York, NY 10007-1312
+",500 Pearl Street,New York,Daniel Patrick Moynihan United States Courthouse,NY,10007-1312,Probation/Pretrial Services,561,1,New York Southern Probation Office,212-805-0040,0.23847481298909665,4
+6,"Daniel Patrick Moynihan United States Courthouse
+500 Pearl Street
+New York, NY 10007-1312
+",500 Pearl Street,New York,Daniel Patrick Moynihan United States Courthouse,NY,10007-1312,Probation/Pretrial Services,564,1,New York Southern Pretrial Services,212-805-4300,0.23847481298909665,4
+7,"Alexander Hamilton Custom House
+One Bowling Green
+New York, NY 10004
+",One Bowling Green,New York,Alexander Hamilton Custom House,NY,10004,Bankruptcy Court,319,1,New York Southern Bankruptcy Court,212-668-2870,0.7037904780984378,3
+8,"Emanuel Celler Federal Building
+225 Cadman Plaza East
+Brooklyn, NY 11201-1818
+",225 Cadman Plaza East,Brooklyn,Emanuel Celler Federal Building,NY,11201-1818,Appeals Court,28,0,Second Circuit Librarian,718-260-2320,1.3485028360936777,1
+9,"Charles L. Brieant, Jr. United States Courthouse
+300 Quarropas Street
+White Plains, NY 10601-4150
+",300 Quarropas Street,White Plains,"Charles L. Brieant, Jr. United States Courthouse",NY,10601-4150,District Court,557,0,New York Southern District Court,914-390-4100,25.016002294197516,2
+10,"Charles L. Brieant, Jr. United States Courthouse
+300 Quarropas Street
+White Plains, NY 10601-4150
+",300 Quarropas Street,White Plains,"Charles L. Brieant, Jr. United States Courthouse",NY,10601-4150,Bankruptcy Court,321,0,New York Southern Bankruptcy Court,914-467-7250,25.016002294197516,3
+11,"Charles L. Brieant, Jr. United States Courthouse
+300 Quarropas Street
+White Plains, NY 10601-4150
+",300 Quarropas Street,White Plains,"Charles L. Brieant, Jr. United States Courthouse",NY,10601-4150,Probation/Pretrial Services,563,0,New York Southern Probation Office,914-390-4040,25.016002294197516,4
+12,"Charles L. Brieant, Jr. United States Courthouse
+300 Quarropas Street
+White Plains, NY 10601-4150
+",300 Quarropas Street,White Plains,"Charles L. Brieant, Jr. United States Courthouse",NY,10601-4150,Probation/Pretrial Services,565,0,New York Southern Pretrial Services,914-390-4140,25.016002294197516,4
+13,"Charles L. Brieant, Jr. United States Courthouse
+300 Quarropas Street
+White Plains, NY 10601-4150
+",300 Quarropas Street,White Plains,"Charles L. Brieant, Jr. United States Courthouse",NY,10601-4150,Federal Defenders,1921,0,"Federal Defenders of New York, Inc.",914-428-7124,25.016002294197516,5
+14,"Alfonse M. D'Amato United States Courthouse
+Federal Plaza
+Central Islip, NY 11722
+",Federal Plaza,Central Islip,Alfonse M. D'Amato United States Courthouse,NY,11722,Appeals Court,30,0,Second Circuit Librarian,631-712-6090,42.46638222761648,1
+15,"Alfonse M. D'Amato United States Courthouse
+Federal Plaza
+Central Islip, NY 11722
+",Federal Plaza,Central Islip,Alfonse M. D'Amato United States Courthouse,NY,11722,Federal Defenders,2117,0,"Federal Defenders of New York, Inc.",631-712-6500,42.46638222761648,5
+16,"United States Courthouse
+355 Main Street
+Poughkeepsie, NY 12601
+",355 Main Street,Poughkeepsie,United States Courthouse,NY,12601,Bankruptcy Court,320,0,New York Southern Bankruptcy Court,845-452-4200,68.43464397004858,3
+17,"United States Courthouse
+355 Main Street
+Poughkeepsie, NY 12601
+",355 Main Street,Poughkeepsie,United States Courthouse,NY,12601,Probation/Pretrial Services,28694,0,New York Southern Pretrial Services,914-390-4140,68.43464397004858,4
+18,"Robert H. Jackson Courthouse
+2 Niagara Square
+Buffalo, NY 14202
+",2 Niagara Square,Buffalo,Robert H. Jackson Courthouse,NY,14202,Appeals Court,29,0,Second Circuit Librarian,716-551-1560,292.05279135005225,1
+19,"One Pierrepont Plaza
+300 Cadman Plaza West
+Brooklyn, NY 11201
+",300 Cadman Plaza West,Brooklyn,One Pierrepont Plaza,NY,11201,Federal Defenders,1922,0,"Federal Defenders of New York, Inc.",718-330-1200,805.3244721991359,5
+20,"Conrad B. Duberstein United States Bankruptcy Courthouse
+271-C Cadman Plaza East
+Brooklyn, NY 11201-1800
+",271-C Cadman Plaza East,Brooklyn,Conrad B. Duberstein United States Bankruptcy Courthouse,NY,11201-1800,Bankruptcy Court,315,1,New York Eastern Bankruptcy Court,347-394-1700,2.7008838733300773,3
+21,"147 Pierrepont Street
+Brooklyn, NY 11201-2712
+",147 Pierrepont Street,Brooklyn,,NY,11201-2712,Probation/Pretrial Services,543,1,New York Eastern Probation Office,347-534-3400,2.7392683152383595,4
+22,"Emanuel Celler Federal Building
+225 Cadman Plaza East
+Brooklyn, NY 11201-1818
+",225 Cadman Plaza East,Brooklyn,Emanuel Celler Federal Building,NY,11201-1818,Appeals Court,28,0,Second Circuit Librarian,718-260-2320,2.7417075049688107,1
+23,"Theodore Roosevelt United States Courthouse
+225 Cadman Plaza East
+Brooklyn, NY 11201-1818
+",225 Cadman Plaza East,Brooklyn,Theodore Roosevelt United States Courthouse,NY,11201-1818,District Court,540,1,New York Eastern District Court,718-613-2600,2.7417075049688107,2
+24,"Emanuel Celler Federal Building
+225 Cadman Plaza East
+Brooklyn, NY 11201-1818
+",225 Cadman Plaza East,Brooklyn,Emanuel Celler Federal Building,NY,11201-1818,Probation/Pretrial Services,545,1,New York Eastern Pretrial Services,718-613-2570,2.7417075049688107,4
+25,"Thurgood Marshall United States Courthouse
+40 Centre Street
+New York, NY 10007-1501
+",40 Centre Street,New York,Thurgood Marshall United States Courthouse,NY,10007-1501,Appeals Court,22,1,Second Circuit Court of Appeals Clerk,212-857-8500,3.950969251870127,1
+26,"Thurgood Marshall United States Courthouse
+40 Centre Street
+New York, NY 10007-1501
+",40 Centre Street,New York,Thurgood Marshall United States Courthouse,NY,10007-1501,Appeals Court,33,1,Second Circuit Librarian,212-857-8900,3.950969251870127,1
+27,"90-02 161 Street
+Jamaica, NY 11432
+",90-02 161 Street,Jamaica,,NY,11432,Probation/Pretrial Services,2407,0,New York Eastern Probation Office,718-374-8800,7.80516827883505,4
+28,"Alfonse M. D'Amato United States Courthouse
+Federal Plaza
+Central Islip, NY 11722
+",Federal Plaza,Central Islip,Alfonse M. D'Amato United States Courthouse,NY,11722,Appeals Court,30,0,Second Circuit Librarian,631-712-6090,39.62178175235833,1
+29,"Alfonse M. D'Amato United States Courthouse
+Federal Plaza
+Central Islip, NY 11722
+",Federal Plaza,Central Islip,Alfonse M. D'Amato United States Courthouse,NY,11722,District Court,541,0,New York Eastern District Court,631-712-6000,39.62178175235833,2
+30,"Alfonse M. D'Amato United States Courthouse
+Federal Plaza
+Central Islip, NY 11722
+",Federal Plaza,Central Islip,Alfonse M. D'Amato United States Courthouse,NY,11722,Bankruptcy Court,316,0,New York Eastern Bankruptcy Court,631-712-6200,39.62178175235833,3
+31,"Alfonse M. D'Amato United States Courthouse
+Federal Plaza
+Central Islip, NY 11722
+",Federal Plaza,Central Islip,Alfonse M. D'Amato United States Courthouse,NY,11722,Probation/Pretrial Services,544,0,New York Eastern Probation Office,631-712-6300,39.62178175235833,4
+32,"Alfonse M. D'Amato United States Courthouse
+Federal Plaza
+Central Islip, NY 11722
+",Federal Plaza,Central Islip,Alfonse M. D'Amato United States Courthouse,NY,11722,Probation/Pretrial Services,546,0,New York Eastern Pretrial Services,631-712-6400,39.62178175235833,4
+33,"Robert H. Jackson Courthouse
+2 Niagara Square
+Buffalo, NY 14202
+",2 Niagara Square,Buffalo,Robert H. Jackson Courthouse,NY,14202,Appeals Court,29,0,Second Circuit Librarian,716-551-1560,296.06371447388665,1

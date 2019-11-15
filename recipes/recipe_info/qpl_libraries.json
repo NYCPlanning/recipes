@@ -1,15 +1,15 @@
 {
     "dstSRS": "EPSG:4326",
     "srcSRS": "EPSG:2263",
-    "schema_name": "dcp_sfpsd",
-    "version_name": "2019/01/01",
+    "schema_name": "qpl_libraries",
+    "version_name": "",
     "geometryType": "NONE",
     "layerCreationOptions": [
         "OVERWRITE=YES",
         "PRECISION=NO"
     ],
-    "metaInfo": "github",
-    "path": "https://raw.githubusercontent.com/NYCPlanning/db-data-recipes/master/recipes/dcp_sfpsd/dcp_sfpsd.csv",
+    "metaInfo": "NYC Open Data",
+    "path": "https://data.cityofnewyork.us/api/views/kh3d-xhq7/rows.csv",
     "srcOpenOptions": [
         "AUTODETECT_TYPE=NO",
         "EMPTY_STRING_AS_NULL=YES",

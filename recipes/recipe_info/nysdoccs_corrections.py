@@ -2,7 +2,6 @@ import pandas as pd
 from sqlalchemy import create_engine
 import json
 from cook import Archiver
-import tempfile
 import os
 import requests
 from urllib.request import Request, urlopen
@@ -48,9 +47,6 @@ if __name__ == "__main__":
         data.append(result)
     df = pd.DataFrame.from_dict(data, orient='columns')
 
-    temp_file = tempfile.NamedTemporaryFile(mode="w+", suffix='.csv', delete=True, newline='')
-    df.to_csv(temp_file, index=False)
-
     output_path = f'recipes/facdb/{table_name}.csv'
     df.to_csv(output_path)
 
@@ -77,4 +73,3 @@ if __name__ == "__main__":
 
     archiver = Archiver(engine=os.environ['RECIPE_ENGINE'], ftp_prefix=os.environ['FTP_PREFIX'])
     archiver.archive_table(recipe_config)
-    temp_file.close()

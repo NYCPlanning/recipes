@@ -11,11 +11,9 @@ if __name__ == "__main__":
     table_name = 'moeo_socialservicesiteloactions'
     url = ftp_prefix + '/agencysourcedata/moeo/Social_Service_Site_Location_DCP_052319.xlsx'
     df = pd.read_excel(url)
+
     temp_file = tempfile.NamedTemporaryFile(mode="w+", suffix='.csv', delete=True, newline='')
     df.to_csv(temp_file, index=False)
-
-    output_path = f'recipes/facdb/{table_name}.csv'
-    df.to_csv(output_path)
 
     recipe_config = {"dstSRS": "EPSG:4326",
                         "srcSRS": "EPSG:4326",

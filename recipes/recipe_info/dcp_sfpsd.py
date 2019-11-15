@@ -2,7 +2,6 @@ import pandas as pd
 from sqlalchemy import create_engine
 import json
 from cook import Archiver
-import tempfile
 import os
 
 if __name__ == "__main__":
@@ -12,9 +11,6 @@ if __name__ == "__main__":
     df = df[df.pgtable.str.contains('amtrak_facilities_sfpsd|bbpc_facilities_sfpsd|hrpt_facilities_sfpsd|'\
                                     'mta_facilities_sfpsd|nysdot_facilities_sfpsd|panynj_facilities_sfpsd|'\
                                     'tgi_facilities_sfpsd|rioc_facilities_sfpsd')]
-
-    temp_file = tempfile.NamedTemporaryFile(mode="w+", suffix='.csv', delete=True, newline='')
-    df.to_csv(temp_file, index=False)
 
     output_path = f'recipes/facdb/{table_name}.csv'
     df.to_csv(output_path)
@@ -29,7 +25,7 @@ if __name__ == "__main__":
                             "PRECISION=NO"
                         ],
                         "metaInfo": "bytes",
-                        "path": temp_file.name,
+                        "path": output_path,
                         "srcOpenOptions": [
                             "AUTODETECT_TYPE=NO",
                             "EMPTY_STRING_AS_NULL=YES",
@@ -42,4 +38,3 @@ if __name__ == "__main__":
 
     archiver = Archiver(engine=os.environ['RECIPE_ENGINE'], ftp_prefix=os.environ['FTP_PREFIX'])
     archiver.archive_table(recipe_config)
-    temp_file.close()

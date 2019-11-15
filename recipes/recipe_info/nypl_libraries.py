@@ -7,13 +7,22 @@ import os
 import requests
 
 if __name__ == "__main__":
-    table_name = 'bpl_libraries'
-    url='https://www.bklynlibrary.org/locations/json'
-    response = requests.get(url)
-    content = json.loads(response.content)
+    table_name = 'nypl_libraries'
+    url = 'https://refinery.nypl.org/api/nypl/locations/v1.0/locations'
+    content = requests.get(url).content
+    records = json.loads(content)['locations']
     data = []
-    for i in content['locations']:
-        data.append(i['data'])
+    for i in records:
+        parsed = dict(
+            lon = str(i['geolocation']['coordinates'][0]),
+            lat = str(i['geolocation']['coordinates'][1]),
+            name = i['name'], 
+            zipcode = i['postal_code'], 
+            address = i['street_address'],
+            locality = i['locality'], 
+            region = i['region'],
+        )
+        data.append(parsed)
     df = pd.DataFrame.from_dict(data, orient='columns')
 
     temp_file = tempfile.NamedTemporaryFile(mode="w+", suffix='.csv', delete=True, newline='')
@@ -31,8 +40,8 @@ if __name__ == "__main__":
                             "OVERWRITE=YES",
                             "PRECISION=NO"
                         ],
-                        "metaInfo": "https://www.bklynlibrary.org",
-                        "path": temp_file.name,
+                        "metaInfo": "https://www.nypl.org/locations/list",
+                        "path": output_path,
                         "srcOpenOptions": [
                             "AUTODETECT_TYPE=NO",
                             "EMPTY_STRING_AS_NULL=YES",

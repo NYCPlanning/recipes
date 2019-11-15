@@ -1,0 +1,53 @@
+,facility_name,address,house_number,street_name,county,zipcode,security_level,male_or_female
+0,Adirondack Adolescent Offender Facility,"196 Ray Brook Road, P.O. Box 110, Ray Brook, New York 12977-0110",196,Ray Brook Road,Essex,12977-0110,Medium,Male
+1,Albion Correctional Facility,"3595 State School Road, Albion, New York 14411-9399",3595,State School Road,Orleans,14411-9399,Medium,Female
+2,Altona Correctional Facility,"555 Devils Den Road, P.O. Box 3000, Altona, New York 12910-3000",555,Devils Den Road,Clinton,12910-3000,Medium,Male
+3,Attica Correctional Facility,"639 Exchange St, Attica, New York 14011-0149",639,Exchange St,Wyoming,14011-0149,Maximum,Male
+4,Auburn Correctional Facility,"135 State Street, Auburn, New York 13024-9000",135,State Street,Cayuga,13024-9000,Maximum,Male
+5,Bare Hill Correctional Facility,"181 Brand Rd., Caller Box #20, Malone, New York 12953-0020",181,Brand Rd.,Franklin,12953-0020,Medium,Male
+6,Bedford Hills Correctional Facility,"247 Harris Road, Bedford Hills, New York 10507-2400",247,Harris Road,Westchester,10507-2400,Maximum,Female
+7,Cape Vincent Correctional Facility,"36560 State Route 12E, P.O. Box 599, Cape Vincent, New York 13618-0599",36560,State Route 12E,Jefferson,13618-0599,Medium,Male
+8,Cayuga Correctional Facility,"2202 State Route 38A, P.O. Box 1150, Moravia, New York 13118-1150",2202,State Route 38A,Cayuga,13118-1150,Medium,Male
+9,Clinton Correctional Facility,"1156 Rt. 374, P.O. Box 2000, Dannemora, New York 12929-2000",1156,Rt. 374,Clinton,12929-2000,Maximum,Male
+10,Collins Correctional Facility,"Middle Road, P.O. Box 490, Collins, New York 14034-0490",,Middle Road,Erie,14034-0490,Medium,Male
+11,Coxsackie Correctional Facility,"11260 Route 9W, P.O. Box 200, Coxsackie, New York 12051-0200",11260,Route 9W,Greene,12051-0200,Maximum,Male
+12,Downstate Correctional Facility,"121 Red Schoolhouse Road, P.O. Box 445, Fishkill, New York 12524-0445",121,Red Schoolhouse Road,Dutchess,12524-0445,Maximum,Male
+13,Eastern NY Correctional Facility,"30 Institution Rd, P.O. Box 338, Napanoch, New York 12458-0338",30,Institution Rd,Ulster,12458-0338,Maximum,Male
+14,Edgecombe Residential Treatment Facility,"611 Edgecombe Avenue, New York, New York 10032-4398",611,Edgecombe Avenue,New York,10032-4398,Minimum,Male and Female
+15,Elmira Correctional Facility,"1879 Davis St, P.O. Box 500, Elmira, New York 14901-0500",1879,Davis St,Chemung,14901-0500,Maximum,Male
+16,Fishkill Correctional Facility,"18 Strack Drive, Beacon, New York 12508-0307",18,Strack Drive,Dutchess,12508-0307,Medium,Male
+17,Five Points Correctional Facility,"6600 State Route 96, Caller Box 400, Romulus, New York 14541",6600,State Route 96,Seneca,14541,Maximum,Male
+18,Franklin Correctional Facility,"62 Bare Hill Road, P.O. Box 10, Malone, New York 12953-0010",62,Bare Hill Road,Franklin,12953-0010,Medium,Male
+19,Gouverneur Correctional Facility,"112 Scotch Settlement Road, P.O. Box 370, Gouverneur, New York 13642-0370",112,Scotch Settlement Road,St. Lawrence,13642-0370,Medium,Male
+20,Gowanda Correctional Facility,"South Road, P.O. Box 350, Gowanda, New York 14070-0350",,South Road,Erie,14070-0350,Medium,Male
+21,Great Meadow Correctional Facility,"11739 State Route 22, P.O. Box 51, Comstock, New York 12821-0051",11739,State Route 22,Washington,12821-0051,Maximum,Male
+22,Green Haven Correctional Facility,"594 Rt. 216, Stormville, New York 12582-0010",594,Rt. 216,Dutchess,12582-0010,Maximum,Male
+23,Greene Correctional Facility,"165 Plank Road, P.O. Box 8, Coxsackie, New York 12051-0008",165,Plank Road,Greene,12051-0008,Medium,Male
+24,Groveland Correctional Facility,"7000 Sonyea Road, P.O. Box 50, Sonyea, New York 14556-0050",7000,Sonyea Road,Livingston,14556-0050,Medium,Male
+25,Hale Creek ASACTC,"279 Maloney Road, Johnstown, New York 12095-3769",279,Maloney Road,Fulton,12095-3769,Medium,Male
+26,Hudson  Adolescent Offender Facility,"50 East Court Street, P.O. Box 576, Hudson, New York 12534-0576",50,East Court Street,Columbia,12534-0576,Medium,Male and Female
+27,Lakeview Shock Incarceration C. F.,"9300 Lake Avenue, P.O. Box T, Brocton, New York 14716-9798",9300,Lake Avenue,Chautauqua,14716-9798,Minimum,Male and Female
+28,Marcy Correctional Facility,"9000 Old River Road, P.O. Box 5000, Marcy, New York 13403-5000",9000,Old River Road,Oneida,13403-5000,Medium,Male
+29,Mid-State Correctional Facility,"9005 Old River Road, P.O. Box 216, Marcy, New York 13403-0216",9005,Old River Road,Oneida,13403-0216,Medium,Male
+30,Mohawk Correctional Facility,"6514 Rt. 26, P.O. Box 8450, Rome, New York 13442",6514,Rt. 26,Oneida,13442,Medium,Male
+31,Moriah Shock Incarceration Corr. Fac.,"75 Burhart Lane, P.0. Box 999, Mineville, New York 12956-0999",75,Burhart Lane,Essex,12956-0999,Minimum,Male
+32,Ogdensburg Correctional Facility,"One Correction Way, Ogdensburg, New York 13669-2288",One,Correction Way,St. Lawrence,13669-2288,Medium,Male
+33,Orleans Correctional Facility,"3531 Gaines Basin Road, Albion, New York 14411-9199",3531,Gaines Basin Road,Orleans,14411-9199,Medium,Male
+34,Otisville Correctional Facility,"57 Sanitorium Road, P.O. Box 8, Otisville, New York 10963-0008",57,Sanitorium Road,Orange,10963-0008,Medium,Male
+35,Queensboro Correctional Facility,"47-04 Van Dam Street, Long Island City, NY 11101-3081",47-04,Van Dam Street,Queens,11101-3081,Minimum,Male
+36,Riverview Correctional Facility,"1110 Tibbits Drive, P.O. Box 158, Ogdensburg, New York 13669-0158",1110,Tibbits Drive,St. Lawrence,13669-0158,Medium,Male
+37,Rochester Correctional Facility,"470 Ford Street, Rochester, New York 14608-2499",470,Ford Street,Monroe,14608-2499,Minimum,Male
+38,Shawangunk Correctional Facility,"200 Quick Road, P.O. Box 750, Wallkill, New York 12589-0750",200,Quick Road,Ulster,12589-0750,Maximum,Male
+39,Sing Sing Correctional Facility,"354 Hunter Street, Ossining, New York 10562-5442",354,Hunter Street,Westchester,10562-5442,Maximum,Male
+40,Southport Correctional Facility,"236 Bob Masia Drive, P.O. Box 2000, Pine City, New York 14871-2000",236,Bob Masia Drive,Chemung,14871-2000,Maximum,Male
+41,Sullivan Correctional Facility,"325 Riverside Drive, P.O. Box 116, Fallsburg, New York 12733-0116",325,Riverside Drive,Sullivan,12733-0116,Maximum,Male
+42,Taconic Correctional Facility,"250 Harris Road, Bedford Hills, New York 10507-2497",250,Harris Road,Westchester,10507-2497,Medium,Female
+43,Ulster Correctional Facility,"750 Berme Road, P.O. Box 800, Napanoch, New York 12458-0800",750,Berme Road,Ulster,12458-0800,Medium,Male
+44,Upstate Correctional Facility,"309 Bare Hill Road, P.O. Box 2000, Malone, New York 12953",309,Bare Hill Road,Franklin,12953,Maximum,Male
+45,Wallkill Correctional Facility,"50 McKendrick Road, P.O. Box G, Wallkill, New York 12589-0286",50,McKendrick Road,Ulster,12589-0286,Medium,Male
+46,Washington Correctional Facility,"72 Lock Eleven Lane, P.O. Box 180, Comstock, New York 12821-0180",72,Lock Eleven Lane,Washington,12821-0180,Medium,Male
+47,Watertown Correctional Facility,"23147 Swan Road, Watertown, New York 13601-9340",23147,Swan Road,Jefferson,13601-9340,Medium,Male
+48,Wende Correctional Facility,"3040 Wende Road, Alden, New York 14004-1187",3040,Wende Road,Erie,14004-1187,Maximum,Male
+49,Willard Drug Treatment Campus,"7116 County Route 132, P.O. Box 303, Willard, New York 14588-0303",7116,County Route 132,Seneca,14588-0303,Drug Treatment Center,Male and Female
+50,Woodbourne Correctional Facility,"99 Prison Road, P.O. Box 1000, Woodbourne, New York 12788-1000",99,Prison Road,Sullivan,12788-1000,Medium,Male
+51,Wyoming Correctional Facility,"3203 Dunbar Road, P.O. Box 501, Attica, New York 14011-0501",3203,Dunbar Road,Wyoming,14011-0501,Medium,Male

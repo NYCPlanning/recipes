@@ -1,0 +1,19 @@
+{
+    "dstSRS": "EPSG:4326",
+    "srcSRS": "EPSG:2263",
+    "schema_name": "nysdoh_nursinghomes",
+    "version_name": "",
+    "geometryType": "NONE",
+    "layerCreationOptions": [
+        "OVERWRITE=YES",
+        "PRECISION=NO"
+    ],
+    "metaInfo": "NYC Open Data",
+    "path": "https://health.data.ny.gov/api/views/izta-vnpq/rows.csv",
+    "srcOpenOptions": [
+        "AUTODETECT_TYPE=NO",
+        "EMPTY_STRING_AS_NULL=YES",
+        "GEOM_POSSIBLE_NAMES=the_geom"
+    ],
+    "newFieldNames": []
+}

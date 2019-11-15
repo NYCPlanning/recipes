@@ -1,0 +1,19 @@
+{
+    "dstSRS": "EPSG:4326",
+    "srcSRS": "EPSG:2263",
+    "schema_name": "nysed_activeinstitutions",
+    "version_name": "",
+    "geometryType": "NONE",
+    "layerCreationOptions": [
+        "OVERWRITE=YES",
+        "PRECISION=NO"
+    ],
+    "metaInfo": "s3",
+    "path": "https://sfo2.digitaloceanspaces.com/db-data-recipes/pipelines/db-facilities/2019-08-26/nysed_activeinstitutions.csv",
+    "srcOpenOptions": [
+        "AUTODETECT_TYPE=NO",
+        "EMPTY_STRING_AS_NULL=YES",
+        "GEOM_POSSIBLE_NAMES=the_geom"
+    ],
+    "newFieldNames": []
+}

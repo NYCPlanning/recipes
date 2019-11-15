@@ -8,7 +8,7 @@
         "OVERWRITE=YES",
         "PRECISION=NO"
     ],
-    "metaInfo": "",
+    "metaInfo": "DEC website",
     "path": "http://gis.ny.gov/gisdata/data/ds_1114/DEC_lands.zip",
     "srcOpenOptions": [],
     "newFieldNames": []

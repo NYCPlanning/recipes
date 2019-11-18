@@ -1,0 +1,15 @@
+{
+    "dstSRS": "EPSG:4326",
+    "srcSRS": "EPSG:2263",
+    "schema_name": "usnps_parks",
+    "version_name": "",
+    "geometryType": "MULTIPOLYGON",
+    "layerCreationOptions": [
+        "OVERWRITE=YES",
+        "PRECISION=NO"
+    ],
+    "metaInfo": "usnps website",
+    "path": "recipes/data/usnps/nps_boundary/nps_boundary.shp",
+    "srcOpenOptions": [],
+    "newFieldNames": []
+}

@@ -3,13 +3,13 @@
     "srcSRS": "EPSG:4326",
     "schema_name": "fdny_firehouses",
     "version_name": "",
-    "geometryType": "POINT",
+    "geometryType": "NONE",
     "layerCreationOptions": [
         "OVERWRITE=YES",
         "PRECISION=NO"
     ],
     "metaInfo": "NYC Open Data",
-    "path": "https://raw.githubusercontent.com/NYCPlanning/recipes/master/recipes/facdb/fdny_firehouses.geojson",
+    "path": "https://data.cityofnewyork.us/api/views/hc8x-tcnd/rows.csv",
     "srcOpenOptions": [
         "AUTODETECT_TYPE=NO",
         "EMPTY_STRING_AS_NULL=YES",

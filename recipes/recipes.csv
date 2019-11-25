@@ -160,3 +160,4 @@
 "EPSG:4326","EPSG:4326","usdot_airports",,"POINT","['OVERWRITE=YES', 'PRECISION=NO']","opendata","https://opendata.arcgis.com/datasets/831853ab8b714a81b6a3e21d0b164a4e_0.geojson","['AUTODETECT_TYPE=NO', 'EMPTY_STRING_AS_NULL=YES', 'GEOM_POSSIBLE_NAMES=the_geom']","[]"
 "EPSG:4326","EPSG:4326","usdot_ports",,"POINT","['OVERWRITE=YES', 'PRECISION=NO']","opendata","https://opendata.arcgis.com/datasets/93f52f638bb948de9e0f5b1b578bdfaa_0.geojson","[]","[]"
 "EPSG:4326","EPSG:4269","usnps_parks",,"MULTIPOLYGON","['OVERWRITE=YES', 'PRECISION=NO']","usnps website","recipes/data/usnps/nps_boundary/nps_boundary.shp","[]","[]"
+"EPSG:4326","EPSG:2263","zipcode_borough_lookup",,"NONE","['OVERWRITE=YES', 'PRECISION=NO']","local","recipes/data/dcp/zipcode_borough_lookup.csv","['AUTODETECT_TYPE=NO', 'EMPTY_STRING_AS_NULL=YES', 'GEOM_POSSIBLE_NAMES=the_geom']","[]"

@@ -1,0 +1,15 @@
+{
+    "dstSRS": "EPSG:4326",
+    "srcSRS": "EPSG:2263",
+    "schema_name": "dcp_atomicpolygons",
+    "version_name": "",
+    "geometryType": "POLYGON",
+    "layerCreationOptions": [
+        "OVERWRITE=YES",
+        "PRECISION=NO"
+    ],
+    "metaInfo": "S3",
+    "path": "https://edm-storage.nyc3.digitaloceanspaces.com/Atomicpolygon.zip",
+    "srcOpenOptions": [],
+    "newFieldNames": []
+}

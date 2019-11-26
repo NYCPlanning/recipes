@@ -2,14 +2,14 @@
     "dstSRS": "EPSG:4326",
     "srcSRS": "EPSG:2263",
     "schema_name": "dcp_mappluto",
-    "version_name": "19v1",
+    "version_name": "19v2",
     "geometryType": "POLYGON",
     "layerCreationOptions": [
         "OVERWRITE=YES",
         "PRECISION=NO"
     ],
     "metaInfo": "bytes",
-    "path": "https://www1.nyc.gov/assets/planning/download/zip/data-maps/open-data/nyc_mappluto_19v1_shp.zip/MapPLUTO.shp",
+    "path": "https://www1.nyc.gov/assets/planning/download/zip/data-maps/open-data/nyc_mappluto_19v2_shp.zip/MapPLUTO.shp",
     "srcOpenOptions": [],
     "newFieldNames": []
 }

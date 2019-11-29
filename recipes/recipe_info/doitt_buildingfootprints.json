@@ -9,7 +9,7 @@
         "PRECISION=NO"
     ],
     "metaInfo": "doitt_buildingfootprints is coming from NYC opendata",
-    "path": "https://data.cityofnewyork.us/api/views/pveh-6jge/rows.csv",
+    "path": "https://data.cityofnewyork.us/api/views/th9a-gpp5/rows.csv",
     "srcOpenOptions": [
         "AUTODETECT_TYPE=NO",
         "EMPTY_STRING_AS_NULL=YES",

@@ -1,15 +1,15 @@
 {
     "dstSRS": "EPSG:4326",
     "srcSRS": "EPSG:2263",
-    "schema_name": "dcp_mappluto_unclipped",
-    "version_name": "19v2",
+    "schema_name": "dcp_atomicpolygons",
+    "version_name": "",
     "geometryType": "POLYGON",
     "layerCreationOptions": [
         "OVERWRITE=YES",
         "PRECISION=NO"
     ],
-    "metaInfo": "bytes",
-    "path": "https://www1.nyc.gov/assets/planning/download/zip/data-maps/open-data/nyc_mappluto_19v2_unclipped_shp.zip",
+    "metaInfo": "S3",
+    "path": "https://edm-storage.nyc3.digitaloceanspaces.com/Atomicpolygon.zip",
     "srcOpenOptions": [],
     "newFieldNames": []
 }

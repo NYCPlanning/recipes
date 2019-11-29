@@ -7,6 +7,7 @@ from cook import Archiver
 import pandas as pd
 import numpy as np
 from ast import literal_eval
+from sqlalchemy import create_engine
 
 CONFIG_PATH = os.path.join(
     os.path.abspath(os.path.dirname(__file__)),
@@ -51,6 +52,13 @@ def convert_recipe(recipe):
             with open(f"{Path(__file__).parent/'recipe_info'/recipe['schema_name']}.json", 'w') as recipe_json:
                 json.dump(recipe, recipe_json, indent=4, ensure_ascii=False)
 
+# def update_metatable():
+#     con = create_engine(os.environ['RECIPE_ENGINE'])
+#     meta = pd.read_sql("select table_schema from information_schema.views where table_name='latest'", con=con).to_dict('records')
+#     for d in meta:
+#         d['version'] = pd.read_sql(f'select v from {d.get("table_schema")}.latest limit 1', con=con).to_dict('records')[0]['v']
+#     pd.DataFrame(meta).to_sql('metadata', con=con, if_exists='replace')
+
 @cli.command('run')
 @click.argument('recipe', type=click.STRING, autocompletion=get_recipes)
 def run_recipes(recipe):
@@ -65,5 +73,6 @@ def run_recipes(recipe):
             archiver = Archiver(engine=os.environ['RECIPE_ENGINE'], 
                                 ftp_prefix=os.environ['FTP_PREFIX'])
             archiver.archive_table(recipe_config)
+            # update_metatable()
     except KeyError:
         click.secho('\n Did you set your RECIPE_ENGINE and FTP_PREFIX? \n', fg='red')

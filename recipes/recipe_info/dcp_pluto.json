@@ -2,14 +2,14 @@
     "dstSRS": "EPSG:4326",
     "srcSRS": "EPSG:2263",
     "schema_name": "dcp_pluto",
-    "version_name": "19v1",
+    "version_name": "19v2",
     "geometryType": "POINT",
     "layerCreationOptions": [
         "OVERWRITE=YES",
         "PRECISION=NO"
     ],
     "metaInfo": "bytes",
-    "path": "https://www1.nyc.gov/assets/planning/download/zip/data-maps/open-data/nyc_pluto_19v1_csv.zip/pluto_19v1.csv",
+    "path": "https://www1.nyc.gov/assets/planning/download/zip/data-maps/open-data/nyc_pluto_19v2_csv.zip/pluto_19v2.csv",
     "srcOpenOptions": [
         "AUTODETECT_TYPE=NO",
         "EMPTY_STRING_AS_NULL=YES",

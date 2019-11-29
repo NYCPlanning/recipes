@@ -3,7 +3,7 @@
     "srcSRS": "EPSG:2263",
     "schema_name": "hpd_hny_units_by_building",
     "version_name": "",
-    "geometryType": "POINT",
+    "geometryType": "NONE",
     "layerCreationOptions": [
         "OVERWRITE=YES",
         "PRECISION=NO"

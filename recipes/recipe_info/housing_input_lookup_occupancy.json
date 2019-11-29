@@ -3,7 +3,7 @@
     "srcSRS": "EPSG:2263",
     "schema_name": "housing_input_lookup_occupancy",
     "version_name": "",
-    "geometryType": "POINT",
+    "geometryType": "NONE",
     "layerCreationOptions": [
         "OVERWRITE=YES",
         "PRECISION=NO"

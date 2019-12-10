@@ -2,14 +2,14 @@
     "dstSRS": "EPSG:4326",
     "srcSRS": "EPSG:2263",
     "schema_name": "dcp_specialpurposesubdistricts",
-    "version_name": "",
+    "version_name": "2019/11/30",
     "geometryType": "MULTIPOLYGON",
     "layerCreationOptions": [
         "OVERWRITE=YES",
         "PRECISION=NO"
     ],
     "metaInfo": "s3",
-    "path": "https://edm-storage.nyc3.digitaloceanspaces.com/ZONING_FEATURES/special_purpose_subdistricts/20191031/special_purpose_subdistricts.zip",
+    "path": "https://edm-storage.nyc3.digitaloceanspaces.com/ZONING_FEATURES/special_purpose_subdistricts/20191130/special_purpose_subdistricts.zip",
     "srcOpenOptions": [],
     "newFieldNames": []
 }

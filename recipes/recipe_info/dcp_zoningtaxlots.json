@@ -2,11 +2,11 @@
     "dstSRS": "EPSG:4326",
     "srcSRS": "EPSG:4326",
     "schema_name": "dcp_zoningtaxlots",
-    "version_name": "2019/09/30",
+    "version_name": "2019/10/31",
     "geometryType": "NONE",
     "layerCreationOptions": [],
     "metaInfo": "dcp_zoningtaxlots is coming from bytes",
-    "path": "https://www1.nyc.gov/assets/planning/download/zip/data-maps/open-data/nyczoningtaxlotdb_20190930.zip/NY_ZoningTaxLotDB20190930.csv",
+    "path": "https://www1.nyc.gov/assets/planning/download/zip/data-maps/open-data/nyczoningtaxlotdb_20191031.zip/NY_ZoningTaxLotDB20191031.csv",
     "srcOpenOptions": [
         "AUTODETECT_TYPE=NO",
         "EMPTY_STRING_AS_NULL=YES",

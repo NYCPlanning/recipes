@@ -1,8 +1,19 @@
 ,name,address1,address2,house_number,street_name,zipcode
 0,Anna M. Kross Center (AMKC),18-18 Hazen Street,"East Elmhurst, NY 11370",18-18,Hazen Street,11370
-1,Bellevue Hospital Prison Ward (BHPW),462 1st Avenue,"New York, NY 10016",462,1st Avenue,10016
-2,Brooklyn Detention Complex (BKDC),275 Atlantic Avenue,"Brooklyn, NY 11201",275,Atlantic Avenue,11201
-3,Elmhurst Hospital Prison Ward (EHPW),79-01 Broadway,"Queens, NY 11370",79-01,Broadway,11370
-4,Manhattan Detention Complex (MDC),125 White Street,"New York, NY 10013",125,White Street,10013
-5,Queens Detention Complex (QDC),126-01 82nd Avenue,"Kew Gardens, NY 11415",126-01,82nd Avenue,11415
-6,Vernon C. Bain Center (VCBC),1 Halleck Street,"Bronx, NY 10474",1,Halleck Street,10474
+1,Eric M. Taylor Center (EMTC) Formerly known as CIFM,10-10 Hazen Street,"East Elmhurst, NY 11370",10-10,Hazen Street,11370
+2,George Motchan Detention Center (GMDC),15-15 Hazen Street,"East Elmhurst, NY 11370",15-15,Hazen Street,11370
+3,George R. Vierno Center (GRVC),09-09 Hazen Street,"East Elmhurst, NY 11370",09-09,Hazen Street,11370
+4,James A. Thomas Center (JATC),14-14 Hazen Street,"East Elmhurst, NY 11370",14-14,Hazen Street,11370
+5,North Infirmary Command (NIC),15-00 Hazen Street,"East Elmhurst, NY 11370",15-00,Hazen Street,11370
+6,Otis Bantum Correctional Center (OBCC),16-00 Hazen Street,"East Elmhurst, NY 11370",16-00,Hazen Street,11370
+7,Robert N. Davoren Complex (RNDC),11-11 Hazen Street,"East Elmhurst, NY 11370",11-11,Hazen Street,11370
+8,Rose M. Singer Center (RMSC),19-19 Hazen Street,"East Elmhurst, NY 11370",19-19,Hazen Street,11370
+9,West Facility (WF),16-06 Hazen Street,"East Elmhurst, NY 11370",16-06,Hazen Street,11370
+10,Bellevue Hospital Prison Ward (BHPW),462 1st Avenue,"New York, NY 10016",462,1st Avenue,10016
+11,Brooklyn Detention Complex (BKDC),275 Atlantic Avenue,"Brooklyn, NY 11201",275,Atlantic Avenue,11201
+12,Elmhurst Hospital Prison Ward (EHPW),79-01 Broadway,"Queens, NY 11370",79-01,Broadway,11370
+13,Manhattan Detention Complex (MDC),125 White Street,"New York, NY 10013",125,White Street,10013
+14,Queens Detention Complex (QDC),126-01 82nd Avenue,"Kew Gardens, NY 11415",126-01,82nd Avenue,11415
+15,Vernon C. Bain Center (VCBC),1 Halleck Street,"Bronx, NY 10474",1,Halleck Street,10474
+16,Correction Academy,Rentar Plaza,66-26 Metropolitan Ave.,,,
+17,Bulova Building- DOC Headquarters,75-20 Astoria Blvd.,"East Elmhurst, NY 11370",75-20,Astoria Blvd.,11370

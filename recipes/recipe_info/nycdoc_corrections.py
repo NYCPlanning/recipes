@@ -35,12 +35,23 @@ if __name__ == "__main__":
     soup = BeautifulSoup(page, features='html.parser')
     data = []
     targets = ['Anna M. Kross Center (AMKC)',
+            'Eric M. Taylor Center (EMTC) Formerly known as CIFM',
+            'George Motchan Detention Center (GMDC)',
+            'George R. Vierno Center (GRVC)',
+            'James A. Thomas Center (JATC)',
+            'North Infirmary Command (NIC)',
+            'Otis Bantum Correctional Center (OBCC)',
+            'Robert N. Davoren Complex (RNDC)',
+            'Rose M. Singer Center (RMSC)',
+            'West Facility (WF)',
             'Bellevue Hospital Prison Ward (BHPW)', 
             'Brooklyn Detention Complex (BKDC)', 
             'Elmhurst Hospital Prison Ward (EHPW)', 
             'Manhattan Detention Complex (MDC)', 
             'Queens Detention Complex (QDC)', 
-            'Vernon C. Bain Center (VCBC)']
+            'Vernon C. Bain Center (VCBC)',
+            'Correction Academy',
+            'Bulova Building- DOC Headquarters']
     for i in soup.find_all('p'):
         info = i.get_text('|').split('|')
         if info[0] in targets:

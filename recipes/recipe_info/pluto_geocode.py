@@ -42,20 +42,28 @@ def geocode(inputs):
     borough = boro
 
     try: 
-        geo = g['1B'](street_name=sname, house_number=hnum, borough=borough, mode='regular')
+        geo1 = g['1A'](street_name=sname, house_number=hnum, borough=borough, mode='regular')
+        geo2 = g['1E'](street_name=sname, house_number=hnum, borough=borough, mode='regular')
+        geo = {**geo1, **geo2}
         geo = parse_output(geo)
         geo.update(borough = borough, block = block, lot = lot, easement = ease, input_hnum=hnum, input_sname=sname)
         return geo
-    except GeosupportError as e1:
-        try:
-            geo = g['BL'](bbl=bbl)
+    except GeosupportError: 
+        try: 
+            geo = g['1B'](street_name=sname, house_number=hnum, borough=borough, mode='regular')
             geo = parse_output(geo)
             geo.update(borough = borough, block = block, lot = lot, easement = ease, input_hnum=hnum, input_sname=sname)
             return geo
-        except GeosupportError as e2:
-            geo = parse_output(e1.result)
-            geo.update(borough = borough, block = block, lot = lot, easement = ease, input_hnum=hnum, input_sname=sname)
-            return geo
+        except GeosupportError as e1:
+            try:
+                geo = g['BL'](bbl=bbl)
+                geo = parse_output(geo)
+                geo.update(borough = borough, block = block, lot = lot, easement = ease, input_hnum=hnum, input_sname=sname)
+                return geo
+            except GeosupportError as e2:
+                geo = parse_output(e1.result)
+                geo.update(borough = borough, block = block, lot = lot, easement = ease, input_hnum=hnum, input_sname=sname)
+                return geo
 
 def parse_output(geo):
     return dict(

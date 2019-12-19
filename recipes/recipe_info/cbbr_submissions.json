@@ -10,6 +10,10 @@
     ],
     "metaInfo": "FTP",
     "path": "FTP_PREFIX/agencySourceData/cbbr/2019-12-16 11-18-44FY2021 CD Priorities Form.csv",
-    "srcOpenOptions": [],
-    "newFieldNames": ""
+    "srcOpenOptions": [
+        "AUTODETECT_TYPE=NO",
+        "EMPTY_STRING_AS_NULL=YES",
+        "GEOM_POSSIBLE_NAMES=the_geom"
+    ],
+    "newFieldNames": []
 }

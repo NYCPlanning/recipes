@@ -2,14 +2,14 @@
     "dstSRS": "EPSG:4326",
     "srcSRS": "EPSG:2263",
     "schema_name": "sca_bluebook",
-    "version_name": "2018",
+    "version_name": "2019",
     "geometryType": "NONE",
     "layerCreationOptions": [
         "OVERWRITE=YES",
         "PRECISION=NO"
     ],
     "metaInfo": "local",
-    "path": "recipes/data/sca/2018/bluebook.csv",
+    "path": "recipes/data/sca/2019/2018-2019 Blue Book SV.csv",
     "srcOpenOptions": [
         "AUTODETECT_TYPE=NO",
         "EMPTY_STRING_AS_NULL=YES",
@@ -20,10 +20,6 @@
         "org_id",
         "organization_name",
         "bldg_id",
-        "bldg_excl.",
-        "district",
-        "subd",
-        "sub_district_name",
         "incl._class",
         "bldg_name",
         "org_e",
@@ -42,8 +38,6 @@
         "hc",
         "x",
         "y",
-        "address",
-        "pe",
-        "ie"
+        "address"
     ]
 }

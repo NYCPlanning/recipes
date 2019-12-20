@@ -1,7 +1,7 @@
 {
     "dstSRS": "EPSG:4326",
     "srcSRS": "EPSG:2263",
-    "schema_name": "sca_e_pct",
+    "schema_name": "sca_housing_by_sd",
     "version_name": "2019",
     "geometryType": "NONE",
     "layerCreationOptions": [
@@ -9,17 +9,11 @@
         "PRECISION=NO"
     ],
     "metaInfo": "local",
-    "path": "recipes/data/sca/2019/2024 ENROLLMENT % by Zone.csv",
+    "path": "recipes/data/sca/2019/Housing by SD 2019.csv",
     "srcOpenOptions": [
         "AUTODETECT_TYPE=NO",
         "EMPTY_STRING_AS_NULL=YES",
         "GEOM_POSSIBLE_NAMES=the_geom"
     ],
-    "newFieldNames": [
-        "id",
-        "district",
-        "subdistrict",
-        "level",
-        "multiplier"
-    ]
+    "newFieldNames": []
 }

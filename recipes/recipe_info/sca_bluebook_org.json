@@ -1,7 +1,7 @@
 {
     "dstSRS": "EPSG:4326",
     "srcSRS": "EPSG:2263",
-    "schema_name": "sca_e_pct",
+    "schema_name": "sca_bluebook_org",
     "version_name": "2019",
     "geometryType": "NONE",
     "layerCreationOptions": [
@@ -9,17 +9,11 @@
         "PRECISION=NO"
     ],
     "metaInfo": "local",
-    "path": "recipes/data/sca/2019/2024 ENROLLMENT % by Zone.csv",
+    "path": "recipes/data/sca/2019/2018-2019 Blue Book SV_BB by Organization.csv",
     "srcOpenOptions": [
         "AUTODETECT_TYPE=NO",
         "EMPTY_STRING_AS_NULL=YES",
         "GEOM_POSSIBLE_NAMES=the_geom"
     ],
-    "newFieldNames": [
-        "id",
-        "district",
-        "subdistrict",
-        "level",
-        "multiplier"
-    ]
+    "newFieldNames": []
 }

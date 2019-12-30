@@ -2,7 +2,7 @@ docker run --rm\
             -v `pwd`:/home/pts\
             -w /home/pts\
             -e RECIPE_ENGINE=$RECIPE_ENGINE\
-            sptkl/docker-geosupport:19c bash -c "pip install pandas sqlalchemy psycopg2-binary; python3 pluto_geocode.py"
+            sptkl/docker-geosupport:19d bash -c "pip install pandas sqlalchemy psycopg2-binary; python3 pluto_geocode.py"
 
 psql $RECIPE_ENGINE -c "
 DROP TABLE IF EXISTS pluto_input_geocodes;
@@ -58,3 +58,5 @@ DATE=$(date "+%Y/%m/%d");
 psql $RECIPE_ENGINE -c "ALTER TABLE pluto_input_geocodes SET SCHEMA pluto_input_geocodes;";
 psql $RECIPE_ENGINE -c "DROP TABLE IF EXISTS pluto_input_geocodes.\"$DATE\";";
 psql $RECIPE_ENGINE -c "ALTER TABLE pluto_input_geocodes.pluto_input_geocodes RENAME TO \"$DATE\";";
+psql $RECIPE_ENGINE -c "DROP VIEW pluto_input_geocodes.latest;";
+psql $RECIPE_ENGINE -c "CREATE VIEW pluto_input_geocodes.lates as (SELECT '$DATE' as v, * FROM pluto_input_geocodes.\"$DATE\");";

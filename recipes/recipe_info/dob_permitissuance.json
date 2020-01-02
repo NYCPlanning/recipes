@@ -1,19 +1,20 @@
 {
     "dstSRS": "EPSG:4326",
-    "srcSRS": "EPSG:2263",
+    "srcSRS": "EPSG:4326",
     "schema_name": "dob_permitissuance",
-    "version_name": "",
+    "version_name": "2020/01/02",
     "geometryType": "POINT",
     "layerCreationOptions": [
         "OVERWRITE=YES",
         "PRECISION=NO"
     ],
     "metaInfo": "s3",
-    "path": "https://sfo2.digitaloceanspaces.com/db-data-recipes/recipes/dob_permitissuance/2019-08-15/dob_permitissuance.csv",
+    "path": "https://edm-recipes.nyc3.digitaloceanspaces.com/dob_permitissuance.csv",
     "srcOpenOptions": [
         "AUTODETECT_TYPE=NO",
         "EMPTY_STRING_AS_NULL=YES",
-        "GEOM_POSSIBLE_NAMES=the_geom"
+        "X_POSSIBLE_NAMES=longitude",
+        "Y_POSSIBLE_NAMES=latitude"
     ],
     "newFieldNames": [
         "BOROUGH",

@@ -12,7 +12,7 @@ eg. `dcp_mappluto`
 1. Intialize a docker container
 ```
 docker run -itd\
-    --name=recipes-$USER\
+    --name=recipes\
     -v `pwd`:/home/recipes\
     -w /home/recipes\
     --env-file .env\
@@ -21,5 +21,5 @@ docker run -itd\
 
 2. Load a dataset into recipe postgres database
 ```
-docker exec recipes-$USER cook run <schema_name>
+docker exec recipes cook run <schema_name>
 ```

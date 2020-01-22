@@ -1,0 +1,15 @@
+{
+    "dstSRS": "EPSG:4326",
+    "srcSRS": "EPSG:4326",
+    "schema_name": "doe_mszones",
+    "version_name": "2019_2020",
+    "geometryType": "POLYGON",
+    "layerCreationOptions": [
+        "OVERWRITE=YES",
+        "PRECISION=NO"
+    ],
+    "metaInfo": "opendata",
+    "path": "https://data.cityofnewyork.us/api/geospatial/ie4z-reuy?method=export&format=GeoJSON",
+    "srcOpenOptions": [],
+    "newFieldNames": []
+}

@@ -1,0 +1,15 @@
+{
+    "dstSRS": "EPSG:4326",
+    "srcSRS": "EPSG:4326",
+    "schema_name": "doe_hszones",
+    "version_name": "2019_2020",
+    "geometryType": "POLYGON",
+    "layerCreationOptions": [
+        "OVERWRITE=YES",
+        "PRECISION=NO"
+    ],
+    "metaInfo": "opendata",
+    "path": "https://data.cityofnewyork.us/api/geospatial/g844-z9rd?method=export&format=GeoJSON",
+    "srcOpenOptions": [],
+    "newFieldNames": []
+}

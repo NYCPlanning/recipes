@@ -1,19 +1,19 @@
 {
     "dstSRS": "EPSG:4326",
-    "srcSRS": "EPSG:2263",
-    "schema_name": "doe_lcgms",
-    "version_name": "2019_new",
-    "geometryType": "NONE",
+    "srcSRS": "EPSG:4326",
+    "schema_name": "doe_school_subdistricts",
+    "version_name": "2017",
+    "geometryType": "POLYGON",
     "layerCreationOptions": [
         "OVERWRITE=YES",
         "PRECISION=NO"
     ],
     "metaInfo": "local",
-    "path": "recipes/data/doe_lcgms/2019/schoollist for DinoP 01-28-2020 (report from view).csv",
+    "path": "recipes/data/doe/2017/doe_school_subdistricts.csv",
     "srcOpenOptions": [
         "AUTODETECT_TYPE=NO",
         "EMPTY_STRING_AS_NULL=YES",
-        "GEOM_POSSIBLE_NAMES=the_geom"
+        "GEOM_POSSIBLE_NAMES=geom"
     ],
     "newFieldNames": []
 }

@@ -12,8 +12,8 @@ eg. `dcp_mappluto`
 + ### The git push Method: 
     1. after you finish editing the recipes.csv, add an array of recipes you want to run to your commit message e.g.
     ```
-    git commit -m "('dcp_mih' 'dcp_limitedheight')"
-    ```    
+    git commit -m "'recipe1' 'recipe2'"
+    ```
     2. then do a git push to the master branch or some other branch so that github actions would be trigger to run the recipes. 
     3. Note that if you do not wish to trigger any of the github actions jobs, include `[skip ci]` in your commit message
 + ### The Docker Method:

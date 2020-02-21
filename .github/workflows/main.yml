@@ -8,9 +8,9 @@ jobs:
     runs-on: ubuntu-latest
     container: 
       image: sptkl:cook:latest
-      env:
-        RECIPE_ENGINE: ${{ secrets.RECIPE_ENGINE }}
-        FTP_PREFIX: ${{ secrets.FTP_PREFIX }}
+    env:
+      RECIPE_ENGINE: ${{ secrets.RECIPE_ENGINE }}
+      FTP_PREFIX: ${{ secrets.FTP_PREFIX }}
     steps:
     - uses: actions/checkout@v2
     - name: install dependencies

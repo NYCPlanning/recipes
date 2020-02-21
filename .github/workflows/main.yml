@@ -11,6 +11,8 @@ jobs:
     env:
       RECIPE_ENGINE: ${{ secrets.RECIPE_ENGINE }}
       FTP_PREFIX: ${{ secrets.FTP_PREFIX }}
+      LC_ALL: C.UTF-8
+      LANG: C.UTF-8
     steps:
     - uses: actions/checkout@v2
     - name: install dependencies

@@ -1,15 +1,15 @@
 {
     "dstSRS": "EPSG:4326",
     "srcSRS": "EPSG:4326",
-    "schema_name": "n_study_future",
+    "schema_name": "dcp_rezoning",
     "version_name": "",
-    "geometryType": "NONE",
+    "geometryType": "POLYGON",
     "layerCreationOptions": [
         "OVERWRITE=YES",
         "PRECISION=NO"
     ],
     "metaInfo": "local",
-    "path": "recipes/data/kpdb/Future neighborhood studies/20190609_Future_Rezoning_Inputs_MS.csv",
+    "path": "recipes/data/kpdb/Future neighborhood studies/nyc_rezonings.zip",
     "srcOpenOptions": [
         "AUTODETECT_TYPE=NO",
         "EMPTY_STRING_AS_NULL=YES",

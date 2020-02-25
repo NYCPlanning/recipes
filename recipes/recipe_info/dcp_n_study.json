@@ -1,7 +1,7 @@
 {
     "dstSRS": "EPSG:4326",
     "srcSRS": "EPSG:4326",
-    "schema_name": "esd",
+    "schema_name": "dcp_n_study",
     "version_name": "",
     "geometryType": "NONE",
     "layerCreationOptions": [
@@ -9,7 +9,7 @@
         "PRECISION=NO"
     ],
     "metaInfo": "local",
-    "path": "recipes/data/kpdb/Empire State Development/State Developments for Housing Pipeline.csv",
+    "path": "recipes/data/kpdb/N. Study Rezoning Commitments/Neighborhood Study Rezoning Commitments.csv",
     "srcOpenOptions": [
         "AUTODETECT_TYPE=NO",
         "EMPTY_STRING_AS_NULL=YES",

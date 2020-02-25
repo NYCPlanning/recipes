@@ -1,7 +1,7 @@
 {
     "dstSRS": "EPSG:4326",
     "srcSRS": "EPSG:4326",
-    "schema_name": "n_study",
+    "schema_name": "dcp_n_study_projected",
     "version_name": "",
     "geometryType": "NONE",
     "layerCreationOptions": [
@@ -9,7 +9,7 @@
         "PRECISION=NO"
     ],
     "metaInfo": "local",
-    "path": "recipes/data/kpdb/N. Study Rezoning Commitments/Neighborhood Study Rezoning Commitments.csv",
+    "path": "recipes/data/kpdb/Neighborhood study projected development sites/List of BBLs by Development Site -- 2019.01.16.csv",
     "srcOpenOptions": [
         "AUTODETECT_TYPE=NO",
         "EMPTY_STRING_AS_NULL=YES",

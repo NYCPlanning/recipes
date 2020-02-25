@@ -1,0 +1,19 @@
+{
+    "dstSRS": "EPSG:4326",
+    "srcSRS": "EPSG:4326",
+    "schema_name": "hpd_pc",
+    "version_name": "",
+    "geometryType": "NONE",
+    "layerCreationOptions": [
+        "OVERWRITE=YES",
+        "PRECISION=NO"
+    ],
+    "metaInfo": "local",
+    "path": "recipes/data/kpdb/HPD Projected Closings/2019_4_2 DCP NC Pipeline_no MIH or VIH_shared by Meghan Smith.csv",
+    "srcOpenOptions": [
+        "AUTODETECT_TYPE=NO",
+        "EMPTY_STRING_AS_NULL=YES",
+        "GEOM_POSSIBLE_NAMES=geom"
+    ],
+    "newFieldNames": []
+}

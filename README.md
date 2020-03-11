@@ -31,8 +31,4 @@ eg. `dcp_mappluto`
     ```
     docker exec recipes cook run <schema_name>
     ```
-
-    3. **Special case:** Some datasets can be from different sources, which feed into different data products.
-    For example, `doe_lcgms` can be either from DOE via email to build [CEQR school data product](https://github.com/NYCPlanning/ceqr-app-data)
-    or from Open data to build [Facilities database](https://github.com/NYCPlanning/db-facilities-tmp)
     

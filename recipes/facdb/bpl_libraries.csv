@@ -1,244 +1,104 @@
 ,title,address,phone,position,bus,subway,Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday,hours,closingmsg,access,tags,path,branchid,pickuploc,branchlist
-0,Annex,"1 John Street Brooklyn, NY 11201",347.889.0159,"40.704622800000, -73.987823800000",B25;B67,A;C;F,,2:00pm - 8:00pm,10:00am - 1:00pm,2:00pm - 8:00pm,10:00am - 1:00pm,,,Today's Hours: 10:00am - 1:00pm,,Fully accessible,accessible;closed;,https://www.bklynlibrary.org/locations/annex,88,1,1
-1,Arlington Library,"203 Arlington Ave. at Warwick St. Brooklyn, NY 11207",718.277.6105,"40.680663100000, -73.887342100000",Q24;Q56,J,10:00am - 6:00pm,10:00am - 6:00pm,1:00pm - 8:00pm,10:00am - 8:00pm,10:00am - 6:00pm,10:00am - 5:00pm,,Today's Hours: 10:00am - 6:00pm,,Fully accessible,accessible;open now;passport office;,https://www.bklynlibrary.org/locations/arlington,21,1,1
-2,Bay Ridge Library,"7223 Ridge Blvd. at 73rd St. Brooklyn, NY 11209",718.748.5709,"40.633606800000, -74.029507300000",B4;B9;B64;B70,R,10:00am - 6:00pm,10:00am - 6:00pm,10:00am - 8:00pm,1:00pm - 8:00pm,10:00am - 6:00pm,10:00am - 5:00pm,,Today's Hours: 10:00am - 6:00pm,,Fully accessible,accessible;open now;,https://www.bklynlibrary.org/locations/bay-ridge,28,1,1
-3,Bedford Library,"496 Franklin Avenue Brooklyn, NY 11238",718.623.0012,"40.681832300000, -73.956238000000",B25;B26;B48;B49,C;S,10:00am - 6:00pm,10:00am - 6:00pm,1:00pm - 8:00pm,10:00am - 8:00pm,10:00am - 6:00pm,10:00am - 5:00pm,,Today's Hours: 10:00am - 6:00pm,,Fully accessible,accessible;open now;learning center;,https://www.bklynlibrary.org/locations/bedford,22,1,1
-4,Borough Park Library,"1265 43rd St. at 13th Ave. Brooklyn, NY 11219",718.437.4085,"40.638887900000, -73.989001100000",B11;B16;B35,D,10:00am - 6:00pm,10:00am - 8:00pm,10:00am - 6:00pm,10:00am - 8:00pm,10:00am - 6:00pm,,1:00pm - 5:00pm,Today's Hours: 10:00am - 6:00pm,,Fully accessible,accessible;open now;book drop;open sundays,https://www.bklynlibrary.org/locations/borough-park,25,1,1
-5,Brighton Beach Library,"16 Brighton First Rd. at Brighton Beach Ave. Brooklyn, NY 11235",718.946.2917,"40.576178400000, -73.966799500000",B1;B68,B;Q,10:00am - 6:00pm,1:00pm - 8:00pm,10:00am - 8:00pm,10:00am - 6:00pm,10:00am - 6:00pm,10:00am - 5:00pm,,Today's Hours: 10:00am - 6:00pm,,Fully accessible,accessible;open now;,https://www.bklynlibrary.org/locations/brighton-beach,24,1,1
-6,Brooklyn Heights Library,"109 Remsen Street Brooklyn, NY 11201",718.623.7100,"40.694073700000, -73.994015000000",B25;B26;B38;B41;B52,2;3;4;5;A;C;F;R,10:00am - 6:00pm,10:00am - 8:00pm,10:00am - 8:00pm,10:00am - 8:00pm,10:00am - 6:00pm,10:00am - 5:00pm,,Today's Hours: 10:00am - 6:00pm,,Fully accessible,accessible;open now;book drop;,https://www.bklynlibrary.org/locations/brooklyn-heights,50,1,1
-7,Brower Park Library,"725 St. Marks Ave. at Nostrand Ave. Brooklyn, NY 11216",718.773.7208,"40.675362900000, -73.948565000000",B44;B45;B65,3;A;C,10:00am - 6:00pm,10:00am - 6:00pm,10:00am - 8:00pm,1:00pm - 8:00pm,10:00am - 6:00pm,10:00am - 5:00pm,,Today's Hours: 10:00am - 6:00pm,,Fully accessible,accessible;open now;,https://www.bklynlibrary.org/locations/brower-park,79,1,1
-8,Brownsville Library,"61 Glenmore Ave. at Watkins St. Brooklyn, NY 11212",718.498.9721,"40.671344700000, -73.908388200000",B12;B14;B60,3;J;L,10:00am - 6:00pm,1:00pm - 8:00pm,10:00am - 8:00pm,10:00am - 6:00pm,10:00am - 6:00pm,10:00am - 5:00pm,,Today's Hours: 10:00am - 6:00pm,,Fully accessible,accessible;open now;,https://www.bklynlibrary.org/locations/brownsville,27,1,1
-9,Bushwick Library,"340 Bushwick Avenue Brooklyn, NY 11206",718.602.1348,"40.704569400000, -73.939610100000",B43;B46;B57;B60,J;L;M,10:00am - 6:00pm,10:00am - 6:00pm,10:00am - 8:00pm,1:00pm - 8:00pm,10:00am - 6:00pm,10:00am - 5:00pm,,Today's Hours: 10:00am - 6:00pm,,Fully accessible,accessible;open now;,https://www.bklynlibrary.org/locations/bushwick,29,1,1
-10,Canarsie Library,"1580 Rockaway Pkwy. at Ave. J Brooklyn, NY 11236",718.257.6547,"40.642216700000, -73.899560700000",B6;B42;B60;B82,L,10:00am - 6:00pm,10:00am - 8:00pm,10:00am - 8:00pm,10:00am - 8:00pm,10:00am - 6:00pm,10:00am - 5:00pm,,Today's Hours: 10:00am - 6:00pm,,Partially accessible,accessible;open now;,https://www.bklynlibrary.org/locations/canarsie,34,1,1
-11,Carroll Gardens Library,"396 Clinton St. Brooklyn, NY 11231",718.596.6972,"40.683196200000, -73.998016000000",,F;G,10:00am - 6:00pm,10:00am - 8:00pm,1:00pm - 8:00pm,10:00am - 6:00pm,10:00am - 6:00pm,10:00am - 5:00pm,,Today's Hours: 10:00am - 6:00pm,,Partially accessible,accessible;open now;book drop;,https://www.bklynlibrary.org/locations/carroll-gardens,31,1,1
-12,Central Library,"10 Grand Army Plaza Brooklyn, NY 11238",718.230.2100,"40.672501100000, -73.968126500000",B41,2;3;B;Q,9:00am - 9:00pm,9:00am - 9:00pm,9:00am - 9:00pm,9:00am - 9:00pm,9:00am - 6:00pm,9:00am - 6:00pm,1:00pm - 5:00pm,Today's Hours: 9:00am - 6:00pm,,Fully accessible,accessible;open now;learning center;passport office;book drop;open sundays,https://www.bklynlibrary.org/locations/central,01,1,1
-13,Clarendon Library,"2035 Nostrand Ave. Brooklyn, NY 11210",718.421.1159 ,"40.635758900000, -73.947600600000",B6;B11;B41;B44;Q35,2;5,10:00am - 6:00pm,1:00pm - 8:00pm,10:00am - 8:00pm,10:00am - 6:00pm,10:00am - 6:00pm,10:00am - 5:00pm,,Closed for Renovation,"Interruption of Bookmobile Service:
-
-Bookmobile Service at the Clarendon Library has been cancelled today, Tuesday, October 29, 2019. We apologize for any inconvenience.
-
- 
-
-Starting Saturday, August 3, 2019 the Clarendon Library will close for installation of new shelving, cabinets and minor repair work.  The branch will reopen in late November or early December 2019.  
-
- 
-
- 
-
-Bookmobile service begins August 6, 2019 and will be available on Tuesdays and Fridays from 11 am to 4 pm.  The bookmobile will be located in front of the branch on Nostrand Avenue.
-
- 
-
-Please join us for Saturday Story Times! 
-
-Location: Vanderveer United Methodist Church    3114 Glenwood Rd, Brooklyn NY, 11210     Time: 11:00-12:00                        Dates:  Starting Satuday's: 9/7/19, 9/21/19, 10/5/19, 10/26/19, 11/9/19, 11/16/19,    Last Day 11/30/19                                                                                                                                                                                                                        
-
-We also encourage you to visit nearby BPL branches for programming and holds.
-
-The neighborhood libraries closest to you are:
-
- 
-
-Cortelyou Library
-
-1305 Cortelyou Road
-
-Brooklyn, NY  11226
-
-718.693.7763
-
- 
-
-Flatbush Library
-
-22 Linden Boulvard
-
-Brooklyn, NY  11226
-
-718.856.0813
-
- 
-
-Kensington Library
-
-4207 18th Avenue
-
-Brooklyn, NY  11218
-
-718.436.0545
-
- 
-
-Midwood Library
-
-975 East 16th Street
-
-Brooklyn, NY  11230
-
-718.252.0967
-
- 
-
-Questions?  Call 718.230.2100.
-
-We appreciate your patience and look forward to seeing you again at Clarendon Library in Winter 2019.
-",Fully accessible,accessible;closed for renovation;book drop;,https://www.bklynlibrary.org/locations/clarendon,33,0,1
-14,Clinton Hill Library,"380 Washington Ave. at Lafayette Ave. Brooklyn, NY 11238",718.398.8713,"40.687393700000, -73.966060200000",B25;B26;B38;B52;B69,C;G,10:00am - 6:00pm,10:00am - 8:00pm,1:00pm - 8:00pm,10:00am - 6:00pm,10:00am - 6:00pm,10:00am - 5:00pm,,Today's Hours: 10:00am - 6:00pm,,Fully accessible,accessible;open now;,https://www.bklynlibrary.org/locations/clinton-hill,83,1,1
-15,Coney Island Library,"1901 Mermaid Ave. (Near W. 19th St.) Brooklyn, NY 11224",718.265.3220,"40.576765100000, -73.986079100000",B36;B64;B68;B74;B82,D;F;N;Q,10:00am - 6:00pm,10:00am - 6:00pm,1:00pm - 8:00pm,10:00am - 8:00pm,10:00am - 6:00pm,10:00am - 5:00pm,,Today's Hours: 10:00am - 6:00pm,,Fully accessible,accessible;open now;,https://www.bklynlibrary.org/locations/coney-island,32,1,1
-16,Cortelyou Library,"1305 Cortelyou Rd. at Argyle Rd. Brooklyn, NY 11226",718.693.7763,"40.640795300000, -73.965949300000",B68;B103,Q,10:00am - 6:00pm,1:00pm - 8:00pm,10:00am - 8:00pm,10:00am - 6:00pm,10:00am - 6:00pm,10:00am - 5:00pm,,Today's Hours: 10:00am - 6:00pm,,Fully accessible,accessible;open now;book drop;,https://www.bklynlibrary.org/locations/cortelyou,87,1,1
-17,Crown Heights Library,"560 New York Ave. at Maple St. Brooklyn, NY 11225",718.773.1180,"40.661198100000, -73.948151700000",B43;B44,2;5,10:00am - 6:00pm,1:00pm - 8:00pm,10:00am - 8:00pm,10:00am - 6:00pm,10:00am - 6:00pm,10:00am - 5:00pm,,Today's Hours: 10:00am - 6:00pm,,Fully accessible,accessible;open now;book drop;,https://www.bklynlibrary.org/locations/crown-heights,30,1,1
-18,Cypress Hills Library,"1197 Sutter Ave. at Crystal St. Brooklyn, NY 11208",718.277.6004,"40.672646500000, -73.874089200000",B14;B15,3;A;C,10:00am - 6:00pm,1:00pm - 8:00pm,10:00am - 8:00pm,10:00am - 6:00pm,10:00am - 6:00pm,10:00am - 5:00pm,,Today's Hours: 10:00am - 6:00pm,,Fully accessible,accessible;open now;,https://www.bklynlibrary.org/locations/cypress-hills,65,1,1
-19,DeKalb Library,"790 Bushwick Ave. at DeKalb Ave. Brooklyn, NY 11221",718.455.3898,"40.694785700000, -73.928404400000",B38;B46;B47,J;Z,10:00am - 6:00pm,10:00am - 8:00pm,1:00pm - 8:00pm,10:00am - 6:00pm,10:00am - 6:00pm,10:00am - 5:00pm,,Today's Hours: 10:00am - 6:00pm,,Fully accessible,accessible;open now;,https://www.bklynlibrary.org/locations/dekalb,35,1,1
-20,Dyker Library,"8202 13th Ave. (@ 82nd St.) Brooklyn, NY 11228",718.748.6261,"40.616342000000, -74.012010000000",B64,D,10:00am - 6:00pm,1:00pm - 8:00pm,10:00am - 6:00pm,10:00am - 8:00pm,10:00am - 6:00pm,10:00am - 5:00pm,,Today's Hours: 10:00am - 6:00pm,,Fully accessible,accessible;open now;,https://www.bklynlibrary.org/locations/dyker,82,1,1
-21,East Flatbush Library,"9612 Church Ave. at. Rockaway Pkwy. Brooklyn, NY 11212",718.922.0927,"40.657354924463, -73.916994649327",B8;B15;B35,3,10:00am - 6:00pm,1:00pm - 8:00pm,10:00am - 6:00pm,10:00am - 8:00pm,10:00am - 6:00pm,10:00am - 5:00pm,,Closed for Renovation,"The East Flatbush Library currently closed for a comprehensive renovation. Bookmobile service will be available on Mondays and Wednesdays at the start of business on Monday, September 24th, 2018 and will continue until the renovation project is complete. The renovated branch will offer an all-new, light-filled space with modern shelving and furniture, a new community meeting space and a welcoming children's area.
-
-Bookmobile Hours:
-
-Monday 11:00am-4:00pm
-
-Wednesday 11:00am-4:00pm
-
- 
-",Fully accessible,accessible;closed for renovation;,https://www.bklynlibrary.org/locations/east-flatbush,36,1,1
-22,Eastern Parkway Library,"1044 Eastern Pkwy. at Schenectady Ave. Brooklyn, NY 11213",718.953.4225,"40.668486100000, -73.933640000000",B14;B17;B46;B47,3;4,10:00am - 6:00pm,1:00pm - 8:00pm,10:00am - 6:00pm,10:00am - 8:00pm,10:00am - 6:00pm,10:00am - 5:00pm,,Today's Hours: 10:00am - 6:00pm,,Fully accessible,accessible;open now;,https://www.bklynlibrary.org/locations/eastern-parkway,37,1,1
-23,Flatbush Library,"22 Linden Blvd. at Flatbush Ave. Brooklyn, NY 11226",718.856.0813,"40.651921600000, -73.958350100000",B12;B16;B35;B41;B49,2;5;B;Q,10:00am - 6:00pm,1:00pm - 8:00pm,10:00am - 6:00pm,10:00am - 8:00pm,10:00am - 6:00pm,10:00am - 5:00pm,,Today's Hours: 10:00am - 6:00pm,,Fully accessible,accessible;open now;,https://www.bklynlibrary.org/locations/flatbush,38,1,1
-24,Flatlands Library,"2065 Flatbush Ave. at Ave. P Brooklyn, NY 11234",718.253.4409,"40.619785300000, -73.933180700000",B9;B41;B82;Q35,,10:00am - 6:00pm,1:00pm - 8:00pm,10:00am - 6:00pm,10:00am - 8:00pm,10:00am - 6:00pm,10:00am - 5:00pm,,Today's Hours: 10:00am - 6:00pm,,Fully accessible,accessible;open now;,https://www.bklynlibrary.org/locations/flatlands,39,1,1
-25,Fort Hamilton Library,"9424 Fourth Ave. Brooklyn, NY 11209",718.748.6919,"40.616380600000, -74.031343400000",B8;B63,R,10:00am - 6:00pm,1:00pm - 8:00pm,10:00am - 8:00pm,10:00am - 6:00pm,10:00am - 6:00pm,10:00am - 5:00pm,,Today's Hours: 10:00am - 6:00pm,,Fully accessible,accessible;open now;,https://www.bklynlibrary.org/locations/fort-hamilton,40,1,1
-26,Gerritsen Beach Library,"2808 Gerritsen Ave. Brooklyn, NY 11229",718.368.1435,"40.591397700000, -73.923995500000",B31,B;Q,10:00am - 6:00pm,1:00pm - 8:00pm,10:00am - 6:00pm,10:00am - 8:00pm,10:00am - 6:00pm,10:00am - 5:00pm,,Today's Hours: 10:00am - 6:00pm,,Fully accessible,accessible;open now;,https://www.bklynlibrary.org/locations/gerritsen-beach,66,1,1
-27,Gravesend Library,"303 Ave. X at West. 2nd St. Brooklyn, NY 11223",718.382.5792,"40.590488900000, -73.971794400000",B1,F;N,10:00am - 6:00pm,1:00pm - 8:00pm,10:00am - 6:00pm,10:00am - 8:00pm,10:00am - 6:00pm,10:00am - 5:00pm,,Today's Hours: 10:00am - 6:00pm,,Fully accessible,accessible;open now;book drop;,https://www.bklynlibrary.org/locations/gravesend,74,1,1
-28,Greenpoint Library,"107 Norman Ave. at Leonard St. Brooklyn, NY 11222",718.349.8504,"40.725998900000, -73.950723300000",B24;B43;B48;B62,G,10:00am - 6:00pm,10:00am - 8:00pm,10:00am - 8:00pm,10:00am - 8:00pm,10:00am - 6:00pm,10:00am - 5:00pm,,Closed for Renovation," 
-
-On July 1, 2017 Greenpoint Library closed for rebuild. The new Greenpoint Library & Environmental Education Center is expected to open in early 2020.
- 
-
-Bookmobile service will be provided near Greenpoint Library on Tuesdays and Thursdays from 11am to 4pm.
-
-A pop-up library is available at the Park Church Co-Op (129 Russell St.) for browsing and borrowing during the following times:
-
-Mondays & Tuesdays 11am-4pm
-
-First Saturday of each month 10am-1pm
-Sundays 12pm-3pm with a Sunday Storytime at 12:30pm
-",Fully accessible,accessible;closed for renovation;,https://www.bklynlibrary.org/locations/greenpoint,41,0,1
-29,Highlawn Library,"1664 W. 13th St. at Kings Highway Brooklyn, NY 11223",718.234.7208,"40.605663200000, -73.986262700000",B4;B6;B82,D;F;N,10:00am - 6:00pm,10:00am - 8:00pm,10:00am - 6:00pm,1:00pm - 8:00pm,10:00am - 6:00pm,10:00am - 5:00pm,,Today's Hours: 10:00am - 6:00pm,,Fully accessible,accessible;open now;,https://www.bklynlibrary.org/locations/highlawn,42,1,1
-30,Homecrest Library,"2525 Coney Island Ave. at Ave. V Brooklyn, NY 11223",718.382.5924,"40.595203400000, -73.960550100000",B3;B68,Q,10:00am - 6:00pm,10:00am - 8:00pm,1:00pm - 8:00pm,10:00am - 6:00pm,10:00am - 6:00pm,10:00am - 5:00pm,,Today's Hours: 10:00am - 6:00pm,,Fully accessible,accessible;open now;,https://www.bklynlibrary.org/locations/homecrest,76,1,1
-31,Jamaica Bay Library,"9727 Seaview Ave. at E. 98th St. near Rockaway Pkwy. Brooklyn, NY 11236",718.241.3571,"40.634485500000, -73.889271400000",B17;B42;B103,L,10:00am - 6:00pm,10:00am - 6:00pm,1:00pm - 8:00pm,10:00am - 8:00pm,10:00am - 6:00pm,10:00am - 5:00pm,,Today's Hours: 10:00am - 6:00pm,,Fully accessible,accessible;open now;,https://www.bklynlibrary.org/locations/jamaica-bay,81,1,1
-32,Kensington Library,"4207 18th Avenue Brooklyn, NY 11218",718.436.0545,"40.631281800000, -73.975427100000",B8,F,10:00am - 6:00pm,10:00am - 8:00pm,10:00am - 6:00pm,1:00pm - 8:00pm,10:00am - 6:00pm,10:00am - 5:00pm,,Today's Hours: 10:00am - 6:00pm,,Fully accessible,accessible;open now;book drop;,https://www.bklynlibrary.org/locations/kensington,43,1,1
-33,Kings Bay Library,"3650 Nostrand Ave. (near Ave. W) Brooklyn, NY 11229",718.368.1709,"40.594786700000, -73.941148500000",B36;B44,2;B;Q,10:00am - 6:00pm,10:00am - 8:00pm,10:00am - 6:00pm,1:00pm - 8:00pm,10:00am - 6:00pm,10:00am - 5:00pm,,Today's Hours: 10:00am - 6:00pm,,Fully accessible,accessible;open now;,https://www.bklynlibrary.org/locations/kings-bay,44,1,1
-34,Kings Highway Library,"2115 Ocean Ave. Brooklyn, NY 11229",718.375.3037,"40.610832795843, -73.952811955043",B2;B7;B31;B49;B82;B100,B;Q,10:00am - 6:00pm,10:00am - 8:00pm,10:00am - 8:00pm,10:00am - 8:00pm,10:00am - 6:00pm,10:00am - 5:00pm,1:00pm - 5:00pm,Today's Hours: 10:00am - 6:00pm,,Fully accessible,accessible;open now;passport office;book drop;open sundays,https://www.bklynlibrary.org/locations/kings-highway,45,1,1
-35,Leonard Library,"81 Devoe St. at Leonard St. Brooklyn, NY 11211",718.486.6006,"40.713637000000, -73.947968000000",B24;B48;B62;Q59,G;L,10:00am - 6:00pm,1:00pm - 8:00pm,10:00am - 6:00pm,10:00am - 8:00pm,10:00am - 6:00pm,10:00am - 5:00pm,,Today's Hours: 10:00am - 6:00pm,,Not accessible,open now;,https://www.bklynlibrary.org/locations/leonard,46,1,1
-36,Macon Library,"361 Lewis Ave. at Macon St. Brooklyn, NY 11233",718.573.5606,"40.683036900000, -73.934837600000",B15;B25;B26;B46,A;C,10:00am - 6:00pm,10:00am - 8:00pm,10:00am - 8:00pm,10:00am - 8:00pm,10:00am - 6:00pm,10:00am - 5:00pm,1:00pm - 5:00pm,Today's Hours: 10:00am - 6:00pm,,Fully accessible,accessible;open now;open sundays,https://www.bklynlibrary.org/locations/macon,47,1,1
-37,Mapleton Library,"1702 60th Street Brooklyn, NY 11204",718.256.2117,"40.623159200000, -73.989456000000",B8;B9;B23,D;N,10:00am - 6:00pm,10:00am - 6:00pm,10:00am - 8:00pm,1:00pm - 8:00pm,10:00am - 6:00pm,10:00am - 5:00pm,1:00pm - 5:00pm,Today's Hours: 10:00am - 6:00pm,,Fully accessible,accessible;open now;open sundays,https://www.bklynlibrary.org/locations/mapleton,49,1,1
-38,Marcy Library,"617 DeKalb Ave. at Nostrand Ave. Brooklyn, NY 11216",718.935.0032,"40.691650800000, -73.951299200000",B38;B44;B48,G,10:00am - 6:00pm,1:00pm - 8:00pm,10:00am - 6:00pm,10:00am - 8:00pm,10:00am - 6:00pm,10:00am - 5:00pm,,Today's Hours: 10:00am - 6:00pm,,Fully accessible,accessible;open now;,https://www.bklynlibrary.org/locations/marcy,59,1,1
-39,McKinley Park Library,"6802 Fort Hamilton Pkwy (at 68th St.) Brooklyn, NY 11219",718.748.8001,"40.629213000000, -74.011898900000",B16;B64;B70,N,10:00am - 6:00pm,10:00am - 6:00pm,1:00pm - 8:00pm,10:00am - 8:00pm,10:00am - 6:00pm,10:00am - 5:00pm,,Today's Hours: 10:00am - 6:00pm,,Fully accessible,accessible;open now;,https://www.bklynlibrary.org/locations/mckinley-park,67,1,1
-40,Midwood Library,"975 East 16th St. at Avenue J Brooklyn, NY 11230",718.252.0967,"40.625881300000, -73.960274600000",B6;B11;B49;B68,Q,10:00am - 6:00pm,10:00am - 8:00pm,10:00am - 6:00pm,10:00am - 8:00pm,10:00am - 6:00pm,,1:00pm - 5:00pm,Today's Hours: 10:00am - 6:00pm,,Fully accessible,accessible;open now;book drop;open sundays,https://www.bklynlibrary.org/locations/midwood,48,1,1
-41,Mill Basin Library,"2385 Ralph Ave (near Ave N) Brooklyn, NY 11234",718.241.3973,"40.619945400000, -73.916922600000",B3;B6;B41;B47;B82;B100,2;5,10:00am - 6:00pm,10:00am - 6:00pm,10:00am - 8:00pm,1:00pm - 8:00pm,10:00am - 6:00pm,10:00am - 5:00pm,,Today's Hours: 10:00am - 6:00pm,,Fully accessible,accessible;open now;,https://www.bklynlibrary.org/locations/mill-basin,68,1,1
-42,New Lots Library,"665 New Lots Avenue at Barbey St. Brooklyn, NY 11207",718.649.0311,"40.665115400000, -73.886147800000",B6;B15;B84,3,10:00am - 6:00pm,10:00am - 8:00pm,10:00am - 8:00pm,10:00am - 8:00pm,10:00am - 6:00pm,10:00am - 5:00pm,1:00pm - 5:00pm,Today's Hours: 10:00am - 6:00pm,,Fully accessible,accessible;open now;open sundays,https://www.bklynlibrary.org/locations/new-lots,52,1,1
-43,New Utrecht Library,"1743 86th St. at Bay 17th St. Brooklyn, NY 11214",718.236.4086,"40.608018700000, -74.003341100000",B1;B8,D,10:00am - 6:00pm,10:00am - 8:00pm,10:00am - 8:00pm,10:00am - 8:00pm,10:00am - 6:00pm,10:00am - 5:00pm,,Today's Hours: 10:00am - 6:00pm,,Fully accessible,accessible;open now;,https://www.bklynlibrary.org/locations/new-utrecht,51,1,1
-44,Pacific Library,"25 Fourth Ave. at Pacific St. Brooklyn, NY 11217",718.638.1531,"40.683452100000, -73.978552200000",B41;B63;B65;B67;B103,2;3;4;5;B;D;M;N;Q;R,10:00am - 6:00pm,10:00am - 6:00pm,1:00pm - 8:00pm,10:00am - 8:00pm,10:00am - 6:00pm,10:00am - 5:00pm,,Today's Hours: 10:00am - 6:00pm,,Partially accessible,accessible;open now;,https://www.bklynlibrary.org/locations/pacific,69,1,1
-45,Paerdegat Library,"850 E. 59th St. at Paerdegat Ave. South Brooklyn, NY 11234",718.241.3994,"40.632597300000, -73.919953900000",B6;B47;B82,2;5,10:00am - 6:00pm,10:00am - 8:00pm,1:00pm - 8:00pm,10:00am - 6:00pm,10:00am - 6:00pm,10:00am - 5:00pm,,Today's Hours: 10:00am - 6:00pm,,Fully accessible,accessible;open now;,https://www.bklynlibrary.org/locations/paerdegat,78,1,1
-46,Park Slope Library,"431 6th Ave Brooklyn, NY 11215",718.832.1853,"40.668217400000, -73.983416200000",B61;B67;B69,F;G;R,10:00am - 6:00pm,1:00pm - 8:00pm,10:00am - 8:00pm,10:00am - 6:00pm,10:00am - 6:00pm,10:00am - 5:00pm,,Today's Hours: 10:00am - 6:00pm,,Fully accessible,accessible;open now;,https://www.bklynlibrary.org/locations/park-slope,53,1,1
-47,Red Hook Library,"7 Wolcott St Brooklyn, NY 11231",718.935.0203,"40.675278000000, -74.010319300000",B61,F;G,10:00am - 6:00pm,1:00pm - 8:00pm,10:00am - 6:00pm,10:00am - 8:00pm,10:00am - 6:00pm,10:00am - 5:00pm,,Today's Hours: 10:00am - 6:00pm,,Fully accessible,accessible;open now;,https://www.bklynlibrary.org/locations/red-hook,70,1,1
-48,Rugby Library,"1000 Utica Ave. Brooklyn, NY 11203",718.566.0053,"40.648657600000, -73.930379300000",B35;B46,2;3;4,11:00am - 6:00pm,1:00pm - 8:00pm,11:00am - 6:00pm,11:00am - 6:00pm,11:00am - 6:00pm,10:00am - 5:00pm,,Closed for Renovation,"Rugby Library is currently closed for renovations.  Library services are available on-site at our temporary trailer and will continue until the renovation project is completed. 
+0,Annex,"1 John Street Brooklyn, NY 11201",347.889.0159,"40.704622800000, -73.987823800000",B25;B67,A;C;F,,,,,,,,Closed Today,,Fully accessible,accessible;,https://www.bklynlibrary.org/locations/annex,88,1,1
+1,Arlington Library,"203 Arlington Ave. at Warwick St. Brooklyn, NY 11207",718.277.6105,"40.680663100000, -73.887342100000",Q24;Q56,J,,,,,,,,Closed Today,,Fully accessible,accessible;passport office;,https://www.bklynlibrary.org/locations/arlington,21,1,1
+2,Bay Ridge Library,"7223 Ridge Blvd. at 73rd St. Brooklyn, NY 11209",718.748.5709,"40.633606800000, -74.029507300000",B4;B9;B64;B70,R,,,,,,,,Closed Today,,Fully accessible,accessible;,https://www.bklynlibrary.org/locations/bay-ridge,28,1,1
+3,Bedford Library,"496 Franklin Avenue Brooklyn, NY 11238",718.623.0012,"40.681832300000, -73.956238000000",B25;B26;B48;B49,C;S,,,,,,,,Closed Today,,Fully accessible,accessible;learning center;,https://www.bklynlibrary.org/locations/bedford,22,1,1
+4,Borough Park Library,"1265 43rd St. at 13th Ave. Brooklyn, NY 11219",718.437.4085,"40.638887900000, -73.989001100000",B11;B16;B35,D,,,,,,,,Closed Today,,Fully accessible,accessible;book drop;,https://www.bklynlibrary.org/locations/borough-park,25,1,1
+5,Brighton Beach Library,"16 Brighton First Rd. at Brighton Beach Ave. Brooklyn, NY 11235",718.946.2917,"40.576178400000, -73.966799500000",B1;B68,B;Q,,,,,,,,Closed Today,,Fully accessible,accessible;,https://www.bklynlibrary.org/locations/brighton-beach,24,1,1
+6,Brooklyn Heights Library,"109 Remsen Street Brooklyn, NY 11201",718.623.7100,"40.694073700000, -73.994015000000",B25;B26;B38;B41;B52,2;3;4;5;A;C;F;R,,,,,,,,Closed Today,,Fully accessible,accessible;book drop;,https://www.bklynlibrary.org/locations/brooklyn-heights,50,1,1
+7,Brower Park Library,"725 St. Marks Ave. at Nostrand Ave. Brooklyn, NY 11216",718.773.7208,"40.675362900000, -73.948565000000",B44;B45;B65,3;A;C,,,,,,,,Closed Today,,Fully accessible,accessible;,https://www.bklynlibrary.org/locations/brower-park,79,1,1
+8,Brownsville Library,"61 Glenmore Ave. at Watkins St. Brooklyn, NY 11212",718.498.9721,"40.671344700000, -73.908388200000",B12;B14;B60,3;J;L,,,,,,,,Closed Today,,Fully accessible,accessible;,https://www.bklynlibrary.org/locations/brownsville,27,1,1
+9,Bushwick Library,"340 Bushwick Avenue Brooklyn, NY 11206",718.602.1348,"40.704569400000, -73.939610100000",B43;B46;B57;B60,J;L;M,,,,,,,,Closed Today,,Fully accessible,accessible;,https://www.bklynlibrary.org/locations/bushwick,29,1,1
+10,Canarsie Library,"1580 Rockaway Pkwy. at Ave. J Brooklyn, NY 11236",718.257.6547,"40.642216700000, -73.899560700000",B6;B42;B60;B82,L,,,,,,,,Closed Today,,Partially accessible,accessible;,https://www.bklynlibrary.org/locations/canarsie,34,1,1
+11,Carroll Gardens Library,"396 Clinton St. Brooklyn, NY 11231",718.596.6972,"40.683196200000, -73.998016000000",,F;G,,,,,,,,Closed Today,,Partially accessible,accessible;book drop;,https://www.bklynlibrary.org/locations/carroll-gardens,31,1,1
+12,Central Library,"10 Grand Army Plaza Brooklyn, NY 11238",718.230.2100,"40.672501100000, -73.968126500000",B41,2;3;B;Q,,,,,,,,Closed Today,,Fully accessible,accessible;learning center;passport office;book drop;,https://www.bklynlibrary.org/locations/central,01,1,1
+13,Clarendon Library,"2035 Nostrand Ave. Brooklyn, NY 11210",718.421.1159 ,"40.635758900000, -73.947600600000",B6;B11;B41;B44;Q35,2;5,,,,,,,,Closed Today,,Fully accessible,accessible;book drop;,https://www.bklynlibrary.org/locations/clarendon,33,1,1
+14,Clinton Hill Library,"380 Washington Ave. at Lafayette Ave. Brooklyn, NY 11238",718.398.8713,"40.687393700000, -73.966060200000",B25;B26;B38;B52;B69,C;G,,,,,,,,Closed Today,,Fully accessible,accessible;,https://www.bklynlibrary.org/locations/clinton-hill,83,1,1
+15,Coney Island Library,"1901 Mermaid Ave. (Near W. 19th St.) Brooklyn, NY 11224",718.265.3220,"40.576765100000, -73.986079100000",B36;B64;B68;B74;B82,D;F;N;Q,,,,,,,,Closed Today,,Fully accessible,accessible;,https://www.bklynlibrary.org/locations/coney-island,32,1,1
+16,Cortelyou Library,"1305 Cortelyou Rd. at Argyle Rd. Brooklyn, NY 11226",718.693.7763,"40.640795300000, -73.965949300000",B68;B103,Q,,,,,,,,Closed Today,,Fully accessible,accessible;book drop;,https://www.bklynlibrary.org/locations/cortelyou,87,1,1
+17,Crown Heights Library,"560 New York Ave. at Maple St. Brooklyn, NY 11225",718.773.1180,"40.661198100000, -73.948151700000",B43;B44,2;5,,,,,,,,Closed Today,,Fully accessible,accessible;book drop;,https://www.bklynlibrary.org/locations/crown-heights,30,1,1
+18,Cypress Hills Library,"1197 Sutter Ave. at Crystal St. Brooklyn, NY 11208",718.277.6004,"40.672646500000, -73.874089200000",B14;B15,3;A;C,,,,,,,,Closed Today,,Fully accessible,accessible;,https://www.bklynlibrary.org/locations/cypress-hills,65,1,1
+19,DeKalb Library,"790 Bushwick Ave. at DeKalb Ave. Brooklyn, NY 11221",718.455.3898,"40.694785700000, -73.928404400000",B38;B46;B47,J;Z,,,,,,,,Closed Today,,Partially accessible,accessible;,https://www.bklynlibrary.org/locations/dekalb,35,1,1
+20,Dyker Library,"8202 13th Ave. (@ 82nd St.) Brooklyn, NY 11228",718.748.6261,"40.616342000000, -74.012010000000",B64,D,,,,,,,,Closed Today,,Fully accessible,accessible;,https://www.bklynlibrary.org/locations/dyker,82,1,1
+21,East Flatbush Library,"9612 Church Ave Brooklyn, NY 11212",718.922.0927,"40.655625600000, -73.915051000000",B8;B15;B35,3,,,,,,,,Closed Today,,Fully accessible,accessible;,https://www.bklynlibrary.org/locations/east-flatbush,36,1,1
+22,Eastern Parkway Library,"1044 Eastern Pkwy. at Schenectady Ave. Brooklyn, NY 11213",718.953.4225,"40.668486100000, -73.933640000000",B14;B17;B46;B47,3;4,,,,,,,,Closed Today,,Fully accessible,accessible;,https://www.bklynlibrary.org/locations/eastern-parkway,37,0,1
+23,Flatbush Library,"22 Linden Blvd. at Flatbush Ave. Brooklyn, NY 11226",718.856.0813,"40.651889000000, -73.958253100000",B12;B16;B35;B41;B49,2;5;B;Q,,,,,,,,Closed Today,,Fully accessible,accessible;,https://www.bklynlibrary.org/locations/flatbush,38,1,1
+24,Flatlands Library,"2065 Flatbush Ave. at Ave. P Brooklyn, NY 11234",718.253.4409,"40.619785300000, -73.933180700000",B9;B41;B82;Q35,,,,,,,,,Closed Today,,Fully accessible,accessible;,https://www.bklynlibrary.org/locations/flatlands,39,1,1
+25,Fort Hamilton Library,"9424 Fourth Ave. Brooklyn, NY 11209",718.748.6919,"40.616380600000, -74.031343400000",B8;B63,R,,,,,,,,Closed Today,,Fully accessible,accessible;,https://www.bklynlibrary.org/locations/fort-hamilton,40,1,1
+26,Gerritsen Beach Library,"2808 Gerritsen Ave. Brooklyn, NY 11229",718.368.1435,"40.591397700000, -73.923995500000",B31,B;Q,,,,,,,,Closed Today,,Fully accessible,accessible;,https://www.bklynlibrary.org/locations/gerritsen-beach,66,1,1
+27,Gravesend Library,"303 Ave. X at West. 2nd St. Brooklyn, NY 11223",718.382.5792,"40.590488900000, -73.971794400000",B1,F;N,,,,,,,,Closed Today,,Fully accessible,accessible;book drop;,https://www.bklynlibrary.org/locations/gravesend,74,1,1
+28,Greenpoint Library,"107 Norman Ave. at Leonard St. Brooklyn, NY 11222",718.349.8504,"40.725998900000, -73.950723300000",B24;B43;B48;B62,G,,,,,,,,Closed Today,,Fully accessible,accessible;,https://www.bklynlibrary.org/locations/greenpoint,41,0,1
+29,Highlawn Library,"1664 W. 13th St. at Kings Highway Brooklyn, NY 11223",718.234.7208,"40.605663200000, -73.986262700000",B4;B6;B82,D;F;N,,,,,,,,Closed Today,,Fully accessible,accessible;,https://www.bklynlibrary.org/locations/highlawn,42,1,1
+30,Homecrest Library,"2525 Coney Island Ave. at Ave. V Brooklyn, NY 11223",718.382.5924,"40.595203400000, -73.960550100000",B3;B68,Q,,,,,,,,Closed Today,,Fully accessible,accessible;,https://www.bklynlibrary.org/locations/homecrest,76,1,1
+31,Jamaica Bay Library,"9727 Seaview Ave. at E. 98th St. near Rockaway Pkwy. Brooklyn, NY 11236",718.241.3571,"40.634485500000, -73.889271400000",B17;B42;B103,L,,,,,,,,Closed Today,,Fully accessible,accessible;,https://www.bklynlibrary.org/locations/jamaica-bay,81,1,1
+32,Kensington Library,"4207 18th Avenue Brooklyn, NY 11218",718.436.0545,"40.631281800000, -73.975427100000",B8,F,,,,,,,,Closed Today,,Fully accessible,accessible;book drop;,https://www.bklynlibrary.org/locations/kensington,43,1,1
+33,Kings Bay Library,"3650 Nostrand Ave. (near Ave. W) Brooklyn, NY 11229",718.368.1709,"40.594786700000, -73.941148500000",B36;B44,2;B;Q,,,,,,,,Closed Today,,Fully accessible,accessible;,https://www.bklynlibrary.org/locations/kings-bay,44,1,1
+34,Kings Highway Library,"2115 Ocean Ave. Brooklyn, NY 11229",718.375.3037,"40.610744033963, -73.952525869950",B2;B7;B31;B49;B82;B100,B;Q,,,,,,,,Closed Today,,Fully accessible,accessible;passport office;book drop;,https://www.bklynlibrary.org/locations/kings-highway,45,1,1
+35,Leonard Library,"81 Devoe St. at Leonard St. Brooklyn, NY 11211",718.486.6006,"40.713637000000, -73.947968000000",B24;B48;B62;Q59,G;L,,,,,,,,Closed Today,,Not accessible,,https://www.bklynlibrary.org/locations/leonard,46,1,1
+36,Macon Library,"361 Lewis Ave. at Macon St. Brooklyn, NY 11233",718.573.5606,"40.683036900000, -73.934837600000",B15;B25;B26;B46,A;C,,,,,,,,Closed Today,,Fully accessible,accessible;,https://www.bklynlibrary.org/locations/macon,47,1,1
+37,Mapleton Library,"1702 60th Street Brooklyn, NY 11204",718.256.2117,"40.623159200000, -73.989456000000",B8;B9;B23,D;N,,,,,,,,Closed Today,,Fully accessible,accessible;,https://www.bklynlibrary.org/locations/mapleton,49,1,1
+38,Marcy Library,"617 DeKalb Ave. at Nostrand Ave. Brooklyn, NY 11216",718.935.0032,"40.691650800000, -73.951299200000",B38;B44;B48,G,,,,,,,,Closed Today,,Fully accessible,accessible;,https://www.bklynlibrary.org/locations/marcy,59,1,1
+39,McKinley Park Library,"6802 Fort Hamilton Pkwy (at 68th St.) Brooklyn, NY 11219",718.748.8001,"40.629213000000, -74.011898900000",B16;B64;B70,N,,,,,,,,Closed Today,,Fully accessible,accessible;,https://www.bklynlibrary.org/locations/mckinley-park,67,1,1
+40,Midwood Library,"975 East 16th St. at Avenue J Brooklyn, NY 11230",718.252.0967,"40.625881300000, -73.960274600000",B6;B11;B49;B68,Q,,,,,,,,Closed Today,,Fully accessible,accessible;book drop;,https://www.bklynlibrary.org/locations/midwood,48,1,1
+41,Mill Basin Library,"2385 Ralph Ave (near Ave N) Brooklyn, NY 11234",718.241.3973,"40.619945400000, -73.916922600000",B3;B6;B41;B47;B82;B100,2;5,,,,,,,,Closed Today,,Fully accessible,accessible;,https://www.bklynlibrary.org/locations/mill-basin,68,1,1
+42,New Lots Library,"665 New Lots Avenue at Barbey St. Brooklyn, NY 11207",718.649.0311,"40.665115400000, -73.886147800000",B6;B15;B84,3,,,,,,,,Closed Today,,Fully accessible,accessible;,https://www.bklynlibrary.org/locations/new-lots,52,1,1
+43,New Utrecht Library,"1743 86th St. at Bay 17th St. Brooklyn, NY 11214",718.236.4086,"40.608006500000, -74.003341400000",B1;B8,D,,,,,,,,Closed Today,,Fully accessible,accessible;,https://www.bklynlibrary.org/locations/new-utrecht,51,1,1
+44,Pacific Library,"25 Fourth Ave. at Pacific St. Brooklyn, NY 11217",718.638.1531,"40.683452100000, -73.978552200000",B41;B63;B65;B67;B103,2;3;4;5;B;D;M;N;Q;R,,,,,,,,Closed Today,,Partially accessible,accessible;,https://www.bklynlibrary.org/locations/pacific,69,1,1
+45,Paerdegat Library,"850 E. 59th St. at Paerdegat Ave. South Brooklyn, NY 11234",718.241.3994,"40.632597300000, -73.919953900000",B6;B47;B82,2;5,,,,,,,,Closed Today,,Fully accessible,accessible;,https://www.bklynlibrary.org/locations/paerdegat,78,1,1
+46,Park Slope Library,"431 6th Ave Brooklyn, NY 11215",718.832.1853,"40.668217400000, -73.983416200000",B61;B67;B69,F;G;R,,,,,,,,Closed Today,,Fully accessible,accessible;,https://www.bklynlibrary.org/locations/park-slope,53,1,1
+47,Red Hook Library,"7 Wolcott St Brooklyn, NY 11231",718.935.0203,"40.675278000000, -74.010319300000",B61,F;G,,,,,,,,Closed Today,,Fully accessible,accessible;,https://www.bklynlibrary.org/locations/red-hook,70,1,1
+48,Rugby Library,"1000 Utica Ave. Brooklyn, NY 11203",718.566.0053,"40.648657600000, -73.930379300000",B35;B46,2;3;4,"
+    11:00am
+    6:00pm
+","
+    1:00pm
+    8:00pm
+","
+    11:00am
+    6:00pm
+","
+    11:00am
+    6:00pm
+","
+    11:00am
+    6:00pm
+",,,Closed for Renovation,"Rugby Library is currently closed for renovations.  Library services are available on-site at our temporary trailer and will continue until the renovation project is completed. 
 
 Trailer Hours:
 
-Monday 11:00 AM - 6:00 PM
+Monday CLOSED
 
-Tuesday 1:00 PM - 8:00 PM
+Tuesday CLOSED
 
-Wednesday 11:00 AM - 6:00 PM
+Wednesday CLOSED
 
-Thursday 11:00 AM - 6:00 PM
+Thursday CLOSED
 
-Friday 11:00 AM - 6:00 PM
-
-Saturday: 10AM - 5PM
+Friday CLOSED
 ",Fully accessible,accessible;closed for renovation;,https://www.bklynlibrary.org/locations/rugby,54,1,1
-49,Ryder Library,"5902 23rd Ave. Brooklyn, NY 11204",718.331.2962,"40.615925100000, -73.975980400000",B6;B9,F,10:00am - 6:00pm,10:00am - 8:00pm,10:00am - 6:00pm,10:00am - 8:00pm,10:00am - 6:00pm,,1:00pm - 5:00pm,Today's Hours: 10:00am - 6:00pm,,Fully accessible,accessible;open now;open sundays,https://www.bklynlibrary.org/locations/ryder,80,1,1
-50,Saratoga Library,"8 Thomas S. Boyland St. at Macon St. Brooklyn, NY 11233",718.573.5224,"40.684801100000, -73.915149300000",B7;B26;Q24,J,10:00am - 6:00pm,10:00am - 8:00pm,1:00pm - 8:00pm,10:00am - 6:00pm,10:00am - 6:00pm,10:00am - 5:00pm,,Today's Hours: 10:00am - 6:00pm,,Fully accessible,accessible;open now;,https://www.bklynlibrary.org/locations/saratoga,57,1,1
-51,Sheepshead Bay Library,"2636 E. 14th St. at Ave. Z Brooklyn, NY 11235",718.368.1815,"40.586965100000, -73.955407100000",B4;B36;B49;B68,B;Q,10:00am - 6:00pm,10:00am - 6:00pm,10:00am - 8:00pm,1:00pm - 8:00pm,10:00am - 6:00pm,10:00am - 5:00pm,,Closed for Renovation,"Starting Saturday, August 3, 2019 the Sheepshead Bay Library will close for installation of new shelving, new cabinets , flooring work and minor repairs.  The branch will reopen in late November or early December 2019. 
-
-Bookmobile service begins August 5, 2019 and will be available on Mondays and Wednesdays from 11 am to 4 pm.  The bookmobile will be located in front of the branch on East 14th Street. 
-
-Thursday, October 17 from 2pm - 7pm, meet with your Sheepshead Bay Library librarians at the  Sukkot street festival!Learn about library programs, and get your face painted. Design your very own balloon craft, and get a free, small gift from the library. East 14th Street between Avenue X and Avenue Y
-
-We invite Russian Literature and poetry enthusiasts to join our monthly club of immigrant writers and poets! Our goal is to unite and support immigrant writers and poets and help them to be heard. Saturdays, October 26 and November 23 at Kings Highway library from 12 - 3 PM (This is a Russian language Program.) 
-
- 
-
-During this closure, please visit Brighton Beach, Gravesend, Homecrest and Kings Bay libraries for all your BPL needs.  
+49,Ryder Library,"5902 23rd Ave. Brooklyn, NY 11204",718.331.2962,"40.615925100000, -73.975980400000",B6;B9,F,,,,,,,,Closed Today,,Fully accessible,accessible;,https://www.bklynlibrary.org/locations/ryder,80,1,1
+50,Saratoga Library,"8 Thomas S. Boyland St. at Macon St. Brooklyn, NY 11233",718.573.5224,"40.684801100000, -73.915149300000",B7;B26;Q24,J,,,,,,,,Closed Today,,Fully accessible,accessible;,https://www.bklynlibrary.org/locations/saratoga,57,1,1
+51,Sheepshead Bay Library,"2636 E. 14th St. at Ave. Z Brooklyn, NY 11235",718.368.1815,"40.586965100000, -73.955407100000",B4;B36;B49;B68,B;Q,,,,,,,,Closed Today,,Partially accessible,accessible;,https://www.bklynlibrary.org/locations/sheepshead-bay,56,1,1
+52,Spring Creek Library,"12143 Flatlands Ave. at New Jersey Ave. Brooklyn, NY 11207",718.257.6571,"40.653263700000, -73.885964100000",B6;B20;B82;B83,3,,,,,,,,Closed Today,,Fully accessible,accessible;,https://www.bklynlibrary.org/locations/spring-creek,85,1,1
+53,Stone Avenue Library,"581 Mother Gaston Boulevard Brooklyn, NY 11212",718.485.8347,"40.664473800000, -73.905160700000",B14;B60,3;L,,,,,,,,Closed Today,,Fully accessible,accessible;,https://www.bklynlibrary.org/locations/stone-avenue,26,1,1
+54,Sunset Park Library,"4201 Fourth Avenue Brooklyn, NY 11232",718.435.3648,"40.650508200000, -74.007932200000",B11;B63,N;R,,,,,,,,Closed Today,,Partially accessible,accessible;book drop;,https://www.bklynlibrary.org/locations/sunset-park,55,1,1
+55,Ulmer Park Library,"2602 Bath Avenue at 26th Ave Brooklyn, NY 11214",718.265.3443,"40.592635300000, -73.988653900000",B1;B3;B4;B6;B64;B82,D,,,,,,,,Closed Today,,Fully accessible,accessible;,https://www.bklynlibrary.org/locations/ulmer-park,71,1,1
+56,Walt Whitman Library,"93 Saint Edwards Street Brooklyn, NY 11205",718.935.0244,"40.694463200000, -73.977726700000",B54,4;5;A;B;F;Q;R,,,,,,,,Closed Today,,Fully accessible,accessible;,https://www.bklynlibrary.org/locations/walt-whitman,62,1,1
+57,Washington Irving Library,"360 Irving Ave. (at Woodbine St.) Brooklyn, NY 11237",718.628.8378,"40.697503100000, -73.912237800000",B13;B18;B26;B52;B54;Q55;Q58,J;L;M,,,,,,,,Closed Today,,Fully accessible,accessible;,https://www.bklynlibrary.org/locations/washington-irving,61,1,1
+58,Williamsburgh Library,"240 Division Ave. at Marcy Ave. Brooklyn, NY 11211",718.302.3485,"40.706914300000, -73.957588300000",B24;B32;B39;B44;B46;B60;B62;Q54;Q59,G;J;M;Z,,,,,,,,Closed Today,,Fully accessible,accessible;,https://www.bklynlibrary.org/locations/williamsburgh,60,1,1
+59,Windsor Terrace Library,"160 E. 5th St. at Ft. Hamilton Pkwy. Brooklyn, NY 11218",718.686.9707,"40.648707400000, -73.976728900000",B16;B67;B68,F;G,,,,,,,,Closed for Renovation,"On Friday, February 1, Windsor Terrace Library closed for extensive HVAC replacement, an upgrade to the electrical systems (including several new wired tables!) and a cosmetic refresh of the interiors. The branch will reopen in 2020.
 
  
 
-The neighborhood libraries closest to you are:
-
- Brighton Beach Library
-
- 16 Brighton First Road
-
-Brooklyn, NY 11235
-
-718.946.2917
-
- 
-
-Gravesend Library
-
- 301 Avenue X
-
- Brooklyn, NY 11223 
-
-718.382.5792
-
- 
-
-Homecrest Library
-
-2525 Coney Island Avenue
-
- Brooklyn, NY 11223
-
- 718.382.5924
-
- 
-
-Kings Bay Library
-
- 3650 Nostrand Avenue
-
- Brooklyn, NY 11229
-
-718.368.1709
-
- 
-
-Questions?  Call 718.230.2100.
-
-We appreciate your patience and look forward to seeing you again at Sheepshead Bay Library in Winter 2019.
-
- 
-
- 
-",Partially accessible,accessible;closed for renovation;,https://www.bklynlibrary.org/locations/sheepshead-bay,56,0,1
-52,Spring Creek Library,"12143 Flatlands Ave. at New Jersey Ave. Brooklyn, NY 11207",718.257.6571,"40.653263700000, -73.885964100000",B6;B20;B82;B83,3,10:00am - 6:00pm,10:00am - 6:00pm,1:00pm - 8:00pm,10:00am - 8:00pm,10:00am - 6:00pm,10:00am - 5:00pm,,Today's Hours: 10:00am - 6:00pm,,Fully accessible,accessible;open now;,https://www.bklynlibrary.org/locations/spring-creek,85,1,1
-53,Stone Avenue Library,"581 Mother Gaston Boulevard Brooklyn, NY 11212",718.485.8347,"40.664473800000, -73.905160700000",B14;B60,3;L,10:00am - 4:00pm,10:00am - 2:00pm,1:00pm - 8:00pm,10:00am - 8:00pm,10:00am - 6:00pm,10:00am - 5:00pm,,Temporary Closing,"The Stone Avenue Library  will closed today 11/6/19- 11/8/19 due to insuffient heating. The nearest location is the Brownsville located at 61 Glenmore Avenue. We apologize for any inconvenience. 
-",Fully accessible,accessible;temporary closing;,https://www.bklynlibrary.org/locations/stone-avenue,26,1,1
-54,Sunset Park Library,"4201 Fourth Avenue Brooklyn, NY 11232",718.435.3648,"40.650508200000, -74.007932200000",B11;B63,N;R,10:00am - 6:00pm,10:00am - 8:00pm,10:00am - 8:00pm,10:00am - 8:00pm,10:00am - 6:00pm,10:00am - 5:00pm,,Today's Hours: 10:00am - 6:00pm,,Partially accessible,accessible;open now;book drop;,https://www.bklynlibrary.org/locations/sunset-park,55,1,1
-55,Ulmer Park Library,"2602 Bath Avenue at 26th Ave Brooklyn, NY 11214",718.265.3443,"40.592635300000, -73.988653900000",B1;B3;B4;B6;B64;B82,D,10:00am - 6:00pm,10:00am - 8:00pm,10:00am - 6:00pm,1:00pm - 8:00pm,10:00am - 6:00pm,10:00am - 5:00pm,,Today's Hours: 10:00am - 6:00pm,,Fully accessible,accessible;open now;,https://www.bklynlibrary.org/locations/ulmer-park,71,1,1
-56,Walt Whitman Library,"93 Saint Edwards Street Brooklyn, NY 11205",718.935.0244,"40.694463200000, -73.977726700000",B54,4;5;A;B;F;Q;R,10:00am - 6:00pm,10:00am - 8:00pm,1:00pm - 8:00pm,10:00am - 6:00pm,10:00am - 6:00pm,10:00am - 5:00pm,,Today's Hours: 10:00am - 6:00pm,,Fully accessible,accessible;open now;,https://www.bklynlibrary.org/locations/walt-whitman,62,1,1
-57,Washington Irving Library,"360 Irving Ave. (at Woodbine St.) Brooklyn, NY 11237",718.628.8378,"40.697503100000, -73.912237800000",B13;B18;B26;B52;B54;Q55;Q58,J;L;M,10:00am - 6:00pm,10:00am - 6:00pm,10:00am - 8:00pm,1:00pm - 8:00pm,10:00am - 6:00pm,10:00am - 5:00pm,,Today's Hours: 10:00am - 6:00pm,,Fully accessible,accessible;open now;,https://www.bklynlibrary.org/locations/washington-irving,61,1,1
-58,Williamsburgh Library,"240 Division Ave. at Marcy Ave. Brooklyn, NY 11211",718.302.3485,"40.706914300000, -73.957588300000",B24;B32;B39;B44;B46;B60;B62;Q54;Q59,G;J;M;Z,10:00am - 6:00pm,1:00pm - 8:00pm,10:00am - 6:00pm,10:00am - 8:00pm,10:00am - 6:00pm,10:00am - 5:00pm,,Today's Hours: 10:00am - 6:00pm,,Fully accessible,accessible;open now;,https://www.bklynlibrary.org/locations/williamsburgh,60,1,1
-59,Windsor Terrace Library,"160 E. 5th St. at Ft. Hamilton Pkwy. Brooklyn, NY 11218",718.686.9707,"40.648707400000, -73.976728900000",B16;B67;B68,F;G,10:00am - 6:00pm,10:00am - 6:00pm,1:00pm - 8:00pm,10:00am - 8:00pm,10:00am - 6:00pm,10:00am - 5:00pm,,Closed for Renovation,"On Friday, February 1, Windsor Terrace Library closed for extensive HVAC replacement, an upgrade to the electrical systems (including several new wired tables!) and a cosmetic refresh of the interiors. The branch will reopen in 2020.
-
- 
-
-Bookmobile Service: The bookmobile is on Tuesdays and Thursdays from 11 am to 4 pm. During these days and times, you can also pick up holds from the bookmobile. When you place a hold online, simply select ""Windsor Terrace Bookmobile"" as your pick-up location. 
+Please note: Bookmobile service has been suspended during the COVID-19 pandemic. 
 
  
 
 Children's Programming:  Toddler Time with Miss Cindy, Tuesdays at 10:30 a.m. at Church of the Holy Apostles.   Babies & Books, Thursdays at 10:30 at JCC Brooklyn Windsor Terrace.  
 
-Senior Programming: more information to come.
+ 
+
+Senior Programming: On hiatus until further notice.
 
  
 
@@ -261,10 +121,6 @@ Brooklyn, NY 11218
 718.436.0545
 
 We appreciate your patience and look forward to seeing you again at Windsor Terrace Library in 2020.
-
- 
-
- 
 
  
 

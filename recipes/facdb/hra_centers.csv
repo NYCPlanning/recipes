@@ -1,0 +1,74 @@
+,factype,facname,address,zipcode,Borough,Phone,hour
+0,Casa Office,CENTRAL INTAKE,"132.W 125th Street, 5th Floor",10027,Manhattan,"929-221-8851, 929-221-8889",M-F 9:00 AM -5:00 PM
+1,Casa Office,BRONX CASA,"890 Garrison Avenue, 3rd Floor",10474,Bronx,"929-252-4564, 929-252-4565",M-F 9:00 AM -5:00 PM
+2,Casa Office,QUEENS CASA,88-11 165th Street 5th Floor,11432,Queen,"718-883-8165, 718-883-8217",M-F 9:00 AM -5:00 PM
+3,Casa Office,BROOKLYN CASA,"88 3rd Ave, 3rd floor Brooklyn, NY 11217",11208,Brooklyn,718-250-5631,M-F 9:00 AM -5:00 PM
+4,Casa Office,MANHATTAN CASA,"132 West 125th Street, 5th Floor",10027,Manhattan,"212-666-6267, 212-665-1664",M-F 9:00 AM -5:00 PM
+5,Casa Office,STATEN ISLAND CASA,"215 Bay Street, 2nd Floor",10301,Staten Island,"929-221-8778, 929-221-8834",M-F 9:00 AM -5:00 PM
+6,Snap Center,SNAP Coney Island Office,2857-2865 W. 8th St.,11224,Brooklyn,929-221-3537,8:30 AM to 5:00 PM
+7,Snap Center,SNAP Williamsburg Office ,2 George St,11206,Brooklyn,212-331-4314,8:30 AM to 5:00 PM
+8,Snap Center,SNAP Concourse Office,1375 Jerome Ave.,10452,Bronx,929-252-8998 ,"M-F 9:00 AM - 6:00 PM, Sat  9:00 AM - 5:00 PM"
+9,Snap Center,SNAP Crotona Office,1910 Monterey Ave.,10457,Bronx,929-252-7436,8:30 AM - 5:00 PM
+10,Snap Center,SNAP Hunts Point Office,845 Barretto St. ,10474,Bronx,929-252-4445 ,8:30 AM - 5:00 PM
+11,Snap Center,SNAP East End Office,2322 Third Ave.,10035,Manhattan,212-860-5147,8:30 AM - 5:00 PM
+12,Snap Center,SNAP East New York Office,404 Pine St.,11208,Brooklyn,929-221-8327 ,8:30 AM to 5:00 PM 
+13,Snap Center,SNAP Washington Heights Office,4055 10th Ave.,10034,Manhattan,212-569-9835,8:30 AM - 5:00 PM
+14,Snap Center,SNAP Waverly Office,12 W. 14th St.,10011,Manhattan,212-352-2524,9:00 AM to 5:00 PM
+15,Snap Center,SNAP Jamaica Center,165-08 88th Ave.,11432,Queens,929-252-3713 ,"M-F 9:00 AM - 6:00 PM, Sat 9:00 AM - 5:00 PM"
+16,Snap Center,SNAP Queens Center,32-20 Northern Blvd. ,11101,Queens,718-784-6315,8:30 AM - 5:00 PM
+17,Snap Center,SNAP Rockaway Office,219 Beach 59th St.,11692,Queens,718-637-2750,8:30 AM - 5:00 PM
+18,Snap Center,SNAP Richmond Office,201 Bay St.,10301,Staten Island,718-390-6994,9:00 AM to 5:00 PM
+19,Jobs and Service Center,Bushwick Job Center ,2 George Street,11206,Brooklyn,212-331-4289,8:30 AM to 5:00 PM
+20,Jobs and Service Center,Coney Island Job Center,3050 W. 21st St.,11224,Brooklyn,929-221-3856/3867,8:30 AM to 5:00 PM
+21,Jobs and Service Center,Family Services Call Center Brooklyn,275 Bergen St.,11217,Brooklyn,929-221-8265,8:30 AM to 5:00 PM
+22,Jobs and Service Center,Clinton Hill Job Center,495 Clermont Ave.,11238,Brooklyn,929-221-1568 ,8:30 AM to 5:00 PM
+23,Jobs and Service Center,MJH Veteran's Job Center,25 Chapel Street,11201,Brooklyn,718-473-8313,8:30 AM to 5:00 PM
+24,Jobs and Service Center,Refugee Job Center,275 Bergen St.,11217,Brooklyn,929-221-0508,8:30 AM to 5:00 PM
+25,Jobs and Service Center,Crotona Job Center,1910 Monterey Ave.,10457,Bronx,929-252-7310,8:30 AM to 5:00 PM
+26,Jobs and Service Center,Fordham Job Center,2541-2549 Bainbridge Ave.,10458,Bronx,929-252-3331,8:30 AM to 5:00 PM
+27,Jobs and Service Center,Family Services Call Center Bronx,847 Barretto St. ,10474,Bronx,929-252-4269,8:30 AM to 5:00 PM
+28,Jobs and Service Center,Hunts Point Job Center,847 Barretto St. ,10474,Bronx,929-252-4352,8:30 AM to 5:00 PM
+29,Jobs and Service Center,Rider Job Center,300 Canal Place,10451,Bronx,718-742-3924,8:30 AM to 5:00 PM
+30,Jobs and Service Center,Dyckman Job Center,4055 10th Ave.,10034,Manhattan,212-569-9627,8:30 AM to 5:00 PM
+31,Jobs and Service Center,East End Job Center,2322 Third Ave.,10035,Manhattan,212-860-6801,8:30 AM to 5:00 PM
+32,Jobs and Service Center,Family Services Call Center Manhattan,132 W. 125th St. ,10027,Manhattan,212-666-7566,8:30 AM to 5:00 PM
+33,Jobs and Service Center,St. Nicholas Job Center,132 W. 125th St. ,10027,Manhattan,212-274-5162,8:30 AM to 5:00 PM
+34,Jobs and Service Center,Residential Treatment Center Job Center,109 E. 16th St.,10003,Manhattan,929-252-5805 ,8:30 AM to 5:00 PM
+35,Jobs and Service Center,Home Visit Needed/Reasonable Accommodations Request Operations,109 E. 16th St.,10003,Manhattan,929-252-6704,
+36,Jobs and Service Center,Union Square Job Center,109 E. 16th St.,10003,Manhattan,929-252-5520,8:30 AM to 5:00 PM
+37,Jobs and Service Center,Waverly Job Center,12 W. 14th St.,10011,Manhattan,212-652-1551 ,8:30 AM to 5:00 PM
+38,Jobs and Service Center,Family Services Call Center Queens Satellite ,32-20 Northern Blvd,11101,Queens,718-752-3937,8:30 AM to 5:00 PM
+39,Jobs and Service Center,Family Services Call Center Queens,165-08 88th Ave.,11432,Queens,718-883-8296,8:30 AM to 5:00 PM
+40,Jobs and Service Center,Jamaica Job Center,165-08 88th Ave.,11432,Queens,718-883-8250,8:30 AM to 5:00 PM
+41,Jobs and Service Center,Queens Job Center,32-20 Northern Blvd,11101,Queens,718-784-5919,8:30 AM to 5:00 PM
+42,Jobs and Service Center,Rockaway Job Center,219 Beach 59th St.,11692,Queens,718-637-2140,8:30 AM to 5:00 PM
+43,Jobs and Service Center,Richmond Job Center,201 Bay St.,10301,Staten Island,929-221-7915,8:30 AM to 5:00 PM
+44,Jobs and Service Center,Concourse Job Center ,1365 Jerome Avenue,10452,Bronx,929-252-8991,8:30AM to 5:00PM
+45,Jobs and Service Center,Southern Brooklyn Job Center,35 Fourth Ave.,11217,Brooklyn,929-252-3514/3512,8:30AM to 5:00PM
+46,Jobs and Service Center,Dekalb Job Center,275 Bergen Street,11217,Brooklyn,718-636-2495,8:30 AM to 5:00 PM
+47,Jobs and Service Center,Refugee Immigrant Service Center,32-20 Northern Boulevard,11101,Queens,929-221-4902,Monday - Friday. 8:30AM - 5PM
+48,Jobs and Service Center,Burial Claims / Transportation unit- ,25 Chapel Street,11201,Brooklyn,718-473-8310,
+49,Jobs and Service Center,Special Project Center #80,109 E 16th Street,10003,New York,929-252-5775,Monday - Friday. 9AM - 5PM
+50,Medicaid Office,Morrisania Medicaid Office,1225 Gerard Ave. (Basement),10452,Bronx,718-960-2799,9:00 AM to 5:00 PM
+51,Medicaid Office,Coney Island Medicaid Office,3050 W 21st St.,11224,Brooklyn,929-221-3790,9:00 AM to 5:00 PM
+52,Medicaid Office,East New York Medicaid Office,404 Pine Street,11208,Brooklyn,929-221-8204,9:00 AM to 5:00 PM
+53,Medicaid Office,Kings County Hospital Medicaid Office,"441 Clarkson Ave. ""T"" Bldg. Nurses' Residence (1st Fl.)",11203,Brooklyn,718-221-2300,9:00 AM to 5:00 PM
+54,Medicaid Office,Chinatown Medicaid Office,115 Chrystie St. (5th Fl.),10002,Manhattan,212-334-6114,9:00 AM to 5:00 PM
+55,Medicaid Office,Manhattanville Community Medicaid Office,520-530 West 135th Street (1st Fl.),10031,Manhattan,212-939-0207,9:00 AM to 5:00 PM
+56,Medicaid Office,Metropolitan Hospital Medicaid Office,1901 First Ave. (1st Fl. Room 1D-27),10029,Manhattan,212-423-7006,9:00 AM to 5:00 PM
+57,Medicaid Office,Brooklyn South Medicaid Reception,785 Atlantic Ave.,11238,Brooklyn,,9:00 AM to 5:00 PM
+58,Medicaid Office,Queens Community Office,32-20 Northern Boulevard (1st Fl.),11101,Queens,718-784-6729,9:00 AM to 5:00 PM
+59,Medicaid Office,Staten Island Office,215 Bay Street,10301,Staten Island,929-221-8823,9:00 AM to 5:00 PM
+60,Medicaid Office,Rider Medicaid Office ,305 Rider Ave.,10451,Bronx,718-585-7872,Monday – Friday 8:30am to 5:00pm
+61,Medicaid Office,Jamaica Medicaid Office,165-08 88th Avenue,11432,Queens,929-252-3193,Monday - Friday 9:00am to 5:00pm
+62,Medicaid Office,Fordham Medicaid Office,2541-2549 Bainbridge Avenue ,10458,Bronx,929-252-3230,Monday – Friday 9:00am to 5:00pm
+63,OCSS Center,OCSE Brooklyn Borough Office,1 Metrotech,11201,Brooklyn,929-221-7620,9:00 AM to 5:00 PM
+64,OCSS Center,OCSE Kings County Family Court,330 Jay Street,11201,Brooklyn,718-246-7962,9:00 AM to 5:00 PM
+65,OCSS Center,OCSE Bronx Family Court,900 Sheridan Avenue,10451,Bronx,718-590-3924,9:00 AM to 5:00 PM
+66,OCSS Center,OCSE Bronx Borough Office,894 Garrison Ave.,10474,Bronx,929-252-4100,9:00 AM to 5:00 PM
+67,OCSS Center,Customer Services Walk-in Center,151 W. Broadway,10013,Manhattan,, 8:00 am–7:00 pm
+68,OCSS Center,OCSE Manhattan Family Court,60 Lafayette Street,10013,Manhattan,212-385-8218,9:00 AM to 5:00 PM
+69,OCSS Center,OCSE Man./SI Borough Office,115 Chrystie Street,10002,Manhattan,212-334-7604,9:00 AM to 5:00 PM
+70,OCSS Center,OCSE Queens Borough Office,32-20 Northern Blvd.,11101,Queens,718-784-6979,9:00 AM to 5:00 PM
+71,OCSS Center,OCSE Queens Family Court,151-20 Jamaica Avenue,11432,Queens,718-725-3148,9:00 AM to 5:00 PM
+72,OCSS Center,OCSE Richmond County Family Court,18 Richmond Terrace,10301,Staten Island,718-720-2906,9:00 AM to 5:00 PM

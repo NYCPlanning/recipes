@@ -9,7 +9,7 @@
         "PRECISION=NO"
     ],
     "metaInfo": "usnps website",
-    "path": "recipes/data/usnps/nps_boundary/nps_boundary.shp",
+    "path": "https://edm-recipes.nyc3.digitaloceanspaces.com/2020-03-23/nps_boundary.zip",
     "srcOpenOptions": [],
     "newFieldNames": []
 }

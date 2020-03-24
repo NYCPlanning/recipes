@@ -18,7 +18,8 @@ sh_recipes = ['pluto_input_cama_dof', 'pluto_pts', 'pluto_input_geocodes']
 py_recipes = ['dpr_capitalprojects',
                 'bpl_libraries','dcp_sfpsd', 'doe_lcgms', 'doe_universalprek', 
                 'foodbankny_foodbanks', 'moeo_socialservicesiteloactions','nycdoc_corrections', 
-                'nypl_libraries', 'nysdoccs_corrections', 'uscourts_courts']
+                'nypl_libraries', 'nysdoccs_corrections', 'uscourts_courts',
+                'hra_centers']
 
 @click.group()
 def cli():

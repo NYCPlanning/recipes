@@ -13,7 +13,7 @@ jobs:
       FTP_PREFIX: ${{ secrets.FTP_PREFIX }}
       LC_ALL: C.UTF-8
       LANG: C.UTF-8
-   steps:
+    steps:
     - uses: actions/checkout@v2
     - name: install dependencies
       run: |

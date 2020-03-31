@@ -20,6 +20,7 @@ jobs:
         pip3 install -r requirements.txt
         pip3 install -e .
     - name: run recipes ...
+      shell: bash
       run: |
         recipe_names=(
           'dcp_mih'
@@ -31,7 +32,6 @@ jobs:
           'dcp_specialpurposesubdistricts'
           'dcp_zoningtaxlots'
           'dcp_zoningmapamendments'
-          'dcp_zoningmapindex'
           'dof_dtm'
           'dof_shoreline'
           'dof_condo')

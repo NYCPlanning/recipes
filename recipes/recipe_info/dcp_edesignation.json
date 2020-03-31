@@ -8,8 +8,8 @@
         "OVERWRITE=YES",
         "PRECISION=NO"
     ],
-    "metaInfo": "coming from bytes of big apple",
-    "path": "https://edm-storage.nyc3.digitaloceanspaces.com/E_DESIGNATIONS/20191001/e_designations.zip",
+    "metaInfo": "s3",
+    "path": "https://edm-storage.nyc3.digitaloceanspaces.com/E_DESIGNATIONS/latest/e_designations.zip",
     "srcOpenOptions": [],
     "newFieldNames": []
 }

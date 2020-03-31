@@ -2,14 +2,14 @@
     "dstSRS": "EPSG:4326",
     "srcSRS": "EPSG:2263",
     "schema_name": "dcp_zoningmapamendments",
-    "version_name": "2019/11/30",
+    "version_name": "",
     "geometryType": "MULTIPOLYGON",
     "layerCreationOptions": [
         "OVERWRITE=YES",
         "PRECISION=NO"
     ],
     "metaInfo": "s3",
-    "path": "https://edm-storage.nyc3.digitaloceanspaces.com/ZONING_FEATURES/zoning_map_amendments/20191130/zoning_map_amendments.zip",
+    "path": "https://edm-storage.nyc3.digitaloceanspaces.com/ZONING_FEATURES/zoning_map_amendments/latest/zoning_map_amendments.zip",
     "srcOpenOptions": [],
     "newFieldNames": []
 }

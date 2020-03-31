@@ -6,11 +6,37 @@ jobs:
   build:
     if: contains(github.event.head_commit.message, '[ztl]')
     runs-on: ubuntu-latest
-    steps:
+    container: 
+      image: sptkl/cook:latest
+    env:
+      RECIPE_ENGINE: ${{ secrets.RECIPE_ENGINE }}
+      FTP_PREFIX: ${{ secrets.FTP_PREFIX }}
+      LC_ALL: C.UTF-8
+      LANG: C.UTF-8
+   steps:
     - uses: actions/checkout@v2
-    - name: Run a one-line script
-      run: echo Hello, world!
-    - name: Run a multi-line script
+    - name: install dependencies
       run: |
-        echo Add other actions to build,
-        echo test, and deploy your project.
+        pip3 install -r requirements.txt
+        pip3 install -e .
+    - name: run recipes ...
+      run: |
+        recipe_names=(
+          'dcp_mih'
+          'dcp_edesignation'
+          'dcp_commercialoverlay'
+          'dcp_limitedheight'
+          'dcp_zoningdistricts'
+          'dcp_specialpurpose'
+          'dcp_specialpurposesubdistricts'
+          'dcp_zoningtaxlots'
+          'dcp_zoningmapamendments'
+          'dcp_zoningmapindex'
+          'dof_dtm'
+          'dof_shoreline'
+          'dof_condo')
+        # recipe_names includes files we get 
+        # from GIS that are used for PLUTO updates too
+        for recipe in ${recipe_names[*]}
+        do cook run $recipe
+        done

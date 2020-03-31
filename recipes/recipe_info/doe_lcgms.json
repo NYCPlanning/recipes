@@ -2,14 +2,14 @@
     "dstSRS": "EPSG:4326",
     "srcSRS": "EPSG:2263",
     "schema_name": "doe_lcgms",
-    "version_name": "2019_new",
+    "version_name": "",
     "geometryType": "NONE",
     "layerCreationOptions": [
         "OVERWRITE=YES",
         "PRECISION=NO"
     ],
     "metaInfo": "local",
-    "path": "recipes/data/doe_lcgms/2019/schoollist for DinoP 01-28-2020 (report from view).csv",
+    "path": "recipes/data/doe_lcgms.csv",
     "srcOpenOptions": [
         "AUTODETECT_TYPE=NO",
         "EMPTY_STRING_AS_NULL=YES",

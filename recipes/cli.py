@@ -19,7 +19,8 @@ py_recipes = ['dpr_capitalprojects',
                 'bpl_libraries','dcp_sfpsd', 'doe_universalprek', 
                 'foodbankny_foodbanks', 'moeo_socialservicesiteloactions','nycdoc_corrections', 
                 'nypl_libraries', 'nysdoccs_corrections', 'uscourts_courts',
-                'hra_centers']
+                'hra_centers', 'dcas_ipis', 'sca_capacity_projects_current', 
+                'sca_capacity_projects_prev']
 
 @click.group()
 def cli():

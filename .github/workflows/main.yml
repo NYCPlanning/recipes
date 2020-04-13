@@ -1,0 +1,28 @@
+name: Recipe Backup
+on:
+  schedule:
+    - cron: '60 * * * *'
+jobs:
+  migration:
+    runs-on: ubuntu-latest
+    container: postgis/postgis:11-2.5
+    env:
+      RECIPE_ENGINE: ${{ secrets.RECIPE_ENGINE }}
+    steps:
+      - name: install dependency
+        run: |
+          sudo apt update
+          sudo apt install -y curl
+          sudo apt autoremove
+          curl -O https://dl.min.io/client/mc/release/linux-amd64/mc
+          chmod +x mc
+          sudo mv ./mc /usr/bin
+          mc config host add spaces $AWS_S3_ENDPOINT $AWS_ACCESS_KEY_ID $AWS_SECRET_ACCESS_KEY --api S3v4
+      - name: migrate meta.metadata
+        run: |
+          DATE=$(date "+%Y-%m-%d")
+          mc rm -r --force spaces/edm-backup/recipes/latest
+          mc rm -r --force spaces/edm-backup/recipes/$DATE
+          psql $RECIPE_ENGINE -c "\copy (SELECT * FROM meta.metadata) TO stdout DELIMITER ',' CSV HEADER;" > recipes.csv
+          mc cp recipes.csv edm-backup/recipes/latest/recipes.csv
+          mc cp recipes.csv edm-backup/recipes/$DATE/recipes.csv

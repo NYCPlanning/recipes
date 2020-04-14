@@ -1,7 +1,7 @@
 name: Recipe Backup
 on:
   schedule:
-    - cron: '30 * * * *'
+    - cron: '0 0 * * *'
 jobs:
   migration:
     runs-on: ubuntu-latest
@@ -37,6 +37,7 @@ jobs:
           DATE=$(date "+%Y-%m-%d")
           mc rm -r --force spaces/edm-backup/recipes/latest
           mc rm -r --force spaces/edm-backup/recipes/$DATE
-          psql $RECIPE_ENGINE -c "\copy (SELECT * FROM meta.metadata) TO stdout DELIMITER ',' CSV HEADER;" > recipes.csv
-          mc cp recipes.csv edm-backup/recipes/latest/recipes.csv
-          mc cp recipes.csv edm-backup/recipes/$DATE/recipes.csv
+          mkdir -p output
+          psql $RECIPE_ENGINE -c "\copy (SELECT * FROM meta.metadata) TO stdout DELIMITER ',' CSV HEADER;" > output/recipes.csv
+          mc cp output/recipes.csv edm-backup/recipes/latest/recipes.csv
+          mc cp output/recipes.csv edm-backup/recipes/$DATE/recipes.csv

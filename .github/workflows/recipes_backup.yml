@@ -39,5 +39,5 @@ jobs:
           mc rm -r --force spaces/edm-backup/recipes/$DATE
           mkdir -p output
           psql $RECIPE_ENGINE -c "\copy (SELECT * FROM meta.metadata) TO stdout DELIMITER ',' CSV HEADER;" > output/recipes.csv
-          mc cp output/recipes.csv edm-backup/recipes/latest/recipes.csv
-          mc cp output/recipes.csv edm-backup/recipes/$DATE/recipes.csv
+          mc cp output/recipes.csv spaces/edm-backup/recipes/latest/recipes.csv
+          mc cp output/recipes.csv spaces/edm-backup/recipes/$DATE/recipes.csv

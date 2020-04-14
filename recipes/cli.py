@@ -72,8 +72,12 @@ def run_recipes(recipe):
         else:
             convert_recipe(recipe)
             recipe_config = load_recipe_json(recipe)
-            archiver = Archiver(engine=os.environ['RECIPE_ENGINE'], 
-                                ftp_prefix=os.environ['FTP_PREFIX'])
+            archiver = Archiver(
+                engine=os.environ['RECIPE_ENGINE'], 
+                ftp_prefix=os.environ['FTP_PREFIX'],
+                s3_endpoint = os.environ.get('AWS_S3_ENDPOINT', '').replace('https://', ''),
+                s3_secret_access_key = os.environ.get('AWS_SECRET_ACCESS_KEY', ''),
+                s3_access_key_id = os.environ.get('AWS_ACCESS_KEY_ID', ''))
             archiver.archive_table(recipe_config)
             # update_metatable()
     except KeyError:

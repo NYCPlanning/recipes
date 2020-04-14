@@ -1,0 +1,21 @@
+{
+    "dstSRS": "EPSG:4326",
+    "srcSRS": "EPSG:2263",
+    "schema_name": "pluto_corrections",
+    "version_name": "20v2",
+    "geometryType": "NONE",
+    "layerCreationOptions": [
+        "OVERWRITE=YES",
+        "PRECISION=NO"
+    ],
+    "metaInfo": "bytes",
+    "path": "https://www1.nyc.gov/assets/planning/download/zip/data-maps/open-data/plutochangefile20v2.zip/PLUTOChangeFile20v2.csv",
+    "srcOpenOptions": [
+        "AUTODETECT_TYPE=NO",
+        "EMPTY_STRING_AS_NULL=YES",
+        "GEOM_POSSIBLE_NAMES=*geom*",
+        "X_POSSIBLE_NAMES=xcoord",
+        "Y_POSSIBLE_NAMES=ycoord"
+    ],
+    "newFieldNames": []
+}

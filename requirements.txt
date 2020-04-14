@@ -1,1 +1,2 @@
 git+git://github.com/NYCPlanning/cook.git@master#egg=cook
+pandas

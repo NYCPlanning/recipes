@@ -24,7 +24,7 @@ eg. `dcp_mappluto`
         -v `pwd`:/home/recipes\
         -w /home/recipes\
         --env-file .env\
-        sptkl/cook:latest bash -c 'pip3 install -r requirements.txt; pip3 install -e .; bash'
+        nycplanning/cook:latest bash -c 'pip3 install -r requirements.txt; pip3 install -e .; bash'
     ```
 
     2. Load a dataset into recipe postgres database

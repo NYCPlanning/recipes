@@ -36,3 +36,5 @@ eg. `dcp_mappluto`
 updating GIS zoning shapefiles and get ready for zoningtaxlots
 ### 2020/04/17 
 pulling the latest `dpr_capitalprojects`
+### 2020/04/30 
+updating GIS zoning shapefiles and get ready for zoningtaxlots

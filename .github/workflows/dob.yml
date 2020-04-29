@@ -4,7 +4,7 @@ on:
     - cron: '0 0 * * SAT'
 jobs:
   pull:
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     env:
       RECIPE_ENGINE: ${{ secrets.RECIPE_ENGINE }}
       AWS_S3_ENDPOINT: ${{ secrets.AWS_S3_ENDPOINT }}
@@ -50,7 +50,7 @@ jobs:
           rm output/dob_jobapplications.csv
   load:
     needs: [pull]
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     container:
       image: nycplanning/cook:latest
     env:

@@ -1,0 +1,15 @@
+{
+    "dstSRS": "EPSG:4326",
+    "srcSRS": "EPSG:4326",
+    "schema_name": "dot_projects_bridges",
+    "version_name": "",
+    "geometryType": "POINT",
+    "layerCreationOptions": [
+        "OVERWRITE=YES",
+        "PRECISION=NO"
+    ],
+    "metaInfo": "FTP",
+    "path": "s3://edm-recipes/2020-04-29/dot_projects_bridges.geojson",
+    "srcOpenOptions": [],
+    "newFieldNames": []
+}

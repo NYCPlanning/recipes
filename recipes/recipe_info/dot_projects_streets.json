@@ -1,0 +1,19 @@
+{
+    "dstSRS": "EPSG:4326",
+    "srcSRS": "EPSG:4326",
+    "schema_name": "dot_projects_streets",
+    "version_name": "",
+    "geometryType": "MULTILINESTRING",
+    "layerCreationOptions": [
+        "OVERWRITE=YES",
+        "PRECISION=NO"
+    ],
+    "metaInfo": "s3",
+    "path": "s3://edm-recipes/2020-04-29/streets.csv",
+    "srcOpenOptions": [
+        "AUTODETECT_TYPE=NO",
+        "EMPTY_STRING_AS_NULL=YES",
+        "GEOM_POSSIBLE_NAMES=wkt,WKT"
+    ],
+    "newFieldNames": []
+}

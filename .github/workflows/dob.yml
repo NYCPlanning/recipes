@@ -69,5 +69,7 @@ jobs:
         pip3 install -e .
     - name: run recipes ...
       run: |
+        psql $RECIPE_ENGINE -c "DROP SCHEMA IF EXISTS dob_jobapplications CASCADE"
+        psql $RECIPE_ENGINE -c "DROP SCHEMA IF EXISTS dob_permitissuance CASCADE"
         cook run dob_jobapplications
         cook run dob_permitissuance

@@ -38,3 +38,7 @@ updating GIS zoning shapefiles and get ready for zoningtaxlots
 pulling the latest `dpr_capitalprojects`
 ### 2020/04/30 
 updating GIS zoning shapefiles and get ready for zoningtaxlots
+### 2020/05/11
+Reloading GIS zoning shapefiles and get ready for zoningtaxlots
+
+

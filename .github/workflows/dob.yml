@@ -1,7 +1,5 @@
 name: DOB pull for HED
-on: 
-  schedule:
-    - cron: '0 0 * * SAT'
+on: [push]
 jobs:
   pull:
     runs-on: ubuntu-latest

@@ -38,6 +38,20 @@ jobs:
           mc rm -r --force spaces/edm-backup/recipes/latest
           mc rm -r --force spaces/edm-backup/recipes/$DATE
           mkdir -p output
-          psql $RECIPE_ENGINE -c "\copy (SELECT * FROM meta.metadata) TO stdout DELIMITER ',' CSV HEADER;" > output/recipes.csv
+          psql $RECIPE_ENGINE -c "\copy (
+            SELECT 
+              config::jsonb ->> 'dstSRS' as dstSRS,
+              config::jsonb ->> 'srcSRS' as srcSRS,
+              config::jsonb ->> 'schema_name' as schema_name,
+              config::jsonb ->> 'version_name' as version_name,
+              config::jsonb ->> 'geometryType' as geometryType,
+              config::jsonb ->> 'layerCreationOptions' as layerCreationOptions,
+              config::jsonb ->> 'metaInfo' as metaInfo,
+              config::jsonb ->> 'path' as path,
+              config::jsonb ->> 'srcOpenOptions' as srcOpenOptions,
+              config::jsonb ->> 'newFieldNames' as newFieldNames
+            FROM meta.metadata
+            order by schema_name
+          ) TO stdout DELIMITER ',' CSV HEADER;" > output/recipes.csv
           mc cp output/recipes.csv spaces/edm-backup/recipes/latest/recipes.csv
           mc cp output/recipes.csv spaces/edm-backup/recipes/$DATE/recipes.csv

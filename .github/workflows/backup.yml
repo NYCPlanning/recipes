@@ -1,0 +1,87 @@
+name: RECIPE_ENGINE backup
+on: 
+  schedule:
+    - cron: '0 0 * * MON'
+jobs:
+  pull:
+    runs-on: ubuntu-latest
+    env:
+      RECIPE_ENGINE: ${{ secrets.RECIPE_ENGINE }}
+      AWS_S3_ENDPOINT: ${{ secrets.AWS_S3_ENDPOINT }}
+      AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+      AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+    steps:
+      - uses: actions/checkout@v2
+      - name: install dependencies ...
+        run: |
+          sudo apt update
+          sudo apt install -y curl
+          
+          sudo tee /etc/apt/sources.list.d/pgdg.list <<END
+          deb http://apt.postgresql.org/pub/repos/apt/ bionic-pgdg main
+          END
+          # get the signing key and import it
+          curl -O https://www.postgresql.org/media/keys/ACCC4CF8.asc
+          sudo apt-key add ACCC4CF8.asc
+          
+          sudo apt update
+          sudo apt install -y postgresql-client-11
+          sudo apt autoremove
+          
+          curl -O https://dl.min.io/client/mc/release/linux-amd64/mc
+          chmod +x mc
+          sudo mv ./mc /usr/bin
+          mc config host add spaces $AWS_S3_ENDPOINT $AWS_ACCESS_KEY_ID $AWS_SECRET_ACCESS_KEY --api S3v4
+          
+      - name: create backup and upload
+        run: |
+          DATE=$(date "+%Y-%m-%d")
+          mc rm -r --force spaces/edm-backup/RECIPE_ENGINE/main/latest
+          mc rm -r --force spaces/edm-backup/RECIPE_ENGINE/main/$DATE
+          
+          pg_dump $RECIPE_ENGINE -O -F t | gzip > backup.gz
+          
+          mc cp backup.gz spaces/edm-backup/RECIPE_ENGINE/main/latest/backup.gz
+          mc cp backup.gz spaces/edm-backup/RECIPE_ENGINE/main/$DATE/backup.gz
+          rm backup.gz
+
+      - name: create table backup
+        run: |
+          IFS='|'
+          psql -d $RECIPE_ENGINE -At -c "
+              SELECT 
+                  table_schema as name, 
+                  table_name,
+                  replace(table_name, '/', '-') as version 
+              FROM information_schema.tables
+              WHERE table_type = 'BASE TABLE' 
+              AND table_schema not in ('public', 'pg_catalog', 'information_schema','test', 'meta')
+              AND table_name != 'latest'
+          " | 
+          while read -ra record; 
+          do
+              name=${record[0]}
+              table_name=${record[1]}
+              version=${record[2]}
+
+              echo -e "\e[33mNAME: $name VERSION: $version\e[0m"
+
+              (
+                  cd /tmp
+                  psql $RECIPE_ENGINE  -c "\COPY (
+                      SELECT * FROM $name.\"$table_name\"
+                  ) TO STDOUT DELIMITER ',' CSV HEADER;" > $name.csv
+                  pg_dump $RECIPE_ENGINE -c -O -s -t $name."$table_name" -f ddl.sql
+                  pg_dump $RECIPE_ENGINE -c -O -t $name."$table_name" -F t | gzip > $name.gz
+                  mc rm spaces/edm-backup/RECIPE_ENGINE/$name/$version/$name.csv
+                  mc rm spaces/edm-backup/RECIPE_ENGINE/$name/$version/$name.gz
+                  mc rm spaces/edm-backup/RECIPE_ENGINE/$name/$version/ddl.sql
+                  mc cp $name.csv spaces/edm-backup/RECIPE_ENGINE/$name/$version/$name.csv
+                  mc cp $name.gz spaces/edm-backup/RECIPE_ENGINE/$name/$version/$name.gz
+                  mc cp ddl.sql spaces/edm-backup/RECIPE_ENGINE/$name/$version/ddl.sql
+                  rm $name.csv
+                  rm $name.gz
+                  rm ddl.sql
+              )
+
+          done

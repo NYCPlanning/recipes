@@ -1,10 +1,11 @@
 name: RECIPE_ENGINE backup
 
-on: [push]
+on:
+  schedule:
+    - cron: '0 1 * * MON'
 
 jobs:
   build:
-    if: "contains(github.event.head_commit.message, '[backup]')"
     runs-on: ubuntu-latest
     env:
       RECIPE_ENGINE: ${{ secrets.RECIPE_ENGINE }}
@@ -45,44 +46,3 @@ jobs:
           mc cp backup.gz spaces/edm-backup/RECIPE_ENGINE/main/latest/backup.gz
           mc cp backup.gz spaces/edm-backup/RECIPE_ENGINE/main/$DATE/backup.gz
           rm backup.gz
-
-      - name: create table backup
-        run: |
-          IFS='|'
-          psql -d $RECIPE_ENGINE -At -c "
-              SELECT 
-                  table_schema as name, 
-                  table_name,
-                  replace(table_name, '/', '-') as version 
-              FROM information_schema.tables
-              WHERE table_type = 'BASE TABLE' 
-              AND table_schema not in ('public', 'pg_catalog', 'information_schema','test', 'meta')
-              AND table_name != 'latest'
-          " | 
-          while read -ra record; 
-          do
-              name=${record[0]}
-              table_name=${record[1]}
-              version=${record[2]}
-
-              echo -e "\e[33mNAME: $name VERSION: $version\e[0m"
-
-              (
-                  cd /tmp
-                  psql $RECIPE_ENGINE  -c "\COPY (
-                      SELECT * FROM $name.\"$table_name\"
-                  ) TO STDOUT DELIMITER ',' CSV HEADER;" > $name.csv
-                  pg_dump $RECIPE_ENGINE -c -O -s -t $name."$table_name" -f ddl.sql
-                  pg_dump $RECIPE_ENGINE -c -O -t $name."$table_name" -F t | gzip > $name.gz
-                  mc rm spaces/edm-backup/RECIPE_ENGINE/$name/$version/$name.csv
-                  mc rm spaces/edm-backup/RECIPE_ENGINE/$name/$version/$name.gz
-                  mc rm spaces/edm-backup/RECIPE_ENGINE/$name/$version/ddl.sql
-                  mc cp $name.csv spaces/edm-backup/RECIPE_ENGINE/$name/$version/$name.csv
-                  mc cp $name.gz spaces/edm-backup/RECIPE_ENGINE/$name/$version/$name.gz
-                  mc cp ddl.sql spaces/edm-backup/RECIPE_ENGINE/$name/$version/ddl.sql
-                  rm $name.csv
-                  rm $name.gz
-                  rm ddl.sql
-              )
-
-          done

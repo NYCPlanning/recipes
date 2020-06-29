@@ -32,6 +32,9 @@ eg. `dcp_mappluto`
     docker exec recipes cook run <schema_name>
     ```
 ## Update Log
+### 2020/06/29
+updating GIS zoning shapefiles and get ready for zoningtaxlots
+
 ### 2020/06/10
 updating GIS zoning shapefiles and get ready for zoningtaxlots
 

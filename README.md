@@ -32,6 +32,9 @@ eg. `dcp_mappluto`
     docker exec recipes cook run <schema_name>
     ```
 ## Update Log
+### 2020/08/07
+updating GIS zoning shapefiles and get ready for zoningtaxlots
+
 ### 2020/07/02
 reloading May address points data because of incorrect spatial transform
 

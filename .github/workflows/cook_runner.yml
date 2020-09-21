@@ -1,6 +1,8 @@
 name: Cook Runner
 
-on: [push]
+on:
+  repository_dispatch:
+    types: [run]
 
 jobs:
   build:

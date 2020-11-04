@@ -33,6 +33,10 @@ eg. `dcp_mappluto`
     ```
 ## Update Log
 
+### 2020/11/04
+updating GIS zoning shapefiles and get ready for zoningtaxlots [ztl]
+The e-designation file has not been updated yet -- pending schema change
+
 ### 2020/10/08
 updating GIS zoning shapefiles and get ready for zoningtaxlots [ztl]
 

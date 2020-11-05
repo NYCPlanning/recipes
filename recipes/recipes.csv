@@ -195,3 +195,4 @@
 "EPSG:4326","EPSG:2263","cbbr_agency_updates","fy21","NONE","['OVERWRITE=YES', 'PRECISION=NO']","local","recipes/data/cbbr_agency_updates_fy21.csv","['AUTODETECT_TYPE=NO', 'EMPTY_STRING_AS_NULL=YES', 'GEOM_POSSIBLE_NAMES=the_geom']","[]"
 "EPSG:4326","EPSG:4326","dcp_planneradded",,"MULTIPOLYGON","['OVERWRITE=YES', 'PRECISION=NO']","s3","https://edm-recipes.nyc3.digitaloceanspaces.com/2020-04-03/dcp_planner_added_projects_shapefile_20191008.zip","['AUTODETECT_TYPE=NO', 'EMPTY_STRING_AS_NULL=YES', 'GEOM_POSSIBLE_NAMES=geom']","[]"
 "EPSG:4326","EPSG:4326","test",,"MULTIPOLYGON","['OVERWRITE=YES', 'PRECISION=NO']","NYC Opendata","https://data.cityofnewyork.us/api/geospatial/k2ya-ucmv?method=export&format=GeoJSON","[]","[]"
+"EPSG:4326","EPSG:4326","dpr_access_zone",,"MULTIPOLYGON","['OVERWRITE=YES', 'PRECISION=NO']","opendata","https://data.cityofnewyork.us/api/geospatial/rg6q-zak8?method=export&format=GeoJSON","[]","[]"

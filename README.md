@@ -2,20 +2,25 @@
 
 ## Instructions to load a dataset into recipes:
 
-0. Add the dataset's information as a new row in the recipes.csv
+**For new datasets:** Add the dataset's information as a new row in the recipes.csv
 eg. `dcp_mappluto`
 
 | dstSRS | srcSRS | schema_name | version_name | geometryType |  layerCreationOptions | metaInfo | path | srcOpenOptions | newFieldNames |
 | ----------- | ------------- | ------------- | ------------- | ----------- | ------------- | ------------- | ------------- | ----------- | ------------- |
 | EPSG:4326 | EPSG:2263 | dcp_mappluto | 18v2_1 | POLYGON | ['OVERWRITE=YES', 'PRECISION=NO'] | bytes | https://www1.nyc.gov/assets/planning/download/zip/data-maps/open-data/nyc_mappluto_18v2_1_shp.zip/MapPLUTO.shp  | [] | [] |
 
-+ ### The git push Method: 
-    1. after you finish editing the recipes.csv, add an array of recipes you want to run to your commit message e.g.
++ ### Github dispatch for non-ZTL recipes: 
+
     ```
-    git commit -m "'recipe1' 'recipe2'"
+    curl --location --request POST 'https://api.github.com/repos/NYCPlanning/recipes/dispatches?Accept=application/vnd.github.v3+json&Content-Type=application/json'       \
+    --header 'Authorization: Bearer {token goes here} \
+    --header 'Content-Type: text/plain' \
+    --data-raw '{"event_type" : "run", "client_payload": {"recipes": "recipe1 recipe2 recipe3"}}'
     ```
-    2. then do a git push to the master branch or some other branch so that github actions would be trigger to run the recipes. 
-    3. Note that if you do not wish to trigger any of the github actions jobs, include `[skip ci]` in your commit message
++ ### ZTL bulk build:
+    1. Document in the log below
+    2. Commit to master using [ztl] 
+
 + ### The Docker Method:
     1. Intialize a docker container
     ```
@@ -32,11 +37,6 @@ eg. `dcp_mappluto`
     docker exec recipes cook run <schema_name>
     ```
 ## Update Log
-
-### 2020/11/17
-updating bpl_libraries, nypl_libraries, and uscourts_courts via webscrapers for facdb
-retrying
-
 ### 2020/11/04
 updating GIS zoning shapefiles and get ready for zoningtaxlots [ztl]
 The e-designation file has not been updated yet -- pending schema change

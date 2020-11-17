@@ -35,6 +35,7 @@ eg. `dcp_mappluto`
 
 ### 2020/11/17
 updating bpl_libraries, nypl_libraries, and uscourts_courts via webscrapers for facdb
+retry
 
 ### 2020/11/04
 updating GIS zoning shapefiles and get ready for zoningtaxlots [ztl]

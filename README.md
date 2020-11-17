@@ -33,6 +33,9 @@ eg. `dcp_mappluto`
     ```
 ## Update Log
 
+### 2020/11/17
+updating bpl_libraries, nypl_libraries, and uscourts_courts via webscrapers for facdb
+
 ### 2020/11/04
 updating GIS zoning shapefiles and get ready for zoningtaxlots [ztl]
 The e-designation file has not been updated yet -- pending schema change

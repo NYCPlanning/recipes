@@ -6,7 +6,6 @@ on:
 
 jobs:
   build:
-    if: "! contains(github.event.head_commit.message, '[skip ci]')"
     runs-on: ubuntu-latest
     container: 
       image: nycplanning/cook:latest
@@ -26,6 +25,6 @@ jobs:
         pip3 install -e .
     - name: run recipes ...
       run: |
-        for recipe in ${{ github.event.head_commit.message }}
+        for recipe in ${{ github.event.client_payload.recipes }}
         do cook run $recipe
         done

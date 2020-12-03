@@ -37,6 +37,10 @@ eg. `dcp_mappluto`
     docker exec recipes cook run <schema_name>
     ```
 ## Update Log
+
+### 2020/12/03
+updating GIS zoning shapefiles and get ready for zoningtaxlots [ztl]
+
 ### 2020/11/04
 updating GIS zoning shapefiles and get ready for zoningtaxlots [ztl]
 The e-designation file has not been updated yet -- pending schema change

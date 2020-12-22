@@ -10,25 +10,29 @@ if __name__ == "__main__":
     url = "https://www.nycgovparks.org/bigapps/DPR_CapitalProjectTracker_001.json"
     data = json.loads(requests.get(url).content)
     df = pd.DataFrame(data)
-
     df = df[["TrackerID", "FMSID", "Title", "TotalFunding", "Locations"]]
-    df["park_id"] = df["Locations"].apply(lambda x: x["Location"][0]["ParkID"])
-    df["lat"] = df["Locations"].apply(lambda x: x["Location"][0]["Latitude"])
-    df["lon"] = df["Locations"].apply(lambda x: x["Location"][0]["Longitude"])
-    df = df.rename(
-        columns={
-            "TrackerID": "proj_id",
-            "FMSID": "fmsid",
-            "Title": "desc",
-            "TotalFunding": "total_funding",
-        }
-    )
-    df = df[["proj_id", "fmsid", "desc", "total_funding", "park_id", "lat", "lon"]]
+    df["Locations"] = df["Locations"].apply(lambda x: x.get("Location"))
+    df2 = df.drop(columns=["Locations"]).join(df["Locations"].explode().to_frame())
+    horiz_exploded = pd.json_normalize(df2["Locations"])
+    horiz_exploded.index = df2.index
+    df3 = pd.concat([df2, horiz_exploded], axis=1).drop(columns=["Locations"])
+    df3 = df3.rename(
+            columns={
+                "TrackerID": "proj_id",
+                "FMSID": "fmsid",
+                "Title": "desc",
+                "TotalFunding": "total_funding",
+                "ParkID": "park_id",
+                "Latitude": "lat",
+                "Longitude": "lon"
+            }
+        )
+    df3 = df3[["proj_id", "fmsid", "desc", "total_funding", "park_id", "lat", "lon"]]
 
     temp_file = tempfile.NamedTemporaryFile(
         mode="w+", suffix=".csv", delete=True, newline=""
     )
-    df.to_csv(temp_file, index=False)
+    df3.to_csv(temp_file, index=False)
 
     recipe_config = {
         "dstSRS": "EPSG:4326",

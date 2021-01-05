@@ -45,3 +45,20 @@ jobs:
         for recipe in ${recipe_names[*]}
         do cook run $recipe
         done
+        
+    - name: Comment on Issue
+      if: success()
+      uses: peter-evans/create-or-update-comment@v1
+      with:
+        issue-number: ${{ github.event.issue.number }}
+        body: |
+          ## ${{ github.event.issue.title }} Is Successfully Updated! 🎉
+
+          ### Source Info
+
+          ${{ steps.report.outputs.report }}
+
+          ### More Info
+          for more details, check https://github.com/NYCPlanning/db-gru-qaqc/actions/runs/${{ github.run_id }}
+
+        reactions: laugh, rocket, hooray

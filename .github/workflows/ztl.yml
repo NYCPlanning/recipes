@@ -1,10 +1,12 @@
 name: Zoning Tax Lots Bulk Load
 
-on: [push]
+on:
+  issues:
+    types: [opened, edited]
 
 jobs:
   build:
-    if: contains(github.event.head_commit.message, '[ztl]')
+    if: contains(github.event.issue.title, '[ztl]')
     runs-on: ubuntu-latest
     container: 
       image: nycplanning/cook:latest

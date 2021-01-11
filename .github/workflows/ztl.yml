@@ -39,7 +39,8 @@ jobs:
           'dcp_zoningmapamendments'
           'dof_dtm'
           'dof_shoreline'
-          'dof_condo')
+          'dof_condo'
+          'dcp_opendata_updates')
         # recipe_names includes files we get 
         # from GIS that are used for PLUTO updates too
         for recipe in ${recipe_names[*]}
